@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<!-- meta -->
+	<meta charset="UTF-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="apple-touch-icon" sizes="256x256" href="../../assets/images/favicon/favicon.ico">
+	<link rel="shortcut icon" sizes="256x256" href="../../assets/images/favicon/favicon.ico">
+	<link rel="icon" sizes="256x256" href="../../assets/images/favicon/favicon.ico">
+	<title>ISKRA</title>
+	<!-- resources -->
+	<!-- css -->
+	<link rel="stylesheet" href="../../assets/libs/jquery-ui.css">
+	<link rel="stylesheet" href="../../assets/libs/aos.css">
+	<link rel="stylesheet" href="../../assets/libs/dd.css">
+	<link rel="stylesheet" href="../../assets/css/common.css">
+	<!-- script -->
+	<script src="../../assets/libs/jquery-3.3.1.min.js"></script>
+	<script src="../../assets/libs/jquery-ui.js"></script>
+	<script src="../../assets/libs/aos.js"></script>
+	<script src="../../assets/libs/dd.min.js"></script>
+	<script src="../../assets/js/script.js"></script>
+</head>
+
+<body>
+
+	<!-- wrap(s) -->
+	<div class="wrap setting">
+		<!-- header(s) -->
+		<header id="header">
+			<div class="inner">
+				<h1 class="logo"><a href="../about/about.html"><span class="sr-only">ISKRA</span></a></h1>
+				<!-- 로그인 전
+				<nav id="gnb">
+					<button type="button" class="btn gnb-close"><i class="ic ic-gnb-close"></i></button>
+					<ul class="gnb-depth1">
+						<li><a href="../about/about.html"><span>ABOUT</span></a></li>
+						<li><a href="../nft/nft.html"><span>PLONEER NFT</span></a></li>
+						<li><a href="../token/token.html"><span>ISK TOKEN</span></a></li>
+					</ul>
+				</nav>
+				<div class="member">
+					<a href="">LOG IN</a>
+					<a href="" class="signup">Sign Up</a>
+				</div>
+				<button type="button" class="btn gnb-open"><i class="ic ic-gnb-open"></i></button>
+				-->
+				<!-- 로그인 후 -->
+				<div class="member">
+					<button type="button" class="member_toggle">{Display Name}</button>
+					<div class="member_layer">
+						<ul>
+							<li>{1,992} CP</li>
+							<li><a href="">Account</a></li>
+							<li><a href="">Sign out</a></li>
+						</ul>
+					</div>
+				</div>
+				<button type="button" class="btn gnb-open"><i class="ic ic-gnb-open"></i></button>
+			</div>
+		</header>
+		<div class="mask"></div>
+		<!-- //header(e) -->
+		<!-- container(s) -->
+		<main id="container2">
+			<div class="lnb">
+				<ul>
+					<li class="active"><a href="">WALLET</a></li>
+					<li><a href="">REWARDS</a></li>
+					<li><a href="">PIONEER NFT</a></li>
+					<li>
+						<button type="button" class="btn_lnb_toggle">SETTING</button>
+						<div class="sub">
+							<a href="">Account</a>
+							<a href="">Wallet</a>
+							<a href="">Security</a>
+							<a href="">Referral</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="container">
+				<div class="title_area">
+					<h1>Account Setting</h1>
+				</div>
+				<div class="contents">
+					<h2>Reset Password</h2>
+					<p class="Description">
+						현재 Password 와 새로 바꿀 Password 를 입력해주세요.
+					</p>
+					<form name="" action="" method="post" class="form_style">
+						<div class="col">
+							<label for="">Current Password</label>
+							<input type="password" name="" value="" class="frm_input" placeholder="Enter current password">
+							<span class="msg">Current Password 가 일치하지 않습니다.</span>
+						</div>
+						<div class="col">
+							<label for="">New Password</label>
+							<input type="password" name="" value="" class="frm_input" placeholder="Enter current password">
+							<span class="msg">Password 입력 형식이 적합하지 않습니다. 영소문자, 영대문자, 특수문자, 숫자 모두 1개 이상 포함된 8자 이상의 문자열이어야 합니다.</span>
+							<span class="msg">Current Password 가 일치하지 않습니다.</span>
+						</div>
+						<div class="col">
+							<label for="">Confirm New Password</label>
+							<input type="password" name="" value="" class="frm_input"  placeholder="Enter current password">
+							<span class="msg">New Password 와 일치하지 않습니다.</span>
+						</div>
+						<div class="btn_area flex_center">
+							<a href="javascript:history.back();" class="btn02">Cancel</a>
+							<button type="submit" class="btn01 active">Reset</button><!-- 버튼 활성화(클래스 : active) & 비활성화 -->
+						</div>
+					</form>
+				</div>
+			</div>
+		</main>
+		<!-- //container(e) -->
+		<!-- footer(s) -->
+		<footer id="footer">
+			<div class="responsive">
+				<p class="copyright">© 2022. ISKRA (BVI) Corp. All rights reserved</p>
+			</div>
+		</footer>
+		<!-- //footer(e) -->
+	</div>
+	<!-- wrap(e) -->
+
+<!-- Password 변경 완료 팝업 -->
+<div id="alert_popup_passchange">
+	<div class="container">
+		<button type="button" class="popup_close"></button>
+		<h3>Password 변경 완료</h3>
+		<p>Password 가 변경되었습니다.</p>
+		<div class="btn_area flex_right">
+			<a href="#" class="btn01 active">OK</a>
+		</div>
+	</div>
+</div>
+
+
+<script src="../../assets/js/particle.js"></script>
+
+</body>
+</html>

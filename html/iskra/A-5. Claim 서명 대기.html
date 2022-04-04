@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<!-- meta -->
+	<meta charset="UTF-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="apple-touch-icon" sizes="256x256" href="../../assets/images/favicon/favicon.ico">
+	<link rel="shortcut icon" sizes="256x256" href="../../assets/images/favicon/favicon.ico">
+	<link rel="icon" sizes="256x256" href="../../assets/images/favicon/favicon.ico">
+	<title>ISKRA</title>
+	<!-- resources -->
+	<!-- css -->
+	<link rel="stylesheet" href="../../assets/libs/jquery-ui.css">
+	<link rel="stylesheet" href="../../assets/libs/aos.css">
+	<link rel="stylesheet" href="../../assets/libs/dd.css">
+	<link rel="stylesheet" href="../../assets/css/common.css">
+	<!-- script -->
+	<script src="../../assets/libs/jquery-3.3.1.min.js"></script>
+	<script src="../../assets/libs/jquery-ui.js"></script>
+	<script src="../../assets/libs/aos.js"></script>
+	<script src="../../assets/libs/dd.min.js"></script>
+	<script src="../../assets/js/script.js"></script>
+</head>
+
+<body>
+
+	<!-- wrap(s) -->
+	<div class="wrap Rewards">
+		<!-- header(s) -->
+		<header id="header">
+			<div class="inner">
+				<h1 class="logo"><a href="../about/about.html"><span class="sr-only">ISKRA</span></a></h1>
+				<!-- 로그인 전
+				<nav id="gnb">
+					<button type="button" class="btn gnb-close"><i class="ic ic-gnb-close"></i></button>
+					<ul class="gnb-depth1">
+						<li><a href="../about/about.html"><span>ABOUT</span></a></li>
+						<li><a href="../nft/nft.html"><span>PLONEER NFT</span></a></li>
+						<li><a href="../token/token.html"><span>ISK TOKEN</span></a></li>
+					</ul>
+				</nav>
+				<div class="member">
+					<a href="">LOG IN</a>
+					<a href="" class="signup">Sign Up</a>
+				</div>
+				<button type="button" class="btn gnb-open"><i class="ic ic-gnb-open"></i></button>
+				-->
+				<!-- 로그인 후 -->
+				<div class="member">
+					<button type="button" class="member_toggle">{Display Name}</button>
+					<div class="member_layer">
+						<ul>
+							<li>{1,992} CP</li>
+							<li><a href="">Account</a></li>
+							<li><a href="">Sign out</a></li>
+						</ul>
+					</div>
+				</div>
+				<button type="button" class="btn gnb-open"><i class="ic ic-gnb-open"></i></button>
+			</div>
+		</header>
+		<div class="mask"></div>
+		<!-- //header(e) -->
+		<!-- container(s) -->
+		<main id="container2">
+			<div class="lnb">
+				<ul>
+					<li class="active"><a href="">WALLET</a></li>
+					<li><a href="">REWARDS</a></li>
+					<li><a href="">PIONEER NFT</a></li>
+					<li>
+						<button type="button" class="btn_lnb_toggle">SETTING</button>
+						<div class="sub">
+							<a href="">Account</a>
+							<a href="">Wallet</a>
+							<a href="">Security</a>
+							<a href="">Referral</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="container">
+				<div class="title_area">
+					<h1>My Rewards</h1>
+				</div>
+				<div class="contents">
+					<h3 class="line_bottom">Claim Order</h3>
+					<div class="info_box">
+						<div class="info_wide">
+							<div>
+								<p>Amount</p>
+								<p><strong>500,000 ISK</strong><br />(≈ 500,000 USD)</p>
+							</div>
+							<div>
+								<p>
+									Estimated Transaction Fee <img src="../../assets/images/iskra/ico_question.png" class="ico_hover" />
+									<span class="ico_hover_pop">
+										Transaction Fee 는 블록체인 상의 메커니즘, 노드 성능 등 다양한 원인에 의해 가격이 달라질 수 있습니다.
+									</span>
+								</p>
+								<p><strong>5 KLAY</strong><br />(≈ 5 USD)</p>
+							</div>
+							<div>
+								<p><strong>Total Estimated Cost</strong></p>
+								<p><strong>5 KLAY</strong><br />(≈ 5 USD)</p>
+							</div>
+						</div>
+					</div>
+					<div class="btn_area flex_center">
+						<a href="javascript:history.back();" class="btn02 small120">Cancel</a>
+						<button type="button" onclick="location.href='./A-5. Claim 서명 대기.html'" class="btn01 small120 active">Claim</button>
+					</div>
+				</div>
+			</div>
+		</main>
+		<!-- //container(e) -->
+		<!-- footer(s) -->
+		<footer id="footer">
+			<div class="responsive">
+				<p class="copyright">© 2022. ISKRA (BVI) Corp. All rights reserved</p>
+			</div>
+		</footer>
+		<!-- //footer(e) -->
+	</div>
+	<!-- wrap(e) -->
+
+<!-- 로딩 팝업 -->
+<div id="alert_popup_loading">
+	<div class="container">
+		<div class="loading"><img src="../../assets/images/iskra/loading.gif" /></div>
+		<h3>Transaction in progress…</h3>
+		<p>Leaving the page can cause errors.<br />Please hold for a moment. </p>
+	</div>
+</div>
+
+<!-- 서명 팝업 -->
+<div id="signature_popup">
+	<div class="container">
+		<button type="button" class="popup_close"></button>
+		<h3>Signature Request</h3>
+		<form name="" action="./A-7 서명 완료.html" method="post">
+			<div class="txt">
+				<a href=""><u>https://iskra.world/purchase</u></a>
+				<p>
+					이 웹사이트가 다음 항목에 대해 서명을 요청하고 있습니다. 서명하기 전에 이 웹사이트가 신뢰할만한 곳인지 확인해주세요.
+				</p>
+				<h4>Transaction Summary</h4>
+				<div class="inline">
+					<strong>Chain ID</strong>
+					<span>1001</span>
+				</div>
+				<div class="inline">
+					<strong>Contract</strong>
+					<span><a href=""><u>0x854ca8508c8be2bb1f3c<br />244045786410cb7d5d0a</u></a></span>
+				</div>
+				<div class="inline">
+					<strong>Action</strong>
+					<span>{Contract Method}</span>
+				</div>
+				<div class="inline">
+					<strong>Amount</strong>
+					<span>65 KLAY (≈ 65 USD)</span>
+				</div>
+				<div class="inline">
+					<strong>Transaction Fee</strong>
+					<span>5 KLAY (≈ 5 USD)</span>
+				</div>
+				<button type="button" class="sign_toggle">Transaction Detail</button>
+				<div class="sign_area" style="display:none">
+					{Transaction ABI}
+				</div>
+				<h4>Transaction Signing</h4>
+				<label for="password">Enter wallet password to sign the transaction.</label>
+				<input type="password" name="" value="" id="password" class="frm_input">
+				<span class="msg">Wallet Password 가 일치하지 않습니다.</span>
+			</div>
+			<div class="btn_area">
+				<a href="#" class="btn02 popup_cancel">Reject</a>
+				<button type="submit" class="btn01 change active">Confirm</button>
+			</div>
+		</form>
+	</div>
+
+</div>
+
+
+<script src="../../assets/js/particle.js"></script>
+
+</body>
+</html>

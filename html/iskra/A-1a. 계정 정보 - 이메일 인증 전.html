@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<!-- meta -->
+	<meta charset="UTF-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="apple-touch-icon" sizes="256x256" href="../../assets/images/favicon/favicon.ico">
+	<link rel="shortcut icon" sizes="256x256" href="../../assets/images/favicon/favicon.ico">
+	<link rel="icon" sizes="256x256" href="../../assets/images/favicon/favicon.ico">
+	<title>ISKRA</title>
+	<!-- resources -->
+	<!-- css -->
+	<link rel="stylesheet" href="../../assets/libs/jquery-ui.css">
+	<link rel="stylesheet" href="../../assets/libs/aos.css">
+	<link rel="stylesheet" href="../../assets/libs/dd.css">
+	<link rel="stylesheet" href="../../assets/css/common.css">
+	<!-- script -->
+	<script src="../../assets/libs/jquery-3.3.1.min.js"></script>
+	<script src="../../assets/libs/jquery-ui.js"></script>
+	<script src="../../assets/libs/aos.js"></script>
+	<script src="../../assets/libs/dd.min.js"></script>
+	<script src="../../assets/js/script.js"></script>
+</head>
+
+<body>
+
+	<!-- wrap(s) -->
+	<div class="wrap setting">
+		<!-- header(s) -->
+		<header id="header">
+			<div class="inner">
+				<h1 class="logo"><a href="../about/about.html"><span class="sr-only">ISKRA</span></a></h1>
+				<!-- 로그인 전
+				<nav id="gnb">
+					<button type="button" class="btn gnb-close"><i class="ic ic-gnb-close"></i></button>
+					<ul class="gnb-depth1">
+						<li><a href="../about/about.html"><span>ABOUT</span></a></li>
+						<li><a href="../nft/nft.html"><span>PLONEER NFT</span></a></li>
+						<li><a href="../token/token.html"><span>ISK TOKEN</span></a></li>
+					</ul>
+				</nav>
+				<div class="member">
+					<a href="">LOG IN</a>
+					<a href="" class="signup">Sign Up</a>
+				</div>
+				<button type="button" class="btn gnb-open"><i class="ic ic-gnb-open"></i></button>
+				-->
+				<!-- 로그인 후 -->
+				<div class="member">
+					<button type="button" class="member_toggle">{Display Name}</button>
+					<div class="member_layer">
+						<ul>
+							<li>{1,992} CP</li>
+							<li><a href="">Account</a></li>
+							<li><a href="">Sign out</a></li>
+						</ul>
+					</div>
+				</div>
+				<button type="button" class="btn gnb-open"><i class="ic ic-gnb-open"></i></button>
+			</div>
+		</header>
+		<div class="mask"></div>
+		<!-- //header(e) -->
+		<!-- container(s) -->
+		<main id="container2">
+			<div class="lnb">
+				<ul>
+					<li class="active"><a href="">WALLET</a></li>
+					<li><a href="">REWARDS</a></li>
+					<li><a href="">PIONEER NFT</a></li>
+					<li>
+						<button type="button" class="btn_lnb_toggle">SETTING</button>
+						<div class="sub">
+							<a href="">Account</a>
+							<a href="">Wallet</a>
+							<a href="">Security</a>
+							<a href="">Referral</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="container">
+				<div class="title_area">
+					<h1>Account Setting</h1>
+				</div>
+				<div class="contents">
+					<form name="" action="" method="post">
+					<table class="tbl_basic line">
+					<tbody>
+					<tr>
+						<td class="width200">
+							<div class="thumbnail">
+								<img src="../../assets/images/iskra/ico_tbl_list_setting.png" width="20" height="20" />
+							</div>
+							<div class="txt">
+								Email Address
+							</div>
+						</td>
+						<td class="txt_left">
+							<p>hyun.lee@iskra.world</p>
+							<p>
+								<!-- 인증 전 --><span class="red">Unverified</span>
+								<!-- 인증 후 --><span class="green">Verified</span>
+							</p>
+						</td>
+						<td class="txt_right">
+							<!-- 이메일 인증이 미완료된 상태인 경우에만 노출되는 버튼 -->
+							<button type="button" class="btn_Verify">Verify</button>
+						</td>
+					</tr>
+					<tr>
+						<td class="width200">
+							<div class="thumbnail">
+								<img src="../../assets/images/iskra/ico_tbl_list_setting.png" width="20" height="20" />
+							</div>
+							<div class="txt">
+								Name
+							</div>
+						</td>
+						<td class="txt_left">
+							<input type="text" name="" value="Hyun Lee" class="frm_modify active">
+							<!-- 클릭시 input 수정가능 하게 .active 활성화 & <button type="submit" class="btn_Verify">Save</button>--><button type="button" class="btn_modify"></button>
+						</td>
+						<td class="txt_right"></td>
+					</tr>
+					<tr>
+						<td class="width200">
+							<div class="thumbnail">
+								<img src="../../assets/images/iskra/ico_tbl_list_setting.png" width="20" height="20" />
+							</div>
+							<div class="txt">
+								Display Name
+							</div>
+						</td>
+						<td class="txt_left">
+							<input type="text" name="" value="Buddy" class="frm_modify" readonly>
+							<!-- 클릭시 input 수정가능 하게 .active 활성화  & <button type="submit" class="btn_Verify">Save</button>--><button type="button" class="btn_modify"></button>
+						</td>
+						<td class="txt_right"></td>
+					</tr>
+					<tr>
+						<td class="width200">
+							<div class="thumbnail">
+								<img src="../../assets/images/iskra/ico_tbl_list_setting.png" width="20" height="20" />
+							</div>
+							<div class="txt">
+								Password
+							</div>
+						</td>
+						<td class="txt_left">
+							<input type="password" name="" value="123456789" class="frm_modify" readonly>
+							<button type="button" onclick="location.href='./A-5a. 비밀번호 변경 - 입력 전.html'"class="btn_modify"></button>
+						</td>
+						<td class="txt_right"></td>
+					</tr>
+					</table>
+					</form>
+				</div>
+			</div>
+		</main>
+		<!-- //container(e) -->
+		<!-- footer(s) -->
+		<footer id="footer">
+			<div class="responsive">
+				<p class="copyright">© 2022. ISKRA (BVI) Corp. All rights reserved</p>
+			</div>
+		</footer>
+		<!-- //footer(e) -->
+	</div>
+	<!-- wrap(e) -->
+
+<script src="../../assets/js/particle.js"></script>
+
+</body>
+</html>
