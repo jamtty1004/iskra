@@ -580,23 +580,24 @@ table.tbl_basic td strong { font-size:1.5rem; display:block; margin:0 0 1rem }
   cursor: pointer;
   position: relative;
   background:#fff;
-  height:4.5rem;
-  line-height:4.5rem;
-  border:2px solid #ddd;
+  height:5rem;
+  line-height:5rem;
   padding:0;
   letter-spacing:-1px;
   color:#555;
   text-align:left;
+  border-radius:0.5rem;
+  font-size:1.6rem;
 }
 
-.select div { width:99.5%; }
+.select div { width:100%; }
 
 .select-styled {
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
-  left: 5px;
+  left: 1rem;
   z-index:9;
 }
 .select-styled:after {
@@ -606,7 +607,8 @@ table.tbl_basic td strong { font-size:1.5rem; display:block; margin:0 0 1rem }
   background:url('../images/iskra/ico_toggle_off.png') right center no-repeat;
   position: absolute;
   top:0;
-  right:10px;
+  right:2rem;
+  position:absolute;
 }
 
 .select-styled:active:after, .select-styled.active:after {
@@ -616,7 +618,7 @@ table.tbl_basic td strong { font-size:1.5rem; display:block; margin:0 0 1rem }
 .select-options {
   display: none;
   position: absolute;
-  top: 21px;
+  top: 5rem;
   right: 0;
   left: 0;
   z-index: 10;
@@ -626,27 +628,28 @@ table.tbl_basic td strong { font-size:1.5rem; display:block; margin:0 0 1rem }
   list-style: none;
   background:#fff;
   border-radius:0 0 4px 4px;
-  overflow-y:auto;
-  border:1px solid #ccc;
-  border-top:0;
-  max-height:100px;
-  
+  border:0;
 }
 
 .select-options li {
-  border:0 !important;
+  border-bottom:1px solid #eee !important;
   margin: 0 !important;
-  text-indent:4px;
-  line-height:22px !important;
-  -moz-transition: all 0.1s ease-in;
-  -o-transition: all 0.1s ease-in;
-  -webkit-transition: all 0.1s ease-in;
-  transition: all 0.1s ease-in;
-  font-size:12px;
+  text-indent:1rem;
+  line-height:5rem !important;
+}
+
+.select-options li:nth-child(1) {
+	background:url('../images/iskra/ico_klay.png') 1rem 50% no-repeat;
+	padding-left:3rem;
+}
+
+.select-options li:nth-child(2) {
+	background:url('../images/iskra/ico_isk.png') 1rem 50% no-repeat;
+	padding-left:3rem;
 }
 
 .select-options li:hover {
-  background:#eaeaea;
+  background-color:#eaeaea;
 }
 .select-options li[rel="hide"] {
   display: none;
