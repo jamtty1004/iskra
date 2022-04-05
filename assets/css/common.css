@@ -15,11 +15,10 @@
   src: url('../fonts/Qualy/Qualy.woff2') format('woff2'), url('../fonts/Qualy/Qualy.woff') format('woff');
 }
 
-1
 /* 초기화 */
 html,body{overflow-x:hidden;}
 html { /*-webkit-overflow-scrolling:touch; -webkit-touch-callout:none;-webkit-user-select:none;-webkit-tap-highlight-color:rgba(0,0,0,0);*/ font-size:10px; }
-body { word-break:keep-all; min-width:32rem; margin:0;padding:0;font-family:"SofiaPro-Medium", sans-serif; font-size:1.2rem; -webkit-text-size-adjust:none;-moz-text-size-adjust:none;-ms-text-size-adjust:none;scrollbar-color:#2864a3 #01182e;scrollbar-width:thin}
+body { word-break:keep-all; min-width:32rem; margin:0;padding:0;font-family:"SofiaPro-Medium", sans-serif; font-size:1.2rem; background:#181a2c; -webkit-text-size-adjust:none;-moz-text-size-adjust:none;-ms-text-size-adjust:none;scrollbar-color:#2864a3 #01182e;scrollbar-width:thin}
 body::-webkit-scrollbar{width:1rem}
 body::-webkit-scrollbar-track{background:#01182e}
 body::-webkit-scrollbar-thumb{background:#2864a3;border-radius:100px}
@@ -98,12 +97,14 @@ select, textarea { border:1px solid #ccc; padding:0.5rem; }
 #header .member { margin-left:auto; position:relative; }
 #header .member a { color:#fff }
 #header .member a.signup { margin-left:1.5rem; border:1px solid #fff; border-radius:0.5rem; text-align:center; padding:0.5rem 1rem }
-#header .member button { color:#fff }
-#header .member button:after { padding-left:1rem; content:"▼" }
-#header .member button.active:after { padding-left:1rem; content:"▲" }
-#header .member .member_layer { display:none; position:absolute; top:3rem; right:0; width:11rem; padding:0 1rem; background:rgba(255,255,255,.8) }
-#header .member .member_layer li { background:url("../images/iskra/ico_member_layer.png") 0 50% no-repeat; border-bottom:1px solid #fff; padding-left:2rem; line-height:3rem; color:#000 }
-#header .member .member_layer li a { color:#000 }
+#header .member button { font-size:1.5rem; color:#fff; padding-right:3rem; background:url("../images/iskra/ico_gnb_open.png") 100% 50% no-repeat; }
+#header .member button.active { padding-right:3rem; background:url("../images/iskra/ico_gnb_close.png") 100% 50% no-repeat; }
+#header .member .member_layer { display:none; position:absolute; top:3rem; right:0; width:14rem; height:14rem; border-radius:1rem; padding:1.2rem; background:#1d1f36; box-shadow:0 0 12px 4px rgba(0,0,0,.1) }
+#header .member .member_layer li { font-size:1.5rem; color:#fff; padding:0.7rem 0.5rem 0.7rem 3.5rem; }
+#header .member .member_layer li a { color:#fff }
+#header .member .member_layer li:nth-child(1) { border-bottom:1px solid #34364b; background:url("../images/iskra/ico_gnb_cp.png") 1rem 50% no-repeat; }
+#header .member .member_layer li:nth-child(2) { background:url("../images/iskra/ico_gnb_account.png") 1rem 50% no-repeat; }
+#header .member .member_layer li:nth-child(3) { background:url("../images/iskra/ico_gnb_signout.png") 1rem 50% no-repeat; }
 
 
 @media only screen and (max-width: 1199px){
@@ -127,9 +128,9 @@ select, textarea { border:1px solid #ccc; padding:0.5rem; }
 /* 본문 */
 .responsive { width:120rem; margin:0 auto; position:relative; padding:0 2rem }
 
-.wrap {position:relative;height:100%;background:#17192B;}
+.wrap {position:relative;height:100%;}
 .wrap .img-box img{ width:100%;height:100%;-o-object-fit:cover;object-fit:cover}
-#container2 { width:120rem; height:100%; margin:0 auto; padding:20rem 0; display:flex }
+#container2 { width:120rem; height:100%; margin:0 auto; padding:15rem 0; display:flex }
 
 /* about */
 .wrap.con_about .pc_br { display:block; }
@@ -320,6 +321,8 @@ span.pc_br { display:block }
 .btn01 { position:relative; font-size:1.8rem !important; display:block; background:#999; transition:all 0.2s ease-out; color:#fff; width:17rem; height:4.4rem; line-height:4.4rem; border-radius:0.5rem; text-align:center; }
 /*.btn01:hover { background:#333; }*/
 .btn01.active { background:#00339b; }
+.btn01.start { width:30rem; height:5.5rem; line-height:5.5rem; border-radius:1rem }
+
 
 .btn02 { margin-right:0.5rem; font-size:1.8rem !important; display:block;  color:#fff; border:1px solid #ddd; width:17rem; height:4.4rem; line-height:4.4rem; border-radius:0.5rem; text-align:center; }
 .btn02.active { background:#00339b; }
@@ -335,16 +338,16 @@ span.pc_br { display:block }
 .btn_full { width:100% }
 .btn_blue { text-transform:uppercase; width:34rem; height:5.2rem; background:#4E87D9; font-size:1.7rem; color:#fff; border-radius:0.5rem; }
 
-form .col { margin:0 0 2.5rem; position:relative; }
-form .col label { font-size:2rem; color:#fff; margin:0 0 1rem }
+form .col { margin:0 0 1.2rem; position:relative; }
+form .col label { font-size:2rem; color:#fff; margin:0 0 0.5rem }
 form label { display:block; }
-form input { width:100%; padding:0 1rem; height:5rem; border:1px solid #ccc; background:#fff; border-radius:0.5rem; font-family: "SofiaPro-Light"; font-size:1.7rem;  }
+form input { width:100%; padding:0 1rem; height:5rem; border:1px solid #ccc; background:#fff; border-radius:0.5rem; font-family: "SofiaPro-Light"; font-size:1.6rem;  }
 form input:focus { border:1px solid #F23B4A; background:#fff; }
 .form_style input { transition:all 0.2s ease-out; border:1px solid #ccc; background:#fff; }
 .form_style input:focus { border:2px solid #1e3e6e; border:1px solid #F23B4A; background:#fff; }
 .full_input { width:100%; }
 
-.msg { background:url('../images/iskra/ico_msg.png') 0 0.2rem no-repeat; padding-left:2.5rem; display:block; margin:1.2rem 0; font-size:1.4rem; color:#F23B4A }
+.msg { background:url('../images/iskra/ico_msg.png') 0 0.2rem no-repeat;  padding-left:2.5rem; display:block; margin:1rem 0; font-size:1.4rem; color:#F23B4A }
 
 .ul_list li { color:#fff; font-family: "SofiaPro-Light"; font-size:1.7rem; background:url('../images/iskra/ico_list.png') 0 1rem no-repeat; padding-left:1.5rem; }
 .ul_list li a { color:#fff; font-family: "SofiaPro-Light"; font-size:1.7rem; }
@@ -360,7 +363,7 @@ table.tbl_basic td strong { font-size:1.5rem; display:block; margin:0 0 1rem }
 
 
 .nomargin { margin:0 !important }
-.margin { margin:1rem 0 0 !important }
+.margin10 { margin:1rem 0 0 !important }
 .margin30 { margin:3rem 0 0 !important }
 .margin100 { margin:10rem 0 0 !important }
 
@@ -382,7 +385,7 @@ table.tbl_basic td strong { font-size:1.5rem; display:block; margin:0 0 1rem }
 .link_white { text-decoration:underline; color:#fff }
 
 /* 폰트 사이즈 */
-.font_big { font-size:1.7rem; font-weight:bold }
+.font_big { font-size:1.8rem; font-weight:bold }
 
 
 
@@ -485,10 +488,10 @@ table.tbl_basic td strong { font-size:1.5rem; display:block; margin:0 0 1rem }
 .chk_wide label {
   padding-left:3rem;
   display:inline-block;
-  background:url('../images/Account/chk_blue_off.png') no-repeat 0 50%;
+  background:url('../images/Account/chk_white_off.png') no-repeat 0 50%;
   vertical-align:middle;
   cursor:pointer;
-  font-size:1.7rem !important;
+  font-size:1.3rem !important;
   height:2rem;
   line-height:2rem;
   color:#aaa !important;
@@ -496,7 +499,7 @@ table.tbl_basic td strong { font-size:1.5rem; display:block; margin:0 0 1rem }
   font-family: "SofiaPro-Light" !important;
 }
 .chk_wide input[type="checkbox"]:checked + label{
-  background:url('../images/Account/chk_blue_on.png') no-repeat 0 50%;
+  background:url('../images/Account/chk_white_on.png') no-repeat 0 50%;
   background-size:contain;
 }
 
@@ -676,51 +679,64 @@ table.tbl_basic td strong { font-size:1.5rem; display:block; margin:0 0 1rem }
 
 /******************************************* D-1.Wallet *******************************************/
 /* A. Create Wallet A-1. 시작하기 ~ A-4. 복구구문 */
-.wrap.Wallet {  }
-.wrap.Wallet .container { width:85rem; min-height:50rem; }
-.wrap.Wallet .container .title_area { margin:0 0 2rem }
-.wrap.Wallet .container h1 { font-size:5rem; color:#fff; font-family:"SofiaPro-Black"; }
-.wrap.Wallet .container .step { height:10rem; background:rgba(255,255,255,.05); position:relative; margin:0 0 7rem }
-.wrap.Wallet .container .step ul { height:100%; display:flex; align-items:center; justify-content:center; background:url('../images/iskra/ico_step_arrow.png') 50% 50% no-repeat; }
-.wrap.Wallet .container .step ul li { padding-left:6rem; margin:0 9rem; color:#fff; opacity:0.5; font-size:1.4rem; background:url('../images/iskra/ico_step.png') 0 50% no-repeat; background-size:contain }
-.wrap.Wallet .container .step ul li span { font-size:2rem }
-.wrap.Wallet .container .step ul li.active { color:#fff; opacity:1; }
-.wrap.Wallet .container .contents { }
-.wrap.Wallet .container .contents h2 { color:#fff; font-size:3rem; font-weight:normal; }
-.wrap.Wallet .container .contents h3 { color:#fff; font-size:2rem; font-weight:normal; }
-.wrap.Wallet .container .contents p.Description { color:#fff;  font-family: "SofiaPro-Light"; font-size:1.7rem; opacity:0.8; }
-.wrap.Wallet .container .contents p { font-size:1.7rem; color:#fff; font-family: "SofiaPro-Light"; }
-.wrap.Wallet .container .contents .box { margin:6rem 0 0; width:41rem; height:45rem; padding:3.5rem; background:rgba(255,255,255,.05); border-radius:2rem; }
-.wrap.Wallet .container .contents .box.none { width:auto; height:auto; padding:0; background:none }
-.wrap.Wallet .container .contents .box .img { width:34rem; height:20rem; overflow:hidden; border-radius:1rem; }
-.wrap.Wallet .container .contents .box .img img { width:100%;height:100%;-o-object-fit:cover;object-fit:cover } 
-.wrap.Wallet .container .contents .box .txt { }
-.wrap.Wallet .container .contents .box .txt.code { font-size:3rem; color:#fff; border-bottom:2px solid rgba(255,255,255,.5); padding:0 0 1rem }
-.wrap.Wallet .container .contents .box .txt p { padding:3rem 0 0; font-family: "SofiaPro-Light"; color:#fff; font-size:1.7rem; opacity:0.8; }
-.wrap.Wallet .container .contents .box.section { position:relative; widtH:100%; height:19.5rem; padding:2.3rem; background:rgba(0,0,0,0.2); border-radius:0.3rem }
-.wrap.Wallet .container .contents .box.section.save { display:flex; align-items:center; justify-content:center; }
-.wrap.Wallet .container .contents .box.section.ready { border:1px solid rgba(255,255,255,.2) }
-.wrap.Wallet .container .contents .box.section .mask { font-size:1.6rem; cursor:pointer; position:absolute; top:0; left:0; width:100%; height:100%;  backdrop-filter: blur(5px); background:rgba(0,0,0,1); }
-.wrap.Wallet .container .contents .box.section .mask { display:flex; align-items:center; justify-content:center; flex-direction: column; color:#fff; }
-.wrap.Wallet .container .contents .box.section .mask .ico { margin:1rem 0 }
-.wrap.Wallet .container .contents #drag_area div { cursor:move }
-.wrap.Wallet .container .contents .drag_area { display:flex; flex-wrap:wrap;  }
-.wrap.Wallet .container .contents .drag_area div { width:19rem; margin:0 0 1rem; height:4rem; line-height:4rem; text-align:center; font-size:2rem; color:#00CCFF }
-.wrap.Wallet .container .contents .drag_area.save { display:flex; align-items:center; justify-content:center; }
-.wrap.Wallet .container .contents .drag_area.save div { background:none; width:auto; height:auto; line-height:auto; border:0; text-align:center; margin:0 0.5rem; font-size:2rem; font-family: "SofiaPro-Light"; color:#fff; }
-.wrap.Wallet .container .contents .select_area { display:flex; flex-wrap:wrap; justify-content:space-between; }
-.wrap.Wallet .container .contents .select_area div { border-radius:0.5rem; font-family: "SofiaPro-Light"; color:#fff; font-size:2rem; cursor:pointer; background:rgba(255,255,255,.05); width:20rem; height:6rem; line-height:6rem;  text-align:center; margin:2rem 0 0}
-.wrap.Wallet .container .contents .select_area div.active { background:#00CCFF; color:#fff }
+
+.wrap.Wallet.nohd {  }
+.wrap.Wallet.nohd .container { width:85rem; margin:0 auto; }
+.wrap.Wallet.nohd .container .title_area { margin:0 0 2rem }
+.wrap.Wallet.nohd .container h1 { font-size:5rem; color:#fff; font-family:"SofiaPro-Black"; }
+.wrap.Wallet.nohd .container .step { text-align:center; width:38rem; position:relative; margin:0 auto 18rem; border-bottom:2px solid #4d4f5d;  }
+.wrap.Wallet.nohd .container .step ul { position:absolute; top:-5rem; left:0; width:100%; display:flex; align-items:center; justify-content:center; }
+.wrap.Wallet.nohd .container .step ul li { padding:9rem 1rem 0; font-size:1.3rem; color:#3c3d49; }
+.wrap.Wallet.nohd .container .step ul li span { font-size:1.6rem !important; color:#61626a; }
+.wrap.Wallet.nohd .container .step ul li:nth-child(1) { margin-right:auto; background:#181a2c url('../images/iskra/ico_step_wallet_off.png') 50% 0 no-repeat }
+.wrap.Wallet.nohd .container .step ul li:nth-child(2) { margin-left:auto; background:#181a2c url('../images/iskra/ico_step_optset_off.png') 50% 0 no-repeat; }
+.wrap.Wallet.nohd .container .step ul li.active:nth-child(1) { margin-right:auto; background:#181a2c url('../images/iskra/ico_step_wallet.png') 50% 0 no-repeat }
+.wrap.Wallet.nohd .container .step ul li.active:nth-child(2) { margin-left:auto; background:#181a2c url('../images/iskra/ico_step_optset.png') 50% 0 no-repeat; }
+.wrap.Wallet.nohd .container .step ul li.active { color:#a8a8ac; }
+.wrap.Wallet.nohd .container .step ul li.active span { color:#fff; }
+
+.wrap.Wallet.nohd .container .contents {  }
+.wrap.Wallet.nohd .container .contents .form_style { margin:0; border:0 }
+.wrap.Wallet.nohd .container .contents h2 { color:#fff; font-size:4rem; font-family:"SofiaPro-Black"; margin:0 0 2rem }
+.wrap.Wallet.nohd .container .contents h3 { color:#fff; font-size:2rem; font-weight:normal; margin:0 0 1rem; }
+.wrap.Wallet.nohd .container .contents p.Description { color:#fff;  font-family: "SofiaPro-Light"; font-size:1.7rem; opacity:0.8; }
+.wrap.Wallet.nohd .container .contents p { font-size:1.7rem; color:#fff; font-family: "SofiaPro-Light"; }
+.wrap.Wallet.nohd .container .contents .box { margin:6rem auto 0; width:50rem; height:52rem; padding:3.5rem; background:#1d1f36; border-radius:2rem; overflow:hidden }
+.wrap.Wallet.nohd .container .contents .box.none { width:auto; height:auto; padding:0; background:none; border-radius:0; }
+.wrap.Wallet.nohd .container .contents .box .img { height:34rem; overflow:hidden; border-radius:0 2rem 0 2rem; }
+.wrap.Wallet.nohd .container .contents .box .img img { width:100%;height:100%;-o-object-fit:cover;object-fit:cover } 
+.wrap.Wallet.nohd .container .contents .box .txt { }
+.wrap.Wallet.nohd .container .contents .box.line_none { border:0 !important }
+.wrap.Wallet.nohd .container .contents .box .txt.code { font-size:3rem; color:#fff; border:2px solid rgba(255,255,255,.2); padding:3rem; text-align:center; }
+.wrap.Wallet.nohd .container .contents .box .txt p { padding:3rem 0 0; font-family: "SofiaPro-Light"; color:#fff; font-size:1.7rem; opacity:0.8; }
+.wrap.Wallet.nohd .container .contents .box .frm_input { padding:1rem 0; color:#fff; background-color:transparent; border:0; border-bottom:1px solid #5c5d6b; border-radius:0; }
+.wrap.Wallet.nohd .container .contents .box .frm_input:focus { border:0; background-color:transparent; border-bottom:1px solid #fff; }
+.wrap.Wallet.nohd .container .contents .box .form_style { border:0 }
+.wrap.Wallet.nohd .container .contents .box.section { position:relative; widtH:100%; height:35rem; padding:2.3rem; background:rgba(0,0,0,0.2); border-radius:2rem }
+.wrap.Wallet.nohd .container .contents .box.section.save { display:flex; align-items:center; justify-content:center; }
+.wrap.Wallet.nohd .container .contents .box.section.ready {  }
+.wrap.Wallet.nohd .container .contents .box.section .mask { font-size:1.6rem; cursor:pointer; position:absolute; top:0; left:0; width:100%; height:100%; background:#1d1f36 }
+.wrap.Wallet.nohd .container .contents .box.section .mask { display:flex; align-items:center; justify-content:center; flex-direction: column; color:#fff; }
+.wrap.Wallet.nohd .container .contents .box.section .mask .ico { margin:0 0 2rem }
+.wrap.Wallet.nohd .container .contents #drag_area div { cursor:move }
+.wrap.Wallet.nohd .container .contents .drag_area { display:flex; flex-wrap:wrap;  }
+.wrap.Wallet.nohd .container .contents .drag_area div { width:20rem; margin:3rem 0; height:4rem; line-height:4rem; text-align:center; font-size:2rem; color:#00CCFF }
+.wrap.Wallet.nohd .container .contents .drag_area.save { display:flex; align-items:center; justify-content:center; }
+.wrap.Wallet.nohd .container .contents .drag_area.save div { background:none; width:auto; height:auto; line-height:auto; border:0; text-align:center; margin:0 0.5rem; font-size:2rem; font-family: "SofiaPro-Light"; color:#fff; }
+.wrap.Wallet.nohd .container .contents .select_area { display:flex; flex-wrap:wrap; justify-content:space-between; }
+.wrap.Wallet.nohd .container .contents .select_area div { border-radius:0.5rem; font-family: "SofiaPro-Light"; color:#fff; font-size:2rem; cursor:pointer; background:rgba(255,255,255,.05); width:20rem; height:6rem; line-height:6rem;  text-align:center; margin:2rem 0 0}
+.wrap.Wallet.nohd .container .contents .select_area div.active { background:#00CCFF; color:#fff }
 
 /* A. Create Wallet - A-6. OTP 등록 */
-.wrap.Wallet .container .contents .qr { margin:2rem auto; text-align:Center; width:15rem; height:15rem; border-radius:1rem; overflow:hidden }
-.wrap.Wallet .container .contents .qr img { width:100%;height:100%;-o-object-fit:cover;object-fit:cover;  }
-.wrap.Wallet .container .contents .box .txt ul { display:flex; align-items:center; }
-.wrap.Wallet .container .contents .box .txt ul li { margin-right:1.5rem; text-align:center; }
-.wrap.Wallet .container .contents .box .txt ul li:last-child { margin:0 }
-.wrap.Wallet .container .contents .box .txt input { font-size:1.6rem; font-weight:bold }
-.wrap.Wallet .container .contents .box.small { margin:3rem 0 0 }
-.wrap.Wallet .container .contents .box .txt.Certification input { border:0; background-color:transparent; font-size:3rem; color:#fff; letter-spacing:2rem; font-weight:bold }
+.wrap.Wallet.nohd .container .contents .qr { margin:2rem auto; text-align:Center; width:15rem; height:15rem; border-radius:1rem; overflow:hidden }
+.wrap.Wallet.nohd .container .contents .qr img { width:100%;height:100%;-o-object-fit:cover;object-fit:cover;  }
+.wrap.Wallet.nohd .container .contents .box .txt ul { display:flex; align-items:center; }
+.wrap.Wallet.nohd .container .contents .box .txt ul li { margin-right:1.5rem; text-align:center; }
+.wrap.Wallet.nohd .container .contents .box .txt ul li:last-child { margin:0 }
+.wrap.Wallet.nohd .container .contents .box .txt input { font-size:1.6rem; font-weight:bold }
+.wrap.Wallet.nohd .container .contents .box.small { margin:3rem 0 0 }
+.wrap.Wallet.nohd .container .contents .box .Certification input { font-size:3rem; letter-spacing:2rem; padding:1rem 0; color:#fff; background-color:transparent; border:0; padding:2.5rem 0.5rem !important; border-bottom:1px solid #5c5d6b; border-radius:0; }
+.wrap.Wallet.nohd .container .contents .box .Certification input:focus { border:0; background-color:transparent; border-bottom:1px solid #fff; padding:2.5rem 0.5rem !important }
 
 /* A. Create Wallet - B. Wallet 조회 및 입금 */
 .wrap.Wallet .container .contents button.ico_copy { margin-left:2rem; width:2rem; height:2rem; background:url('../images/iskra/ico_copy.png') 50% 50% no-repeat; }
@@ -775,6 +791,7 @@ table.tbl_basic td strong { font-size:1.5rem; display:block; margin:0 0 1rem }
 .wrap.Rewards .container .contents ul.ntf_view li .box .thumbnail { height:27rem; overflow:hidden; border-radius:0 2rem 0 2rem }
 .wrap.Rewards .container .contents ul.ntf_view li .box .thumbnail img { width:100%;height:100%;-o-object-fit:cover;object-fit:cover }
 .wrap.Rewards .container .contents ul.ntf_view li .box .txt_area { color:#fff;  font-family: "SofiaPro-Light"; font-size:1.5rem; opacity:0.8; padding:2.5rem 0 3rem;  text-align:center; }
+.wrap.Rewards .container .contents ul.ntf_view li .box .txt_area.height { height:12rem }
 .wrap.Rewards .container .contents ul.ntf_view li .time { font-size:1.1rem; color:#333; position:absolute; top:-1rem; right:0; border-radius:0.5rem; border:1px solid #ddd; padding:0 1rem 0 2rem; line-height:1.6rem; height:2rem; }
 .wrap.Rewards .container .contents ul.ntf_view li .time { background:#fff url('../images/iskra/ico_time.png') 0.2rem 50% no-repeat; }
 .wrap.Rewards .container .contents ul.ntf_view li .btn01 .txt_hover { display:none }
@@ -826,7 +843,8 @@ table.tbl_basic td strong { font-size:1.5rem; display:block; margin:0 0 1rem }
 .wrap.Rewards .container .contents .info_wide div { margin:2rem 0; display:flex; align-items:center; }
 .wrap.Rewards .container .contents .info_wide div p { color:#fff; opacity:0.8; position:relative }
 .wrap.Rewards .container .contents .info_wide div p:nth-child(1) { font-size:1.7rem; font-family: "SofiaPro-Light"; }
-.wrap.Rewards .container .contents .info_wide div p:nth-child(2) { margin-left:auto; text-align:right }
+.wrap.Rewards .container .contents .info_wide div p:nth-child(2) { font-size:2rem; margin-left:auto; text-align:right }
+.wrap.Rewards .container .contents .info_wide div p:nth-child(2) span { font-size:1.4rem; font-family: "SofiaPro-Light"; }
 .wrap.Rewards .container .contents .info_wide div:last-child { border-top:2px solid #2e3040; padding:2rem 0 0  }
 .wrap.Rewards .container .contents .info_wide div strong { font-size:2rem; font-family: "SofiaPro-Light"; }
 .wrap.Rewards .container .contents .info_wide_head { border-bottom:2px solid #2e3040; margin:0 0 2rem }
@@ -835,7 +853,7 @@ table.tbl_basic td strong { font-size:1.5rem; display:block; margin:0 0 1rem }
 .wrap.Rewards .container .contents .info_wide_head div p:nth-child(1) { font-size:1.5rem; color:#fff; }
 .wrap.Rewards .container .contents .info_wide_head div p:nth-child(2) { margin-left:auto; text-align:right }
 .wrap.Rewards .container .contents .info_wide_head div p:nth-child(2) a { color:#fff }
-.wrap.Rewards .container .contents .Reward_none { font-size:1.3rem; color:#fff; opacity:0.8; margin:0 0 6rem }
+.wrap.Rewards .container .contents .Reward_none { font-size:1.4rem; color:#fff; opacity:0.8; margin:0 0 6rem }
 .wrap.Rewards .container .contents .Reward_none a { font-size:1.4rem; color:#fff; margin-left:2rem; padding-right:2rem; background:url('../images/iskra/ico_link.png') 100% 50% no-repeat; }
 
 
@@ -926,10 +944,19 @@ table.tbl_basic td strong { font-size:1.5rem; display:block; margin:0 0 1rem }
 .wrap.setting .container .contents .form_style .layer { position:absolute;bottom:1.4rem; right:1.5rem }
 .wrap.setting .container .contents .form_style select { }
 
+.wrap.setting .container .contents .link { text-align:center; color:#ccc }
+.wrap.setting .container .contents .link_none { font-family: "SofiaPro-Light"; font-weight:normal; text-align:center; color:#fff; font-size:1.6rem; }
+.wrap.setting .container .contents .link_none span { color:#fff; text-decoration:underline }
+.wrap.setting .container .contents .Certification { position:relative }
+.wrap.setting .container .contents .Certification input { padding:1rem 0; color:#fff; background-color:transparent; border:0; border-bottom:1px solid #5c5d6b; font-size:3rem; letter-spacing:2rem; border-radius:0; padding:2.5rem 0.5rem !important }
+.wrap.setting .container .contents .Certification input:focus { border:0; background-color:transparent; border-bottom:1px solid #fff; }
+.wrap.setting .container .contents .timer { position:absolute; top:1.5rem; right:0; width:5rem; height:3rem; font-size:1.7rem; color:#F23B4A; }
+
+
 .wrap.setting .container .contents .box { margin:4rem 0 0; }
 .wrap.setting .container .contents .box .img { border-bottom:1px solid #ddd; }
 .wrap.setting .container .contents .box .txt {  padding:3rem; }
-.wrap.setting .container .contents .box.section { position:relative; widtH:100%; height:19.5rem; padding:2.3rem; background:rgba(0,0,0,0.2); border-radius:0.3rem }
+.wrap.setting .container .contents .box.section { position:relative; widtH:100%; height:35rem; padding:2.3rem; background:rgba(0,0,0,0.2); border-radius:0.3rem }
 .wrap.setting .container .contents .box.section .mask { cursor:pointer; position:absolute; top:0; left:0; width:100%; height:100%;  backdrop-filter: blur(5px); background:rgba(0,0,0,0.7); }
 .wrap.setting .container .contents .box.section .mask { display:flex; align-items:center; justify-content:center; flex-direction: column; color:#fff; }
 .wrap.setting .container .contents .box.section .mask .ico { margin:1rem 0 }
@@ -938,13 +965,13 @@ table.tbl_basic td strong { font-size:1.5rem; display:block; margin:0 0 1rem }
 .wrap.setting .container .contents .box .txt.code { font-size:3rem; color:#fff; border-bottom:2px solid rgba(255,255,255,.5); padding:0 0 1rem }
 
 .wrap.setting .container .contents .drag_area { display:flex; flex-wrap:wrap }
-.wrap.setting .container .contents .drag_area div { position:relative; width:19rem; margin:0 0 1rem; height:4rem; line-height:4rem; text-align:center; font-size:2rem; color:#00CCFF }
+.wrap.setting .container .contents .drag_area div { position:relative; width:19rem; margin:3rem 0; height:4rem; line-height:4rem; text-align:center; font-size:2rem; color:#00CCFF }
 .wrap.setting .container .contents .drag_area button { position:absolute; top:-0.8rem; right:-0.8rem; width:2rem; height:2rem; background:url('../images/iskra/btn_del.png') 50% 50% no-repeat; background-size:contain }
-.wrap.setting .container .contents .select_area { display:flex; flex-wrap:wrap; padding:2rem 0 1rem; }
+.wrap.setting .container .contents .select_area { display:flex; flex-wrap:wrap; align-items:center; padding:2rem 0 1rem; }
 .wrap.setting .container .contents .select_area div { cursor:pointer; background:#fff; width:9.7rem; margin:0 0.5rem 1rem 0.5rem; height:4rem; line-height:4rem; border:1px solid #ddd; text-align:center }
 .wrap.setting .container .contents .select_area div.active { background:#19527a; color:#fff }
 .wrap.setting .container .contents .select_area input { flex:1; margin-right:2rem }
-.wrap.setting .container .contents .select_area button { margin-left:auto; background:#444; border-radius:1rem; width:9rem; height:5rem; color:#fff; }
+.wrap.setting .container .contents .select_area button { margin-left:auto; background:#444; border-radius:0.5rem; width:9rem; height:4rem; color:#fff; }
 .wrap.setting .container .contents .info_box { margin:2rem 0 4rem; font-size:1.5rem; font-family: "SofiaPro-Light"; color:#fff;  }
 .wrap.setting .container .contents .info_wide { flex:1;  }
 .wrap.setting .container .contents .info_wide div { margin:1rem 0; display:flex; align-items:center; }
@@ -978,30 +1005,32 @@ table.tbl_basic td strong { font-size:1.5rem; display:block; margin:0 0 1rem }
 
 /******************************************* A. Home / Account *******************************************/
 /* B. Sign in */
-.wrap.con_Account { position:fixed;  top:0; left:0; background:url('../images/Account/home_bg.png') 50% 50% no-repeat; background-size:cover; width:100%; height:100%; display:flex; align-items:center; justify-content:center;  z-index:1;  }
-.wrap.con_Account .content { width:120rem; height:80rem; position:relative; display:flex; align-items:center; justify-content:center; }
-.wrap.con_Account .content .img_area { position:relative; width:49.8rem; height:100%; background: linear-gradient(#18172b, #042a3c); }
-.wrap.con_Account .content .img_area .logo { position:absolute; top:5rem; left:5rem; width:15.2rem; height:4.1rem; background:url('../images/common/logo-iskra.png') 50% 50% no-repeat; background-size:contain }
-.wrap.con_Account .content .img_area .illustration { position:absolute; bottom:1rem; right:0; width:49.8rem; height:62rem; background:url('../images/Account/home_illustration.png') 50% 50% no-repeat; background-size:cover }
-.wrap.con_Account .content .txt_area { flex:1; overflow-y:auto; height:100%; background:#fff; padding:9rem 10rem; border-right:2px solid #2e5aa4; }
+.wrap.con_Account { position:fixed;  top:0; left:0; width:100%; height:100%; display:flex; align-items:center; justify-content:center; z-index:1;  }
+.wrap.con_Account .content { width:120rem; height:80rem;  position:relative; display:flex; align-items:center; justify-content:center; }
+.wrap.con_Account .content .img_area { flex:1; position:relative; }
+.wrap.con_Account .content .img_area .illustration { position:absolute; top:-37rem; right:-15rem; width:92.4rem; height:80.9rem; background:url('../images/Account/home_illustration.png') 50% 50% no-repeat; background-size:cover }
+.wrap.con_Account .content .img_area .illustration2 { position:absolute; top:-37rem; left:-15rem; width:92.4rem; height:80.9rem; background:url('../images/Account/home_illustration2.png') 50% 50% no-repeat; background-size:cover }
+.wrap.con_Account .content .txt_area { width:38rem; }
 .wrap.con_Account .content .txt_area .title { margin:0 0 4rem }
-.wrap.con_Account .content .txt_area .title h1 { font-family: "SofiaPro-Black"; font-size:4.2rem; color:#17192B;  }
-.wrap.con_Account .content .txt_area .title h2 { font-size:2rem; font-family: "SofiaPro-Light"; font-weight:normal; color:#4C4C4C }
+.wrap.con_Account .content .txt_area .title h1 { font-family: "SofiaPro-Black"; font-size:5rem; color:#fff; margin:0 0 1rem }
+.wrap.con_Account .content .txt_area .title h2 { font-size:1.8rem; font-family: "SofiaPro-Light"; font-weight:normal; color:#fff }
 .wrap.con_Account .content .txt_area .subtitle { margin:0 0 3rem }
-.wrap.con_Account .content .txt_area .subtitle strong { display:block; color:#333; margin:0 0 0.5rem; font-family: "SofiaPro-Black"; font-size:2.2rem }
-.wrap.con_Account .content .txt_area .subtitle p { color:#333; font-size:1.8rem; font-family: "SofiaPro-Light"; font-weight:normal; }
+.wrap.con_Account .content .txt_area .subtitle strong { display:block; color:#fff; margin:0 0 0.5rem; font-family: "SofiaPro-Black"; font-size:2.2rem }
+.wrap.con_Account .content .txt_area .subtitle p { color:#fff; font-size:1.8rem; font-family: "SofiaPro-Light"; font-weight:normal; }
+.wrap.con_Account .content .txt_area .frm_input { padding:1rem 0; color:#fff; background-color:transparent; border:0; border-bottom:1px solid #5c5d6b; border-radius:0; }
+.wrap.con_Account .content .txt_area .frm_input:focus { border:0; background-color:transparent; border-bottom:1px solid #fff; }
 .wrap.con_Account .content .txt_area .link { text-align:center; color:#ccc }
-.wrap.con_Account .content .txt_area .link_none { text-align:center; color:#555; font-size:1.7rem; }
-.wrap.con_Account .content .txt_area .link_none span { color:#4E87D9 }
-.wrap.con_Account .content .txt_area .form_style label { font-family: "SofiaPro-Black"; color:#555; font-size:2.2rem; }
+.wrap.con_Account .content .txt_area .link_none { font-family: "SofiaPro-Light"; font-weight:normal; text-align:center; color:#fff; font-size:1.6rem; }
+.wrap.con_Account .content .txt_area .link_none span { color:#fff; text-decoration:underline }
 .wrap.con_Account .content .txt_area .Certification { position:relative }
-.wrap.con_Account .content .txt_area .Certification input { border:0; color:#000; font-size:3rem; letter-spacing:2rem; border-bottom:2px solid #ccc; border-radius:0; padding:2.5rem 0.5rem !important }
+.wrap.con_Account .content .txt_area .Certification input { padding:1rem 0; color:#fff; background-color:transparent; border:0; border-bottom:1px solid #5c5d6b; font-size:3rem; letter-spacing:2rem; border-radius:0; padding:2.5rem 0.5rem !important }
+.wrap.con_Account .content .txt_area .Certification input:focus { border:0; background-color:transparent; border-bottom:1px solid #fff; }
 .wrap.con_Account .content .txt_area .timer { position:absolute; top:1.5rem; right:0; width:5rem; height:3rem; font-size:1.7rem; color:#F23B4A; }
 .wrap.con_Account .content .txt_area input:focus { border:2px solid #1e3e6e; border:1px solid #F23B4A; background:#fff; }
 .wrap.con_Account .content .txt_area .link { font-family: "SofiaPro-Light"; font-size:1.7rem; color:#AAAAAA; text-align:center; }
-.wrap.con_Account .content .txt_area .btn_area { margin:5rem 0 4rem }
-.wrap.con_Account .content .txt_area .btn_area .btn_sky { line-height:6.5rem; height:6.5rem; background:rgba(204,204,204,.9); font-size:2.5rem; border-radius:0.5rem; }
-.wrap.con_Account .content .txt_area .btn_area .btn_sky.active { height:6.5rem; background:#00CCFF; font-size:2.5rem; border-radius:0.5rem; }
+.wrap.con_Account .content .txt_area .btn_area { margin:5rem 0 2rem }
+.wrap.con_Account .content .txt_area .btn_area .btn_sky { height:5.5rem; line-height:5.5rem; background:#999; letter-spacing:0.2rem; font-size:2rem !important; border-radius:0.5rem; }
+.wrap.con_Account .content .txt_area .btn_area .btn_sky.active { height:5.5rem; background:#02339b; font-size:2.5rem; border-radius:0.5rem; }
 
 /* 내용 영역 스크롤바 css */
 .wrap.con_Account .content .txt_area { scrollbar-color:#2864a3 #01182e;scrollbar-width:thin }
@@ -1133,7 +1162,7 @@ table.tbl_basic td strong { font-size:1.5rem; display:block; margin:0 0 1rem }
 #signature_popup .container .txt label { font-size:1.5rem; font-family: "SofiaPro-Light"; }
 #signature_popup .container .txt .sign_toggle { font-weight:bold; text-align:left; width:100%; padding:1rem 0; margin:1rem 0; border-bottom:1px solid #ddd; background:url('../images/iskra/ico_toggle_off.png') 100% 50% no-repeat; }
 #signature_popup .container .txt .sign_toggle.active { background:url('../images/iskra/ico_toggle_on.png') 100% 50% no-repeat; }
-#signature_popup .container .txt .sign_area { height:20rem; border-radius:1rem; border:2px solid #ddd; display:flex; align-items:center; justify-content:center; }
+#signature_popup .container .txt .sign_area { height:15rem; border-radius:1rem; border:2px solid #ddd; display:flex; align-items:center; justify-content:center; }
 #signature_popup .container .txt input { width:100%; margin:1rem 0 0; }
 
 

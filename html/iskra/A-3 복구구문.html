@@ -29,70 +29,9 @@
 <body>
 
 	<!-- wrap(s) -->
-	<div class="wrap Wallet">
-		<!-- header(s) -->
-		<header id="header">
-			<div class="inner">
-				<h1 class="logo"><a href="../about/about.html"><span class="sr-only">ISKRA</span></a></h1>
-				<!-- 로그인 전
-				<nav id="gnb">
-					<button type="button" class="btn gnb-close"><i class="ic ic-gnb-close"></i></button>
-					<ul class="gnb-depth1">
-						<li><a href="../about/about.html"><span>ABOUT</span></a></li>
-						<li><a href="../nft/nft.html"><span>PLONEER NFT</span></a></li>
-						<li><a href="../token/token.html"><span>ISK TOKEN</span></a></li>
-					</ul>
-				</nav>
-				<div class="member">
-					<a href="">LOG IN</a>
-					<a href="" class="signup">Sign Up</a>
-				</div>
-				<button type="button" class="btn gnb-open"><i class="ic ic-gnb-open"></i></button>
-				-->
-				<!-- 로그인 후 -->
-				<nav id="gnb">
-					<button type="button" class="btn gnb-close"><i class="ic ic-gnb-close"></i></button>
-					<ul class="gnb-depth1">
-						<li><a href="../about/about.html"><span>ABOUT</span></a></li>
-						<li><a href="../nft/nft.html"><span>PLONEER NFT</span></a></li>
-						<li><a href="../token/token.html"><span>ISK TOKEN</span></a></li>
-						<li><a href="#"><span>WALLET</span></a></li>
-						<li><a href="#"><span>SETTING</span></a></li>
-					</ul>
-				</nav>
-				<div class="member">
-					<button type="button" class="member_toggle">{Display Name}</button>
-					<div class="member_layer">
-						<ul>
-							<li>{1,992} CP</li>
-							<li><a href="">Account</a></li>
-							<li><a href="">Sign out</a></li>
-						</ul>
-					</div>
-				</div>
-				<button type="button" class="btn gnb-open"><i class="ic ic-gnb-open"></i></button>
-			</div>
-		</header>
-		<div class="mask"></div>
-		<!-- //header(e) -->
+	<div class="wrap Wallet nohd">
 		<!-- container(s) -->
 		<main id="container2">
-			<div class="lnb">
-				<ul>
-					<li class="active"><a href="">WALLET</a></li>
-					<li><a href="">REWARDS</a></li>
-					<li><a href="">PIONEER NFT</a></li>
-					<li>
-						<button type="button" class="btn_lnb_toggle">SETTING</button>
-						<div class="sub">
-							<a href="">Account</a>
-							<a href="">Wallet</a>
-							<a href="">Security</a>
-							<a href="">Referral</a>
-						</div>
-					</li>
-				</ul>
-			</div>
 			<div class="container">
 				<div class="step">
 					<ul>
@@ -101,27 +40,27 @@
 					</ul>
 				</div>
 				<div class="contents">
-					<h2>Secret Recovery phrase</h2>
+					<h2>Recovery phrase</h2>
 					<p class="Description">
-						Secret Recovery Phrase 는 지갑과 자금의 마스터 키로 12개의 단어로 구성됩니다.<br />
-						Secret Recovery Phrase 를 이용하면 Wallet password 를 몰라도 Wallet 을 쉽게 백업하고 복구할 수 있습니다.<br />
+						As the master key of your wallet and funds, the Recovery Phrase consist of 12 words.<br />
+						Using the Recovery Phrase allow you to easily back up and restore your wallet without knowing the wallet password.<br /><br />
 						<span class="msg">
-							백업 구문은 절대로 공개하지 마세요.이 구문이 있는 사람은 당신의 Wallet 자산을 영원히 소유할 수 있습니다.
-						</span>
+							Never disclose your backup phrases. Anyone with these phrases can own your wallet assets forever.
+						</span><br />
 						<span class="gray">
-							메모지에 이 구문을 적어 안전한 곳에 보관하세요.<br />
-							보안을 강화하고 싶다면 이 비밀 백업 구문을 적어 암호화된 외장 하드 드라이브나 저장 매체에 안전하게 보관하세요.
+							Write these phrases down on a note and secure it in a safe place.<br />
+							For enhanced security, write down these backup phrases and store it safely on an encrypted external hard drive or storage.
 						</span>
 					</p>
-					<form name="" action="./A-3 복구구문2.html" method="post">
-						<div class="box section save">
+					<form name="" action="./A-3 복구구문2.html" method="post" class="form_style">
+						<div class="box section ready">
 							<div class="mask">
 								<div class="ico">
-									<img src="../../assets/images/iskra/ico_lock.png" width="30" height="38" />
+									<img src="../../assets/images/iskra/ico_lock.png" width="70" height="70" />
 								</div>
 								Click here to reveal secret recovery phrases
 							</div>
-							<div class="drag_area save">
+							<div class="drag_area">
 								<div>one1</div>
 								<div>one2</div>
 								<div>one3</div>
@@ -137,20 +76,13 @@
 							</div>
 						</div>
 						<div class="btn_area flex_center">
-							<button type="submit" class="btn01 change active"> Next</button>
+							<button type="submit" class="btn01 start active">Next</button>
 						</div>
 					</form>
 				</div>
 			</div>
 		</main>
 		<!-- //container(e) -->
-		<!-- footer(s) -->
-		<footer id="footer">
-			<div class="responsive">
-				<p class="copyright">© 2022. ISKRA (BVI) Corp. All rights reserved</p>
-			</div>
-		</footer>
-		<!-- //footer(e) -->
 	</div>
 	<!-- wrap(e) -->
 

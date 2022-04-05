@@ -90,20 +90,24 @@
 				<div class="contents">
 					<h2>Email Verification</h2>
 					<p class="Description">
-						Please enter the 6-digit verification code that was sent to {email@iskra.world}.
+						Please enter the 6-digit verification code that was sent to {email@iskra.world}.<br />
 						The code is valid for 5 minutes.
 					</p>
-					<form name="" action="" method="post">
+					<form name="" action="" method="post" class="form_style" style="margin:0;border:0">
 						<div class="box none">
-							<div class="txt code Certification">
+							<div class="Certification">
 								<input type="text" name="pw" value="123456" size="6" maxlength="6">
+								<div class="timer">05:00</div>
 							</div>
 						</div>
-						<!-- 코드 불일치 --><span class="msg">Verification Code 가 일치하지 않습니다. 다시 확인해주세요.</span>
-						<!-- 유효시간초과 --><span class="msg">Verification Code 의 유효시간이 초과되었습니다. Resend 를 통해 다시 인증해주세요.</span>
+						<div class="txt_left margin30">
+							<a href="" class="link_none">Don’t receive the code? <span>Resend</span></a>
+						</div>
+						<!-- 코드 불일치 --><span class="msg">The verification code does not match.</span>
+						<!-- 유효시간초과 --><span class="msg">The verification code has expired.</span>
 						<div class="btn_area flex_center">
 							<a href="javascript:history.back();" class="btn02">Cancel</a>
-							<button type="submit" class="btn01 active">Confirm</button><!-- 버튼 활성화(클래스 : active) & 비활성화 -->
+							<button type="submit" class="btn01 active">Verify</button><!-- 버튼 활성화(클래스 : active) & 비활성화 -->
 						</div>
 					</form>
 				</div>
