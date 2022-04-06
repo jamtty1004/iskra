@@ -2,6 +2,16 @@ $(function(){
 	iskInit();
 	iskGnb();
 
+	// 송금 셀렉트 부분
+	$('#coin').on("click" , function(){
+		$(this).next().show();
+	});
+	$('.select_coin li').on("click" , function(){
+		var txt = $(this).text();
+		$('#coin').val(txt);
+		$('.select_coin').hide();
+	});
+	
 	// 최종 팝업
 	$('.popup_close').on("click" , function(){
 		$(this).parent().parent().hide();

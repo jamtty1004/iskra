@@ -94,10 +94,13 @@
 					<form name="" action="./C-3. KLAY Send 완료.html" method="post" class="form_style">
 						<div class="col">
 							<label for="">Select Coin</label>
-							<select name="" class="select_style">
-								<option value="">KLAY</option>
-								<option value="">ISK</option>
-							</select>
+							<div class="select_wrap">
+								<input type="text" name="" value="" id="coin" class="frm_input" readonly>
+								<ul class="select_coin" style="display:none">
+									<li>KLAY</li>
+									<li>ISK</li>
+								</ul>
+							</div>
 						</div>
 						<div class="col">
 							<label for="">Network</label>
@@ -151,17 +154,43 @@
 	</div>
 	<!-- wrap(e) -->
 
-<!-- 출금 주소 오류 팝업
-<div id="alert_popup_outaddr">
-	<div class="container">
-		<button type="button" class="popup_close"></button>
-		<h3>출금 주소 오류</h3>
-		<p>잘못된 출금 주소입니다.<br />주소의 형식을 확인해주세요.</p>
-		<div class="btn_area flex_right">
-			<a href="#" class="btn01 active">OK</a>
+<!-- 사전 안내 팝업 -->
+<div id="alert_popup_info">
+	<div class="basic_popup">
+		<div class="container">
+			<button type="button" class="popup_close"></button>
+			<h3>Referral Program</h3>
+			<p>
+				You need some preliminary steps to purchase Pioneer NFT..
+			</p>
+			<ul class="flex_inline">
+				<li>
+					<span>1. Sign In</span>
+					<a href="" class="ico_link">Guide</a>
+				</li>
+				<li>
+					<span>1. Veryfy Email</span>
+					<a href="" class="ico_link">Guide</a>
+				</li>
+				<li>
+					<span>1. Create Iskra Wallet</span>
+					<a href="" class="ico_link">Guide</a>
+				</li>
+				<li>
+					<span>1. Register OTP</span>
+					<a href="" class="ico_link">Guide</a>
+				</li>
+			</ul>
+			<p>
+				Upon completing all four steps, click your friend's referral link again to purchase the Pioneer NFT. <strong>Rewards will be given only for the purchases made through a referral link.</strong><br /><br />
+				<a href="" class="ico_link">Referral Program Guide</a>
+			</p>
+			<div class="btn_area flex_right margin10">
+				<a href="#" class="btn01 active">OK</a>
+			</div>
 		</div>
 	</div>
-</div>-->
+</div>
 
 
 <script src="../../assets/js/particle.js"></script>

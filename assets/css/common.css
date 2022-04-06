@@ -17,7 +17,7 @@
 
 /* 초기화 */
 html,body{overflow-x:hidden;}
-html { /*-webkit-overflow-scrolling:touch; -webkit-touch-callout:none;-webkit-user-select:none;-webkit-tap-highlight-color:rgba(0,0,0,0);*/ font-size:10px; }
+html { -webkit-overflow-scrolling:touch; -webkit-touch-callout:none;-webkit-user-select:none;-webkit-tap-highlight-color:rgba(0,0,0,0); font-size:10px; }
 body { word-break:keep-all; min-width:32rem; margin:0;padding:0;font-family:"SofiaPro-Medium", sans-serif; font-size:1.2rem; background:#181a2c; -webkit-text-size-adjust:none;-moz-text-size-adjust:none;-ms-text-size-adjust:none;scrollbar-color:#2864a3 #01182e;scrollbar-width:thin}
 body::-webkit-scrollbar{width:1rem}
 body::-webkit-scrollbar-track{background:#01182e}
@@ -729,6 +729,15 @@ table.tbl_basic td strong { font-size:1.5rem; display:block; margin:0 0 1rem }
 .wrap.Wallet.nohd .container .contents .select_area { display:flex; flex-wrap:wrap; justify-content:space-between; }
 .wrap.Wallet.nohd .container .contents .select_area div { border-radius:0.5rem; font-family: "SofiaPro-Light"; color:#fff; font-size:2rem; cursor:pointer; background:rgba(255,255,255,.05); width:20rem; height:6rem; line-height:6rem;  text-align:center; margin:2rem 0 0}
 .wrap.Wallet.nohd .container .contents .select_area div.active { background:#00CCFF; color:#fff }
+.wrap.Wallet.nohd .container .contents .select_wrap { position:relative; }
+.wrap.Wallet.nohd .container .contents ul.select_coin { position:absolute; width:100%; top:5.1rem; left:0; background:#fff; border-radius:0 0 1rem 1rem; z-index:999 }
+.wrap.Wallet.nohd .container .contents ul.select_coin li { cursor:pointer; line-height:5rem; border-bottom:1px solid #ddd; font-size:1.7rem; }
+.wrap.Wallet.nohd .container .contents ul.select_coin li:nth-child(1) { background:url('../images/iskra/ico_klay.png') 1rem 50% no-repeat; padding-left:4rem; }
+.wrap.Wallet.nohd .container .contents ul.select_coin li:nth-child(2) { background:url('../images/iskra/ico_isk.png') 1rem 50% no-repeat; padding-left:4rem; }
+.wrap.Wallet.nohd .container .contents ul.select_coin li:nth-child(1):hover { background-color:#eee }
+.wrap.Wallet.nohd .container .contents ul.select_coin li:nth-child(2):hover { background-color:#eee }
+.wrap.Wallet.nohd .container .contents ul.select_coin li:last-child { border:0 }
+
 
 /* A. Create Wallet - A-6. OTP 등록 */
 .wrap.Wallet.nohd .container .contents .qr { margin:2rem auto; text-align:Center; width:15rem; height:15rem; border-radius:1rem; overflow:hidden }
@@ -1144,11 +1153,15 @@ table.tbl_basic td strong { font-size:1.5rem; display:block; margin:0 0 1rem }
 
 /* 팝업 공통 스타일 */
 .basic_popup { position:fixed; top:0; left:0; width:100%; height:100%; z-index:99999999; background:rgba(255,255,255,.8); display:flex; align-items:center; justify-content:center; }
-.basic_popup .container { position:relative; min-width:30rem; min-height:10rem; padding:2rem; background:#fff; border:2px solid #ccc; border-radius:1rem; }
+.basic_popup .container { position:relative; width:45rem; min-height:10rem; padding:2rem; background:#fff; border:2px solid #ccc; border-radius:1rem; }
 .basic_popup .container button.popup_close { position:absolute; top:2rem; right:2rem; width:2rem; height:2rem; background:url('../images/iskra/ico_popup_close.png') 50% 50% no-repeat; }
 .basic_popup .container button.btn02 { color:#333 }
 .basic_popup .container h3 { font-size:1.8rem;  }
 .basic_popup .container p { margin:2rem 0 }
+.basic_popup .container ul.flex_inline { width:25rem }
+.basic_popup .container ul.flex_inline li { display:flex; algin-items:center }
+.basic_popup .container ul.flex_inline li span { margin-right:auto }
+.basic_popup .container a.ico_link { text-decoration:underline; margin-left:auto; padding-right:2rem; background:url('../images/iskra/ico_link_black.png') 100% 50% no-repeat; }
 
 /* 서명 팝업 */
 #signature_popup { position:fixed; top:0; left:0; width:100%; height:100%; z-index:99999999; display:flex; align-items:center; justify-content:flex-end; }
@@ -1168,6 +1181,14 @@ table.tbl_basic td strong { font-size:1.5rem; display:block; margin:0 0 1rem }
 #signature_popup .container .txt .sign_area { height:15rem; border-radius:1rem; border:2px solid #ddd; display:flex; align-items:center; justify-content:center; }
 #signature_popup .container .txt input { width:100%; margin:1rem 0 0; }
 
+
+/* 로딩 팝업 */
+#alert_popup_loading { display:none; position:fixed; top:0; left:0; width:100%; height:100%; z-index:99999999; background:rgba(0,0,0,.2); backdrop-filter: blur(10px); display:flex; align-items:center; justify-content:center; }
+#alert_popup_loading .container { position:relative; width:47rem; height:35.5rem; padding:2rem; background:#1d1f36; border-radius:2rem; }
+#alert_popup_loading .container { display:flex; align-items:center; justify-content:center; flex-direction: column; }
+#alert_popup_loading .container h3 { font-size:2.3rem; text-align:center; color:#fff;  }
+#alert_popup_loading .container p { margin:2rem 0; font-size:1.5rem; text-align:center; color:#fff;  }
+#alert_popup_loading .container .loading { margin:0 0 2rem; }
 
 
 /******************************************* 이전 팝업 스타일 사용 안 함 *******************************************/
@@ -1213,14 +1234,6 @@ table.tbl_basic td strong { font-size:1.5rem; display:block; margin:0 0 1rem }
 #alert_popup_pay .container button.popup_close { position:absolute; top:2rem; right:2rem; width:2rem; height:2rem; background:url('../images/iskra/ico_popup_close.png') 50% 50% no-repeat; }
 #alert_popup_pay .container h3 { font-size:1.8rem;  }
 #alert_popup_pay .container p { margin:2rem 0 }
-
-/* 로딩 팝업 */
-#alert_popup_loading { display:none; position:fixed; top:0; left:0; width:100%; height:100%; z-index:99999999; background:rgba(0,0,0,.2); backdrop-filter: blur(10px); display:flex; align-items:center; justify-content:center; }
-#alert_popup_loading .container { position:relative; width:47rem; height:35.5rem; padding:2rem; background:#1d1f36; border-radius:2rem; }
-#alert_popup_loading .container { display:flex; align-items:center; justify-content:center; flex-direction: column; }
-#alert_popup_loading .container h3 { font-size:2.3rem; text-align:center; color:#fff;  }
-#alert_popup_loading .container p { margin:2rem 0; font-size:1.5rem; text-align:center; color:#fff;  }
-#alert_popup_loading .container .loading { margin:0 0 2rem; }
 
 
 
