@@ -731,9 +731,9 @@ table.tbl_basic td strong { font-size:1.5rem; display:block; margin:0 0 1rem }
 .wrap.Wallet.nohd .container .contents .select_area div.active { background:#00CCFF; color:#fff }
 .wrap.Wallet.nohd .container .contents .select_wrap { position:relative; }
 .wrap.Wallet.nohd .container .contents ul.select_coin { position:absolute; width:100%; top:5.1rem; left:0; background:#fff; border-radius:0 0 1rem 1rem; z-index:999 }
-.wrap.Wallet.nohd .container .contents ul.select_coin li { cursor:pointer; line-height:5rem; border-bottom:1px solid #ddd; font-size:1.7rem; }
-.wrap.Wallet.nohd .container .contents ul.select_coin li:nth-child(1) { background:url('../images/iskra/ico_klay.png') 1rem 50% no-repeat; padding-left:4rem; }
-.wrap.Wallet.nohd .container .contents ul.select_coin li:nth-child(2) { background:url('../images/iskra/ico_isk.png') 1rem 50% no-repeat; padding-left:4rem; }
+.wrap.Wallet.nohd .container .contents ul.select_coin li { cursor:pointer; line-height:5rem; border-bottom:1px solid #ddd; font-size:1.7rem; padding:0 1rem }
+.wrap.Wallet.nohd .container .contents .coin { cursor:pointer; position:relative; padding:0 1rem !important; background:#fff url('../images/iskra/ico_toggle_on.png') 98% center no-repeat }
+.wrap.Wallet.nohd .container .contents .coin.active { background:#fff url('../images/iskra/ico_toggle_off.png') 98% center no-repeat }
 .wrap.Wallet.nohd .container .contents ul.select_coin li:nth-child(1):hover { background-color:#eee }
 .wrap.Wallet.nohd .container .contents ul.select_coin li:nth-child(2):hover { background-color:#eee }
 .wrap.Wallet.nohd .container .contents ul.select_coin li:last-child { border:0 }
@@ -759,7 +759,7 @@ table.tbl_basic td strong { font-size:1.5rem; display:block; margin:0 0 1rem }
 .wrap.Wallet .container .contents .info_wide div p { font-size:1.3rem; font-family: "SofiaPro-Light";  color:#fff; opacity:0.8; position:relative }
 .wrap.Wallet .container .contents .info_wide div p:nth-child(1) { font-size:1.7rem; font-family: "SofiaPro-Light"; }
 .wrap.Wallet .container .contents .info_wide div p:nth-child(2) { margin-left:auto; text-align:right }
-.wrap.Wallet .container .contents .info_wide div:last-child { border-top:2px solid #2e3040; padding:2rem 0 0  }
+.wrap.Wallet .container .contents .info_wide div:last-child { border:0 !important; }
 .wrap.Wallet .container .contents .info_wide div strong { font-size:2rem; font-family: "SofiaPro-Light"; }
 .wrap.Wallet .container .contents .info_wide .row { display:flex; align-items:center; }
 .wrap.Wallet .container .contents .info_wide .row span { padding:0 2rem; }
