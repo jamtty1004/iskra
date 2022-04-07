@@ -962,9 +962,9 @@ table.tbl_basic td strong { font-size:1.5rem; display:block; margin:0 0 1rem }
 .wrap.setting .container .contents .link { text-align:center; color:#ccc }
 .wrap.setting .container .contents .link_none { font-family: "SofiaPro-Light"; font-weight:normal; text-align:center; color:#fff; font-size:1.6rem; }
 .wrap.setting .container .contents .link_none span { color:#fff; text-decoration:underline }
-.wrap.setting .container .contents .Certification { position:relative }
-.wrap.setting .container .contents .Certification input { padding:1rem 0; color:#fff; background-color:transparent; border:0; border-bottom:1px solid #5c5d6b; font-size:3rem; letter-spacing:2rem; border-radius:0; padding:2.5rem 0.5rem !important }
-.wrap.setting .container .contents .Certification input:focus { border:0; background-color:transparent; border-bottom:1px solid #fff; }
+.wrap.setting .container .contents .Certification { position:relative; display:flex }
+.wrap.setting .container .contents .Certification input { width:5rem; text-align:center; margin-right:1rem; padding:1rem 0; color:#fff; background-color:transparent; border:0; border-bottom:2px solid #5c5d6b; font-size:3rem; border-radius:0; }
+.wrap.setting .container .contents .Certification input:focus { border:0; background-color:transparent; border-bottom:2px solid #fff; }
 .wrap.setting .container .contents .timer { position:absolute; top:1.5rem; right:0; width:5rem; height:3rem; font-size:1.7rem; color:#F23B4A; }
 
 .wrap.setting .container .contents .box { margin:4rem 0 0; }

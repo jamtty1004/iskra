@@ -93,10 +93,15 @@
 						Please enter the 6-digit verification code that was sent to {email@iskra.world}.<br />
 						The code is valid for 5 minutes.
 					</p>
-					<form name="" action="" method="post" class="form_style" style="margin:0;border:0">
+					<form name="" action="" method="post" class="form_style" style="margin:0;border:0" autocomplete="off">
 						<div class="box none">
 							<div class="Certification">
-								<input type="text" name="pw" value="123456" size="6" maxlength="6">
+								<input type="text" name="pw" value="1" size="1" maxlength="1">
+								<input type="text" name="pw" value="2" size="1" maxlength="1">
+								<input type="text" name="pw" value="3" size="1" maxlength="1">
+								<input type="text" name="pw" value="4" size="1" maxlength="1">
+								<input type="text" name="pw" value="5" size="1" maxlength="1">
+								<input type="text" name="pw" value="6" size="1" maxlength="1">
 								<div class="timer">05:00</div>
 							</div>
 						</div>
@@ -105,7 +110,7 @@
 						</div>
 						<!-- 코드 불일치 --><span class="msg">The verification code does not match.</span>
 						<!-- 유효시간초과 --><span class="msg">The verification code has expired.</span>
-						<div class="btn_area flex_center">
+						<div class="btn_area flex_right">
 							<a href="javascript:history.back();" class="btn02">Cancel</a>
 							<button type="submit" class="btn01 active">Verify</button><!-- 버튼 활성화(클래스 : active) & 비활성화 -->
 						</div>
