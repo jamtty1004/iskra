@@ -390,7 +390,7 @@ table.tbl_basic td strong { font-size:1.5rem; display:block; margin:0 0 1rem }
 .link_white { text-decoration:underline; color:#fff }
 
 /* 폰트 사이즈 */
-.font_big { font-size:1.8rem; font-weight:bold }
+.font_big { font-size:1.8rem; font-weight:bold; color:#fff }
 
 
 
@@ -693,6 +693,7 @@ table.tbl_basic td strong { font-size:1.5rem; display:block; margin:0 0 1rem }
 .wrap.Wallet.nohd .container { width:85rem; margin:0 auto; }
 .wrap.Wallet.nohd .container .title_area { margin:0 0 2rem }
 .wrap.Wallet.nohd .container h1 { font-size:5rem; color:#fff; font-family:"SofiaPro-Black"; }
+.wrap.Wallet.nohd .container h1.font30  { font-size:3rem; color:#fff; font-family: "SofiaPro-Medium"; }
 .wrap.Wallet.nohd .container .step { text-align:center; width:38rem; position:relative; margin:0 auto 18rem; border-bottom:2px solid #4d4f5d;  }
 .wrap.Wallet.nohd .container .step ul { position:absolute; top:-5rem; left:0; width:100%; display:flex; align-items:center; justify-content:center; }
 .wrap.Wallet.nohd .container .step ul li { padding:9rem 1rem 0; font-size:1.3rem; color:#3c3d49; }
@@ -707,8 +708,9 @@ table.tbl_basic td strong { font-size:1.5rem; display:block; margin:0 0 1rem }
 .wrap.Wallet.nohd .container .contents {  }
 .wrap.Wallet.nohd .container .contents .form_style { margin:0; border:0 }
 .wrap.Wallet.nohd .container .contents h2 { color:#fff; font-size:4rem; font-family:"SofiaPro-Black"; margin:0 0 2rem }
-.wrap.Wallet.nohd .container .contents h3 { color:#fff; font-size:2rem; font-weight:normal; margin:0 0 1rem; }
+.wrap.Wallet.nohd .container .contents h3 { color:#fff; font-size:3rem; font-weight:normal; margin:0 0 1rem; }
 .wrap.Wallet.nohd .container .contents h3.light { font-family: "SofiaPro-Light"; }
+.wrap.Wallet.nohd .container .contents h4 { color:#fff; font-size:2rem; }
 .wrap.Wallet.nohd .container .contents p.Description { color:#fff;  font-family: "SofiaPro-Light"; font-size:1.7rem; opacity:1; }
 .wrap.Wallet.nohd .container .contents p { font-size:1.7rem; color:#fff; font-family: "SofiaPro-Light"; }
 .wrap.Wallet.nohd .container .contents .box { margin:6rem auto 0; width:50rem; height:52rem; padding:3.5rem; background:#1d1f36; border-radius:2rem; overflow:hidden }
@@ -767,19 +769,21 @@ table.tbl_basic td strong { font-size:1.5rem; display:block; margin:0 0 1rem }
 .wrap.Wallet .container .contents .info_box { margin:0 0 6rem; font-size:1.5rem; font-family: "SofiaPro-Light"; color:#fff;  }
 .wrap.Wallet .container .contents .info_box.line { border-top:2px solid rgba(255,255,255,.2); margin:0 0 2.5rem; padding:0 0 0.5rem }
 .wrap.Wallet .container .contents .info_wide { flex:1;  }
-.wrap.Wallet .container .contents .info_wide div { margin:2rem 0; text-align:left; }
+.wrap.Wallet .container .contents .info_wide div { margin:2rem 0; display:flex; align-items:center; text-align:left; }
 .wrap.Wallet .container .contents .info_wide div.addr { font-size:1.7rem; color:#fff; }
 .wrap.Wallet .container .contents .info_wide div p { font-size:1.3rem; font-family: "SofiaPro-Light";  color:#fff; opacity:1; position:relative }
 .wrap.Wallet .container .contents .info_wide div p:nth-child(1) { font-size:1.7rem; font-family: "SofiaPro-Light"; }
 .wrap.Wallet .container .contents .info_wide div p:nth-child(2) { margin-left:auto; text-align:right }
 .wrap.Wallet .container .contents .info_wide div:last-child { border:0 !important; }
 .wrap.Wallet .container .contents .info_wide div strong { font-size:2rem; font-family: "SofiaPro-Light"; }
+.wrap.Wallet .container .contents .info_wide div span { opacity:0.8; }
 .wrap.Wallet .container .contents .info_wide .row { display:flex; align-items:center; }
-.wrap.Wallet .container .contents .info_wide .row span { padding:0 2rem; }
-.wrap.Wallet .container .contents .info_wide .row span:nth-child(1) { border-right:2px solid #2e3040; }
-.wrap.Wallet .container .contents .info_wide .row span:nth-child(2) { padding-right:0 }
+.wrap.Wallet .container .contents .info_wide .row label { padding:0 2rem; }
+.wrap.Wallet .container .contents .info_wide .row label:nth-child(1) { border-right:2px solid #2e3040; }
+.wrap.Wallet .container .contents .info_wide .row label:nth-child(2) { padding-right:0 }
 .wrap.Wallet .container .contents .info_wide .row div:nth-child(2) { margin-left:auto }
 .wrap.Wallet .container .contents .info_wide .row div button:nth-child(1) { margin:0 0 1rem }
+.wrap.Wallet .container .contents .info_wide .row div { display:flex; align-items:center; flex-direction: column; }
 
 .wrap.Wallet .container .contents .info_list { margin:3rem 0 0; display:flex; flex-wrap:wrap }
 .wrap.Wallet .container .contents .info_list div { width:49%; border-radius:2rem; background:#1e1f37; color:#fff; padding:2.5rem; margin-bottom:2rem; }
