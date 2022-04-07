@@ -302,6 +302,7 @@ select, textarea { border:1px solid #ccc; padding:0.5rem; }
 .txt_right { text-align:right; }
 .position_right { display:flex; justify-content:flex-end }
 
+.flex_col { display:flex; align-items:center; position:relative; }
 .flex_column { display:flex; align-items:center; flex-direction: column; }
 .flex_column div { width:24rem; display:flex; align-items:center; margin:0 0 1rem }
 .flex_column div strong { font-size:1.2rem; margin-right:auto; text-align:left; }
@@ -310,7 +311,6 @@ select, textarea { border:1px solid #ccc; padding:0.5rem; }
 .flex_left { justify-content:flex-start }
 .flex_center { justify-content:center }
 .flex_right { justify-content:flex-end }
-
 
 span.pc_br { display:block }
 
@@ -322,7 +322,6 @@ span.pc_br { display:block }
 /*.btn01:hover { background:#333; }*/
 .btn01.active { background:#00339b; }
 .btn01.start { width:30rem; height:5.5rem; line-height:5.5rem; border-radius:1rem }
-
 
 .btn02 { margin-right:0.5rem; font-size:1.8rem !important; display:block;  color:#fff; border:1px solid #ddd; width:17rem; height:4.4rem; line-height:4.4rem; border-radius:0.5rem; text-align:center; }
 .btn02.active { background:#00339b; }
@@ -341,7 +340,11 @@ span.pc_br { display:block }
 form .col { margin:0 0 1.2rem; position:relative; }
 form .col label { font-size:2rem; color:#fff; margin:0 0 0.5rem }
 form label { display:block; }
-form input { width:100%; padding:0 1rem; height:5rem; border:1px solid #ccc; background:#fff; border-radius:0.5rem; font-family: "SofiaPro-Light"; font-size:1.6rem;  }
+form input { width:100%; padding:0 2rem; height:5rem; border:1px solid #ccc; background:#fff; border-radius:0.5rem; font-family: "SofiaPro-Light"; font-size:1.6rem;  }
+form input.dark { padding:0 2rem; background:#2f3041; border:0; color:#fff }
+form input.dark:focus { color:#000 }
+form input.dark.readonly { background:#000 }
+form input.dark.readonly:focus { background:#000; border:0; color:#fff }
 form input:focus { border:1px solid #F23B4A; background:#fff; }
 .form_style input { transition:all 0.2s ease-out; border:1px solid #ccc; background:#fff; }
 .form_style input:focus { border:2px solid #1e3e6e; border:1px solid #F23B4A; background:#fff; }
@@ -378,7 +381,7 @@ table.tbl_basic td strong { font-size:1.5rem; display:block; margin:0 0 1rem }
 
 .red { color:red }
 .blue { color:#2269cf }
-.green { color:green }
+.green { color:#4ae34f }
 .gray { color:#ccc }
 
 .link { text-decoration:underline }
@@ -964,7 +967,6 @@ table.tbl_basic td strong { font-size:1.5rem; display:block; margin:0 0 1rem }
 .wrap.setting .container .contents .Certification input:focus { border:0; background-color:transparent; border-bottom:1px solid #fff; }
 .wrap.setting .container .contents .timer { position:absolute; top:1.5rem; right:0; width:5rem; height:3rem; font-size:1.7rem; color:#F23B4A; }
 
-
 .wrap.setting .container .contents .box { margin:4rem 0 0; }
 .wrap.setting .container .contents .box .img { border-bottom:1px solid #ddd; }
 .wrap.setting .container .contents .box .txt {  padding:3rem; }
@@ -1000,6 +1002,11 @@ table.tbl_basic td strong { font-size:1.5rem; display:block; margin:0 0 1rem }
 .wrap.setting .container .contents ul.work_list2 li { background:#1d1f36; padding:2rem; width:27rem; border-radius:2rem; display:flex; align-items:center; justify-content:center; flex-direction: column;  }
 .wrap.setting .container .contents ul.work_list2 li strong { color:#fff; text-align:center; font-size:1.8rem; }
 .wrap.setting .container .contents ul.work_list2 li p { color:#fff; text-align:center; font-size:1.4rem  }
+
+.wrap.setting .container .contents .flex_col div { flex:1; }
+.wrap.setting .container .contents .flex_col button { margin-left:1rem; width:12rem; height:5rem; border-radius:0.5rem; background:#00ccff; font-size:1.8rem; color:#fff;  }
+.wrap.setting .container .contents .flex_col span { position:absolute; top:1rem; right:2rem; font-size:1.8rem; }
+.wrap.setting .container .contents .flex_col .position { position:relative }
 
 
 .frm_modify { border:0; width:20rem; }
