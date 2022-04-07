@@ -369,6 +369,7 @@ table.tbl_basic td strong { font-size:1.5rem; display:block; margin:0 0 1rem }
 .margin10 { margin:1rem 0 0 !important }
 .margin30 { margin:3rem 0 0 !important }
 .margin100 { margin:10rem 0 0 !important }
+.margin-top50 { margin-top:5rem!important }
 
 .important { font-size:1.6rem; color:#fff; padding-left:2.5rem; background:url('../images/iskra/ico_important.png') 0 50% no-repeat; }
 .important a { color:#fff }
@@ -377,7 +378,7 @@ table.tbl_basic td strong { font-size:1.5rem; display:block; margin:0 0 1rem }
 
 .hover_area { position:relative;display:inline-block;}
 .ico_hover { margin-left:1rem; cursor:pointer; }
-.ico_hover_pop { display:none; text-align:left !important; font-size:1.3rem; color:#222; padding:1rem; position:absolute; top:4rem; left:80%; width:40rem; padding:1.5rem; border-radius:1rem; background:#fff; z-index:999 }
+.ico_hover_pop { display:none; text-align:left !important; font-size:1.3rem; color:#222; padding:1rem; position:absolute; top:4rem; left:80%; width:40rem; padding:1.5rem; border-radius:1rem; background:#fff; z-index:9999999 }
 
 .red { color:red }
 .blue { color:#2269cf }
@@ -678,6 +679,7 @@ table.tbl_basic td strong { font-size:1.5rem; display:block; margin:0 0 1rem }
 .lnb ul li.active button.btn_lnb_toggle { color:#00CCFF; opacity:1 }
 .lnb ul li .sub { display:none; margin:3rem 0 0 0 }
 .lnb ul li .sub a { font-size:1.7rem; color:#fff; text-transform:uppercase }
+.lnb ul li .sub a.active { color:#00CCFF; opacity:1 }
 .lnb ul li .sub a:nth-child(1) { background:url('../images/iskra/ico_list1.png') 0 50% no-repeat; display:block; margin:0 0 3rem; padding-left:4rem }
 .lnb ul li .sub a:nth-child(2) { background:url('../images/iskra/ico_list2.png') 0 50% no-repeat; display:block; margin:0 0 3rem; padding-left:4rem }
 .lnb ul li .sub a:nth-child(3) { background:url('../images/iskra/ico_list3.png') 0 50% no-repeat; display:block; margin:0 0 3rem; padding-left:4rem }
@@ -1186,8 +1188,14 @@ table.tbl_basic td strong { font-size:1.5rem; display:block; margin:0 0 1rem }
 #signature_popup .container .txt label { font-size:1.5rem; font-family: "SofiaPro-Light"; }
 #signature_popup .container .txt .sign_toggle { font-weight:bold; text-align:left; width:100%; padding:1rem 0; margin:1rem 0; border-bottom:1px solid #ddd; background:url('../images/iskra/ico_toggle_off.png') 100% 50% no-repeat; }
 #signature_popup .container .txt .sign_toggle.active { background:url('../images/iskra/ico_toggle_on.png') 100% 50% no-repeat; }
-#signature_popup .container .txt .sign_area { height:15rem; border-radius:1rem; border:2px solid #ddd; display:flex; align-items:center; justify-content:center; }
+#signature_popup .container .txt .sign_area { height:15rem; overflow-y:auto; border-radius:1rem; border:2px solid #ddd; display:flex; align-items:center; justify-content:center; }
 #signature_popup .container .txt input { width:100%; margin:1rem 0 0; }
+
+#signature_popup .container .txt .sign_area { scrollbar-color:#2864a3 #01182e;scrollbar-width:thin }
+#signature_popup .container .txt .sign_area::-webkit-scrollbar{width:1rem}
+#signature_popup .container .txt .sign_area::-webkit-scrollbar-track{background:#01182e}
+#signature_popup .container .txt .sign_area::-webkit-scrollbar-thumb{background:#2864a3;border-radius:100px}
+#signature_popup .container .txt .sign_area::-webkit-scrollbar-thumb:hover{background:#3f96d9; -webkit-text-size-adjust:none;}
 
 
 /* 로딩 팝업 */
