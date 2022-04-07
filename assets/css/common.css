@@ -323,7 +323,7 @@ span.pc_br { display:block }
 .btn01.active { background:#00339b; }
 .btn01.start { width:30rem; height:5.5rem; line-height:5.5rem; border-radius:1rem }
 
-.btn02 { margin-right:0.5rem; font-size:1.8rem !important; display:block;  color:#fff; border:1px solid #ddd; width:17rem; height:4.4rem; line-height:4.4rem; border-radius:0.5rem; text-align:center; }
+.btn02 { margin-right:1.5rem; font-size:1.8rem !important; display:block;  color:#fff; border:1px solid #ddd; width:17rem; height:4.4rem; line-height:4.4rem; border-radius:0.5rem; text-align:center; }
 .btn02.active { background:#00339b; }
 .btn02.popup_cancel { color:#333 }
 
@@ -350,7 +350,8 @@ form input:focus { border:1px solid #F23B4A; background:#fff; }
 .form_style input:focus { border:2px solid #1e3e6e; border:1px solid #F23B4A; background:#fff; }
 .full_input { width:100%; }
 
-.msg { background:url('../images/iskra/ico_msg.png') 0 0.2rem no-repeat;  padding-left:2.5rem; display:block; margin:1rem 0; font-size:1.4rem; color:#F23B4A }
+.msg { background:url('../images/iskra/ico_msg.png') 0 0.2rem no-repeat;  padding-left:2.5rem; display:inline-block; margin:1rem 0; font-size:1.4rem; color:#F23B4A }
+.msg2 { background:url('../images/iskra/ico_msg.png') 0 0.2rem no-repeat;  padding-left:2.5rem; display:inline-block; margin:1rem 0; font-family: "SofiaPro-Light"; font-size:1.7rem; color:#fff; font-weight:bold }
 
 .ul_list li { color:#fff; font-family: "SofiaPro-Light"; font-size:1.7rem; background:url('../images/iskra/ico_list.png') 0 1rem no-repeat; padding-left:1.5rem; }
 .ul_list li a { color:#fff; font-family: "SofiaPro-Light"; font-size:1.7rem; }
@@ -707,28 +708,31 @@ table.tbl_basic td strong { font-size:1.5rem; display:block; margin:0 0 1rem }
 .wrap.Wallet.nohd .container .contents .form_style { margin:0; border:0 }
 .wrap.Wallet.nohd .container .contents h2 { color:#fff; font-size:4rem; font-family:"SofiaPro-Black"; margin:0 0 2rem }
 .wrap.Wallet.nohd .container .contents h3 { color:#fff; font-size:2rem; font-weight:normal; margin:0 0 1rem; }
+.wrap.Wallet.nohd .container .contents h3.light { font-family: "SofiaPro-Light"; }
 .wrap.Wallet.nohd .container .contents p.Description { color:#fff;  font-family: "SofiaPro-Light"; font-size:1.7rem; opacity:1; }
 .wrap.Wallet.nohd .container .contents p { font-size:1.7rem; color:#fff; font-family: "SofiaPro-Light"; }
 .wrap.Wallet.nohd .container .contents .box { margin:6rem auto 0; width:50rem; height:52rem; padding:3.5rem; background:#1d1f36; border-radius:2rem; overflow:hidden }
 .wrap.Wallet.nohd .container .contents .box.none { width:auto; height:auto; padding:0; background:none; border-radius:0; }
 .wrap.Wallet.nohd .container .contents .box .img { height:34rem; overflow:hidden; border-radius:0 2rem 0 2rem; }
 .wrap.Wallet.nohd .container .contents .box .img img { width:100%;height:100%;-o-object-fit:cover;object-fit:cover } 
-.wrap.Wallet.nohd .container .contents .box .txt { }
 .wrap.Wallet.nohd .container .contents .box.line_none { border:0 !important }
 .wrap.Wallet.nohd .container .contents .box .txt.code { font-size:3rem; color:#fff; border:2px solid rgba(255,255,255,.2); padding:3rem; text-align:center; }
 .wrap.Wallet.nohd .container .contents .box .txt p { padding:3rem 0 0; font-family: "SofiaPro-Light"; color:#fff; font-size:1.7rem; opacity:1; }
 .wrap.Wallet.nohd .container .contents .box .frm_input { padding:1rem 0; color:#fff; background-color:transparent; border:0; border-bottom:1px solid #5c5d6b; border-radius:0; }
 .wrap.Wallet.nohd .container .contents .box .frm_input:focus { border:0; background-color:transparent; border-bottom:1px solid #fff; }
 .wrap.Wallet.nohd .container .contents .box .form_style { border:0 }
-.wrap.Wallet.nohd .container .contents .box.section { position:relative; widtH:100%; height:35rem; padding:2.3rem; background:rgba(0,0,0,0.2); border-radius:2rem }
+.wrap.Wallet.nohd .container .contents .box.section { position:relative; widtH:100%; height:30rem; padding:4rem 2.5rem; background:rgba(0,0,0,0.2); border-radius:2rem }
 .wrap.Wallet.nohd .container .contents .box.section.save { display:flex; align-items:center; justify-content:center; }
 .wrap.Wallet.nohd .container .contents .box.section.ready {  }
 .wrap.Wallet.nohd .container .contents .box.section .mask { font-size:1.6rem; cursor:pointer; position:absolute; top:0; left:0; width:100%; height:100%; background:#1d1f36 }
 .wrap.Wallet.nohd .container .contents .box.section .mask { display:flex; align-items:center; justify-content:center; flex-direction: column; color:#fff; }
 .wrap.Wallet.nohd .container .contents .box.section .mask .ico { margin:0 0 2rem }
+
+.wrap.Wallet.nohd .container .contents .txt_line { padding:3rem; border:1px solid #454755; }
+
 .wrap.Wallet.nohd .container .contents #drag_area div { cursor:move }
 .wrap.Wallet.nohd .container .contents .drag_area { display:flex; flex-wrap:wrap;  }
-.wrap.Wallet.nohd .container .contents .drag_area div { width:20rem; margin:3rem 0; height:4rem; line-height:4rem; text-align:center; font-size:2rem; color:#00CCFF }
+.wrap.Wallet.nohd .container .contents .drag_area div { position:relative; width:18rem; margin:0 2rem 2rem 0; height:6rem; line-height:6rem; border-radius:1rem; background:#4b6586; text-align:center; font-size:2rem; color:#fff }
 .wrap.Wallet.nohd .container .contents .drag_area.save { display:flex; align-items:center; justify-content:center; }
 .wrap.Wallet.nohd .container .contents .drag_area.save div { background:none; width:auto; height:auto; line-height:auto; border:0; text-align:center; margin:0 0.5rem; font-size:2rem; font-family: "SofiaPro-Light"; color:#fff; }
 .wrap.Wallet.nohd .container .contents .select_area { display:flex; flex-wrap:wrap; justify-content:space-between; }
@@ -752,8 +756,9 @@ table.tbl_basic td strong { font-size:1.5rem; display:block; margin:0 0 1rem }
 .wrap.Wallet.nohd .container .contents .box .txt ul li:last-child { margin:0 }
 .wrap.Wallet.nohd .container .contents .box .txt input { font-size:1.6rem; font-weight:bold }
 .wrap.Wallet.nohd .container .contents .box.small { margin:3rem 0 0 }
-.wrap.Wallet.nohd .container .contents .box .Certification input { font-size:3rem; letter-spacing:2rem; padding:1rem 0; color:#fff; background-color:transparent; border:0; padding:2.5rem 0.5rem !important; border-bottom:1px solid #5c5d6b; border-radius:0; }
-.wrap.Wallet.nohd .container .contents .box .Certification input:focus { border:0; background-color:transparent; border-bottom:1px solid #fff; padding:2.5rem 0.5rem !important }
+.wrap.Wallet.nohd .container .contents .box .Certification input { width:5rem; text-align:center; margin-right:1rem; padding:1rem 0; color:#fff; background-color:transparent; border:0; border-bottom:2px solid #5c5d6b; font-size:3rem; border-radius:0; }
+.wrap.Wallet.nohd .container .contents .box .Certification input:focus { border:0; background-color:transparent; border-bottom:2px solid #fff; }
+
 
 /* A. Create Wallet - B. Wallet 조회 및 입금 */
 .wrap.Wallet .container .contents button.ico_copy { margin-left:2rem; width:2rem; height:2rem; background:url('../images/iskra/ico_copy.png') 50% 50% no-repeat; }
