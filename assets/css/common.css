@@ -356,10 +356,10 @@ form input:focus { border:1px solid #F23B4A; background:#fff; }
 .ul_list li a { color:#fff; font-family: "SofiaPro-Light"; font-size:1.7rem; }
 
 table.tbl_basic { width:100%; }
-table.tbl_basic th { padding:0 2rem; height:6rem; background:#232536; font-size:1.7rem; color:#fff; }
+table.tbl_basic th { padding:2rem 0; height:6rem; background:#232536; font-size:1.7rem; color:#fff; }
 table.tbl_basic th:first-child { border-radius:1rem 0 0 1rem }
 table.tbl_basic th:last-child { border-radius:0 1rem 1rem 0 }
-table.tbl_basic td { padding:2rem;  border-bottom:2px solid #2e3040; font-size:1.5rem; color:#fff; }
+table.tbl_basic td { padding:2rem 0;  border-bottom:2px solid #2e3040; font-size:1.6rem; color:#fff; opacity:0.8 }
 table.tbl_basic td .thumbnail { display:inline-block; vertical-align:middle }
 table.tbl_basic td .txt { margin-left:1rem; display:inline-block; vertical-align:middle }
 table.tbl_basic td strong { font-size:1.5rem; display:block; margin:0 0 1rem }
@@ -943,18 +943,18 @@ table.tbl_basic td strong { font-size:1.5rem; display:block; margin:0 0 1rem }
 .wrap.setting .container h1 { font-size:5rem; color:#fff; font-family:"SofiaPro-Black"; }
 .wrap.setting .container span.payment { font-size:3rem; line-height:3rem; }
 .wrap.setting .container .contents h2 { font-size:3rem !important; color:#fff;  }
-.wrap.setting .container .contents h3 { font-size:2rem !important; color:#fff; margin:0 0 2rem }
+.wrap.setting .container .contents h3 { font-size:2rem !important; color:#fff; margin:0 0 1.5rem }
 .wrap.setting .container .contents h3.line_bottom { padding:0 0 1rem; border-bottom:2px solid #2e3040 }
 .wrap.setting .container .contents p.Description { color:#fff;  font-family: "SofiaPro-Light"; font-size:1.7rem; opacity:0.8; }
 .wrap.setting .container .btn_modify { margin-left:2rem; width:1.6rem; height:1.6rem; background:url('../images/iskra/ico_pencil_white.png') 50% 50% no-repeat; background-size:contain }
-.wrap.setting .container .btn_Verify { margin-left:2rem; color:#fff }
+.wrap.setting .container .btn_Verify { margin-left:2rem; font-size:1.7rem; color:#00ccff }
 .wrap.setting .container .line { border-top:2px solid #333 }
 .wrap.setting .container .line tr { background:none !important }
 .wrap.setting .container .line td { height:8rem }
 .wrap.setting .container .line .btn_submit { }
 .wrap.setting .container .contents .form_style { border-top:2px solid #333; margin:2rem 0 0; padding:2rem 0 }
 .wrap.setting .container .contents .form_style .col { }
-.wrap.setting .container .contents .form_style label { font-size:1.5rem; margin:0 0 1rem }
+.wrap.setting .container .contents .form_style label { margin:0 0 1rem }
 .wrap.setting .container .contents .form_style input { width:100% }
 .wrap.setting .container .contents .form_style .layer { position:absolute;bottom:1.4rem; right:1.5rem }
 .wrap.setting .container .contents .form_style select { }
