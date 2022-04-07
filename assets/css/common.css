@@ -749,7 +749,8 @@ table.tbl_basic td strong { font-size:1.5rem; display:block; margin:0 0 1rem }
 
 
 /* A. Create Wallet - A-6. OTP 등록 */
-.wrap.Wallet.nohd .container .contents .qr { margin:2rem auto; text-align:Center; width:15rem; height:15rem; border-radius:1rem; overflow:hidden }
+.wrap.Wallet.nohd .container .contents .qr { margin:2rem 0; text-align:Center; width:15rem; height:15rem; border-radius:1rem; overflow:hidden }
+.wrap.Wallet.nohd .container .contents .qr.left { text-align:left; }
 .wrap.Wallet.nohd .container .contents .qr img { width:100%;height:100%;-o-object-fit:cover;object-fit:cover;  }
 .wrap.Wallet.nohd .container .contents .box .txt ul { display:flex; align-items:center; }
 .wrap.Wallet.nohd .container .contents .box .txt ul li { margin-right:1.5rem; text-align:center; }
@@ -764,8 +765,10 @@ table.tbl_basic td strong { font-size:1.5rem; display:block; margin:0 0 1rem }
 .wrap.Wallet .container .contents button.ico_copy { margin-left:2rem; width:2rem; height:2rem; background:url('../images/iskra/ico_copy.png') 50% 50% no-repeat; }
 .wrap.Wallet .container .contents h3.line { border-bottom:2px solid rgba(255,255,255,.2); margin:0 0 2.5rem; padding:0 0 0.5rem }
 .wrap.Wallet .container .contents .info_box { margin:0 0 6rem; font-size:1.5rem; font-family: "SofiaPro-Light"; color:#fff;  }
+.wrap.Wallet .container .contents .info_box.line { border-top:2px solid rgba(255,255,255,.2); margin:0 0 2.5rem; padding:0 0 0.5rem }
 .wrap.Wallet .container .contents .info_wide { flex:1;  }
-.wrap.Wallet .container .contents .info_wide div { margin:2rem 0; display:flex; align-items:center; }
+.wrap.Wallet .container .contents .info_wide div { margin:2rem 0; text-align:left; }
+.wrap.Wallet .container .contents .info_wide div.addr { font-size:1.7rem; color:#fff; }
 .wrap.Wallet .container .contents .info_wide div p { font-size:1.3rem; font-family: "SofiaPro-Light";  color:#fff; opacity:1; position:relative }
 .wrap.Wallet .container .contents .info_wide div p:nth-child(1) { font-size:1.7rem; font-family: "SofiaPro-Light"; }
 .wrap.Wallet .container .contents .info_wide div p:nth-child(2) { margin-left:auto; text-align:right }
@@ -775,11 +778,15 @@ table.tbl_basic td strong { font-size:1.5rem; display:block; margin:0 0 1rem }
 .wrap.Wallet .container .contents .info_wide .row span { padding:0 2rem; }
 .wrap.Wallet .container .contents .info_wide .row span:nth-child(1) { border-right:2px solid #2e3040; }
 .wrap.Wallet .container .contents .info_wide .row span:nth-child(2) { padding-right:0 }
+.wrap.Wallet .container .contents .info_wide .row div:nth-child(2) { margin-left:auto }
+.wrap.Wallet .container .contents .info_wide .row div button:nth-child(1) { margin:0 0 1rem }
+
 .wrap.Wallet .container .contents .info_list { margin:3rem 0 0; display:flex; flex-wrap:wrap }
 .wrap.Wallet .container .contents .info_list div { width:49%; border-radius:2rem; background:#1e1f37; color:#fff; padding:2.5rem; margin-bottom:2rem; }
 .wrap.Wallet .container .contents .info_list div:nth-child(2n) { margin-right:0; margin-left:auto; }
 .wrap.Wallet .container .contents .info_list div span { vertical-align:middle; font-size:2rem; margin-left:1rem }
-.wrap.Wallet .container .contents .info_list div .big { font-size:3rem }
+.wrap.Wallet .container .contents .info_list div .big { font-size:3rem; margin-right:1rem }
+.wrap.Wallet .container .contents .info_list div strong { font-size:2rem; }
 
 /* A. Create Wallet - C. KLAY 송금 & D. ISK 및 토큰 송금 */
 .wrap.Wallet .container .contents .form_style { border-top:2px solid #333; margin:2rem 0 0; padding:2rem 0 }
