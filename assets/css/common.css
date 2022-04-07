@@ -138,14 +138,14 @@ select, textarea { border:1px solid #ccc; padding:0.5rem; }
 .wrap.con_about .visual .txt-item { position:absolute; top:29rem; left:2rem; z-index:2;  }
 .wrap.con_about .visual .txt-item .slogan { }
 .wrap.con_about .visual .txt-item .slogan .tit-lg { font-family: "Qualy"; font-weight:normal; text-transform:uppercase; line-height:130%; display:block; font-size:6.5rem; color:#fff }
-.wrap.con_about .visual .txt-item .slogan2 { margin:3rem 0 0; font-size:3rem; color:#fff; font-family: "SofiaPro-Light"; opacity:0.8 }
+.wrap.con_about .visual .txt-item .slogan2 { margin:3rem 0 0; font-size:3rem; color:#fff; font-family: "SofiaPro-Light"; opacity:1 }
 .wrap.con_about .visual .img-item { position:absolute; top:0; right:0; z-index:1; }
 .wrap.con_about .content .row { position:relative; }
 .wrap.con_about .content .row.margin { margin-top:22rem; }
 .wrap.con_about .content .row.margin2 { margin-top:5rem; }
 .wrap.con_about .content .row.nomargin { margin-top:0; }
 .wrap.con_about .content .txt-item h2 { font-family: "Qualy";  font-weight:normal; text-transform:uppercase; font-size:5rem; color:#fff; line-height:130%; }
-.wrap.con_about .content .txt-item p {  font-size:2.4rem; margin:2rem 0 0; color:#fff; font-family: "SofiaPro-Light"; opacity:0.8 }
+.wrap.con_about .content .txt-item p {  font-size:2.4rem; margin:2rem 0 0; color:#fff; font-family: "SofiaPro-Light"; opacity:1 }
 .wrap.con_about .content .row.inline { height:77rem; display:flex; align-items:center; }
 .wrap.con_about .content .row.inline .txt-item { position:relative; z-index:2; margin-left:50%; width:100%; }
 .wrap.con_about .content .row.inline .img-item { position:absolute; z-index:1; top:0; left:0; }
@@ -159,14 +159,14 @@ select, textarea { border:1px solid #ccc; padding:0.5rem; }
 .wrap.con_nft .visual .txt-item { position:absolute; top:29rem; left:2rem; z-index:2;  }
 .wrap.con_nft .visual .txt-item .slogan { }
 .wrap.con_nft .visual .txt-item .slogan .tit-lg { font-family: "Qualy"; font-weight:normal; text-transform:uppercase; line-height:130%; display:block; font-size:5rem; color:#fff }
-.wrap.con_nft .visual .txt-item .slogan2 { margin:3rem 0 0; font-size:3rem; color:#fff; font-family: "SofiaPro-Light"; opacity:0.8 }
+.wrap.con_nft .visual .txt-item .slogan2 { margin:3rem 0 0; font-size:3rem; color:#fff; font-family: "SofiaPro-Light"; opacity:1 }
 .wrap.con_nft .visual .img-item { position:absolute; top:0; right:0; z-index:1; }
 .wrap.con_nft .content .row { position:relative; }
 .wrap.con_nft .content .row.margin { margin-top:22rem; }
 .wrap.con_nft .content .row.margin2 { margin-top:5rem; }
 .wrap.con_nft .content .row.nomargin { margin-top:0; }
 .wrap.con_nft .content .txt-item h2 { font-family: "Qualy"; font-weight:normal; text-transform:uppercase; font-size:5rem; color:#fff; line-height:130%; }
-.wrap.con_nft .content .txt-item p {  font-size:2.4rem; margin:2rem 0 0; color:#fff; font-family: "SofiaPro-Light"; opacity:0.8  }
+.wrap.con_nft .content .txt-item p {  font-size:2.4rem; margin:2rem 0 0; color:#fff; font-family: "SofiaPro-Light"; opacity:1  }
 .wrap.con_nft .content .row.inline { height:77rem; display:flex; align-items:center; }
 .wrap.con_nft .content .row.inline .txt-item { position:relative; z-index:2; margin-left:50%; width:100%; }
 .wrap.con_nft .content .row.inline .img-item { position:absolute; z-index:1; top:0; left:0; }
@@ -180,11 +180,11 @@ select, textarea { border:1px solid #ccc; padding:0.5rem; }
 .wrap.con_token .visual .txt-item { padding:29rem 0 0; }
 .wrap.con_token .visual .txt-item .slogan { }
 .wrap.con_token .visual .txt-item .slogan .tit-lg { font-family: "Qualy"; font-weight:normal; text-transform:uppercase; line-height:130%; display:block; font-size:5rem; color:#fff }
-.wrap.con_token .visual .txt-item .slogan2 { margin:3rem 0 0; font-size:3rem; color:#fff; font-family: "SofiaPro-Light"; opacity:0.8 }
+.wrap.con_token .visual .txt-item .slogan2 { margin:3rem 0 0; font-size:3rem; color:#fff; font-family: "SofiaPro-Light"; opacity:1 }
 .wrap.con_token .visual ul.list { margin:6rem 0 0; display:flex; justify-content:space-between; }
 .wrap.con_token .visual ul.list li { position:relative; font-size:2.5rem; line-height:130%; color:#fff; width:32%; height:90rem; border:1.2rem solid rgba(36,42,91,.3); padding:5.5rem; border-radius:0 3rem 0 3rem; }
 .wrap.con_token .visual ul.list li strong { display:block; margin:3rem 0 0; height:10rem; }
-.wrap.con_token .visual ul.list li p { font-family: "SofiaPro-Light"; opacity:0.8 }
+.wrap.con_token .visual ul.list li p { font-family: "SofiaPro-Light"; opacity:1 }
 .wrap.con_token .visual ul.list li:nth-child(1) .ico { width:6.4rem; height:9rem; background:url('../images/token/n_ico1.png') 0 50% no-repeat; background-size:contain }
 .wrap.con_token .visual ul.list li:nth-child(2) .ico { width:6.9rem; height:9rem; background:url('../images/token/n_ico2.png') 0 50% no-repeat; background-size:contain }
 .wrap.con_token .visual ul.list li:nth-child(3) .ico { width:8.5rem; height:9rem; background:url('../images/token/n_ico3.png') 0 50% no-repeat; background-size:contain }
@@ -194,7 +194,7 @@ select, textarea { border:1px solid #ccc; padding:0.5rem; }
 .wrap.con_token .content .row { position:relative; }
 .wrap.con_token .content .row.margin { margin-top:22rem; }
 .wrap.con_token .content .txt-item h2 { font-family: "Qualy"; font-weight:normal; text-transform:uppercase; font-size:5rem; color:#fff; line-height:130%; }
-.wrap.con_token .content .txt-item p {  font-size:2.4rem; margin:2rem 0 0; color:#fff; font-family: "SofiaPro-Light"; opacity:0.8  }
+.wrap.con_token .content .txt-item p {  font-size:2.4rem; margin:2rem 0 0; color:#fff; font-family: "SofiaPro-Light"; opacity:1  }
 
 .wrap.con_token .content ul.list2 { margin:9rem 0 0;  }
 .wrap.con_token .content ul.list2 li { display:flex; align-items:center; margin:0 0 13rem }
@@ -203,7 +203,7 @@ select, textarea { border:1px solid #ccc; padding:0.5rem; }
 .wrap.con_token .content ul.list2 li .ico { background:#000; width:37rem; height:31rem; border:1.2rem solid #252740; border-radius:0 5rem 0 5rem; box-shadow:3px 3px 6px 3px rgba(0,0,0,.3); position:relative; overflow:hidden }
 .wrap.con_token .content ul.list2 li .ico img { width:100%; height:100% }
 .wrap.con_token .content ul.list2 li .txt { flex:1; line-height:130%; margin-left:5.5rem; font-size:2.5rem; color:#fff;  }
-.wrap.con_token .content ul.list2 li .txt p { font-family: "SofiaPro-Light"; opacity:0.8 }
+.wrap.con_token .content ul.list2 li .txt p { font-family: "SofiaPro-Light"; opacity:1 }
 .wrap.con_token .content ul.list2 li .ico .bg { position:absolute; top:0; left:0; width:100%; height:100%;  }
 .wrap.con_token .content ul.list2 li .ico video { width:97%; height:97%; }
 
@@ -359,7 +359,7 @@ table.tbl_basic { width:100%; }
 table.tbl_basic th { padding:2rem 0; height:6rem; background:#232536; font-size:1.7rem; color:#fff; }
 table.tbl_basic th:first-child { border-radius:1rem 0 0 1rem }
 table.tbl_basic th:last-child { border-radius:0 1rem 1rem 0 }
-table.tbl_basic td { padding:2rem 0;  border-bottom:2px solid #2e3040; font-size:1.6rem; color:#fff; opacity:0.8 }
+table.tbl_basic td { padding:2rem 0;  border-bottom:2px solid #2e3040; font-size:1.6rem; color:#fff;  }
 table.tbl_basic td .thumbnail { display:inline-block; vertical-align:middle }
 table.tbl_basic td .txt { margin-left:1rem; display:inline-block; vertical-align:middle }
 table.tbl_basic td strong { font-size:1.5rem; display:block; margin:0 0 1rem }
@@ -705,7 +705,7 @@ table.tbl_basic td strong { font-size:1.5rem; display:block; margin:0 0 1rem }
 .wrap.Wallet.nohd .container .contents .form_style { margin:0; border:0 }
 .wrap.Wallet.nohd .container .contents h2 { color:#fff; font-size:4rem; font-family:"SofiaPro-Black"; margin:0 0 2rem }
 .wrap.Wallet.nohd .container .contents h3 { color:#fff; font-size:2rem; font-weight:normal; margin:0 0 1rem; }
-.wrap.Wallet.nohd .container .contents p.Description { color:#fff;  font-family: "SofiaPro-Light"; font-size:1.7rem; opacity:0.8; }
+.wrap.Wallet.nohd .container .contents p.Description { color:#fff;  font-family: "SofiaPro-Light"; font-size:1.7rem; opacity:1; }
 .wrap.Wallet.nohd .container .contents p { font-size:1.7rem; color:#fff; font-family: "SofiaPro-Light"; }
 .wrap.Wallet.nohd .container .contents .box { margin:6rem auto 0; width:50rem; height:52rem; padding:3.5rem; background:#1d1f36; border-radius:2rem; overflow:hidden }
 .wrap.Wallet.nohd .container .contents .box.none { width:auto; height:auto; padding:0; background:none; border-radius:0; }
@@ -714,7 +714,7 @@ table.tbl_basic td strong { font-size:1.5rem; display:block; margin:0 0 1rem }
 .wrap.Wallet.nohd .container .contents .box .txt { }
 .wrap.Wallet.nohd .container .contents .box.line_none { border:0 !important }
 .wrap.Wallet.nohd .container .contents .box .txt.code { font-size:3rem; color:#fff; border:2px solid rgba(255,255,255,.2); padding:3rem; text-align:center; }
-.wrap.Wallet.nohd .container .contents .box .txt p { padding:3rem 0 0; font-family: "SofiaPro-Light"; color:#fff; font-size:1.7rem; opacity:0.8; }
+.wrap.Wallet.nohd .container .contents .box .txt p { padding:3rem 0 0; font-family: "SofiaPro-Light"; color:#fff; font-size:1.7rem; opacity:1; }
 .wrap.Wallet.nohd .container .contents .box .frm_input { padding:1rem 0; color:#fff; background-color:transparent; border:0; border-bottom:1px solid #5c5d6b; border-radius:0; }
 .wrap.Wallet.nohd .container .contents .box .frm_input:focus { border:0; background-color:transparent; border-bottom:1px solid #fff; }
 .wrap.Wallet.nohd .container .contents .box .form_style { border:0 }
@@ -759,7 +759,7 @@ table.tbl_basic td strong { font-size:1.5rem; display:block; margin:0 0 1rem }
 .wrap.Wallet .container .contents .info_box { margin:0 0 6rem; font-size:1.5rem; font-family: "SofiaPro-Light"; color:#fff;  }
 .wrap.Wallet .container .contents .info_wide { flex:1;  }
 .wrap.Wallet .container .contents .info_wide div { margin:2rem 0; display:flex; align-items:center; }
-.wrap.Wallet .container .contents .info_wide div p { font-size:1.3rem; font-family: "SofiaPro-Light";  color:#fff; opacity:0.8; position:relative }
+.wrap.Wallet .container .contents .info_wide div p { font-size:1.3rem; font-family: "SofiaPro-Light";  color:#fff; opacity:1; position:relative }
 .wrap.Wallet .container .contents .info_wide div p:nth-child(1) { font-size:1.7rem; font-family: "SofiaPro-Light"; }
 .wrap.Wallet .container .contents .info_wide div p:nth-child(2) { margin-left:auto; text-align:right }
 .wrap.Wallet .container .contents .info_wide div:last-child { border:0 !important; }
@@ -798,14 +798,14 @@ table.tbl_basic td strong { font-size:1.5rem; display:block; margin:0 0 1rem }
 .wrap.Rewards .container .contents h2 { font-size:3rem !important; color:#fff;  }
 .wrap.Rewards .container .contents h3 { font-size:2rem !important; color:#fff; margin:0 0 2rem }
 .wrap.Rewards .container .contents h3.line_bottom { padding:0 0 1rem; border-bottom:2px solid #2e3040 }
-.wrap.Rewards .container .contents p.Description { color:#fff;  font-family: "SofiaPro-Light"; font-size:1.7rem; opacity:0.8; }
+.wrap.Rewards .container .contents p.Description { color:#fff;  font-family: "SofiaPro-Light"; font-size:1.7rem; opacity:1; }
 .wrap.Rewards .container .contents a.goback { margin-left:auto; width:3.5rem; height:3.5rem; background:url('../images/iskra/ico_back.png') 0 50% no-repeat; }
 .wrap.Rewards .container .contents ul.ntf_view { margin:5rem 0 0; display:flex; flex-wrap:wrap; justify-content:space-between; }
 .wrap.Rewards .container .contents ul.ntf_view li { position:relative; padding:1rem 0; display:flex;  }
 .wrap.Rewards .container .contents ul.ntf_view li .box { position:relative; width:41rem; height:51rem; padding:3rem; border-radius:2rem; background:#1d1f36;  }
 .wrap.Rewards .container .contents ul.ntf_view li .box .thumbnail { height:27rem; overflow:hidden; border-radius:0 2rem 0 2rem }
 .wrap.Rewards .container .contents ul.ntf_view li .box .thumbnail img { width:100%;height:100%;-o-object-fit:cover;object-fit:cover }
-.wrap.Rewards .container .contents ul.ntf_view li .box .txt_area { color:#fff;  font-family: "SofiaPro-Light"; font-size:1.5rem; opacity:0.8; padding:2.5rem 0 3rem;  text-align:center; }
+.wrap.Rewards .container .contents ul.ntf_view li .box .txt_area { color:#fff;  font-family: "SofiaPro-Light"; font-size:1.5rem; opacity:1; padding:2.5rem 0 3rem;  text-align:center; }
 .wrap.Rewards .container .contents ul.ntf_view li .box .txt_area.height { height:12rem }
 .wrap.Rewards .container .contents ul.ntf_view li .time { font-size:1.1rem; color:#333; position:absolute; top:-1rem; right:0; border-radius:0.5rem; border:1px solid #ddd; padding:0 1rem 0 2rem; line-height:1.6rem; height:2rem; }
 .wrap.Rewards .container .contents ul.ntf_view li .time { background:#fff url('../images/iskra/ico_time.png') 0.2rem 50% no-repeat; }
@@ -856,7 +856,7 @@ table.tbl_basic td strong { font-size:1.5rem; display:block; margin:0 0 1rem }
 .wrap.Rewards .container .contents .link { width:20rem; display:flex; align-items:center; justify-content:center; }
 .wrap.Rewards .container .contents .info_wide { flex:1; }
 .wrap.Rewards .container .contents .info_wide div { margin:2rem 0; display:flex; align-items:center; }
-.wrap.Rewards .container .contents .info_wide div p { color:#fff; opacity:0.8; position:relative }
+.wrap.Rewards .container .contents .info_wide div p { color:#fff; opacity:1; position:relative }
 .wrap.Rewards .container .contents .info_wide div p:nth-child(1) { font-size:1.7rem; font-family: "SofiaPro-Light"; }
 .wrap.Rewards .container .contents .info_wide div p:nth-child(2) { font-size:2rem; margin-left:auto; text-align:right }
 .wrap.Rewards .container .contents .info_wide div p:nth-child(2) span { font-size:1.4rem; font-family: "SofiaPro-Light"; }
@@ -868,7 +868,7 @@ table.tbl_basic td strong { font-size:1.5rem; display:block; margin:0 0 1rem }
 .wrap.Rewards .container .contents .info_wide_head div p:nth-child(1) { font-size:1.5rem; color:#fff; }
 .wrap.Rewards .container .contents .info_wide_head div p:nth-child(2) { margin-left:auto; text-align:right }
 .wrap.Rewards .container .contents .info_wide_head div p:nth-child(2) a { color:#fff }
-.wrap.Rewards .container .contents .Reward_none { font-size:1.4rem; color:#fff; opacity:0.8; margin:0 0 6rem }
+.wrap.Rewards .container .contents .Reward_none { font-size:1.4rem; color:#fff; opacity:1; margin:0 0 6rem }
 .wrap.Rewards .container .contents .Reward_none a { font-size:1.4rem; color:#fff; margin-left:2rem; padding-right:2rem; background:url('../images/iskra/ico_link.png') 100% 50% no-repeat; }
 
 
@@ -942,10 +942,10 @@ table.tbl_basic td strong { font-size:1.5rem; display:block; margin:0 0 1rem }
 .wrap.setting .container .title_area { margin:0 0 2rem }
 .wrap.setting .container h1 { font-size:5rem; color:#fff; font-family:"SofiaPro-Black"; }
 .wrap.setting .container span.payment { font-size:3rem; line-height:3rem; }
-.wrap.setting .container .contents h2 { font-size:3rem !important; color:#fff;  }
-.wrap.setting .container .contents h3 { font-size:2rem !important; color:#fff; margin:0 0 1.5rem }
+.wrap.setting .container .contents h2 { font-size:3rem !important; color:#fff; font-weight:normal }
+.wrap.setting .container .contents h3 { font-size:2rem !important; color:#fff; font-weight:normal; margin:0 0 1.5rem }
 .wrap.setting .container .contents h3.line_bottom { padding:0 0 1rem; border-bottom:2px solid #2e3040 }
-.wrap.setting .container .contents p.Description { color:#fff;  font-family: "SofiaPro-Light"; font-size:1.7rem; opacity:0.8; }
+.wrap.setting .container .contents p.Description { color:#fff;  font-family: "SofiaPro-Light"; font-size:1.7rem; opacity:1; }
 .wrap.setting .container .btn_modify { margin-left:2rem; width:1.6rem; height:1.6rem; background:url('../images/iskra/ico_pencil_white.png') 50% 50% no-repeat; background-size:contain }
 .wrap.setting .container .btn_Verify { margin-left:2rem; font-size:1.7rem; color:#00ccff }
 .wrap.setting .container .line { border-top:2px solid #333 }
@@ -970,22 +970,22 @@ table.tbl_basic td strong { font-size:1.5rem; display:block; margin:0 0 1rem }
 .wrap.setting .container .contents .box { margin:4rem 0 0; }
 .wrap.setting .container .contents .box .img { border-bottom:1px solid #ddd; }
 .wrap.setting .container .contents .box .txt {  padding:3rem; }
-.wrap.setting .container .contents .box.section { position:relative; widtH:100%; height:35rem; padding:2.3rem; background:rgba(0,0,0,0.2); border-radius:0.3rem }
+.wrap.setting .container .contents .box.section { position:relative; width:100%; height:30rem; padding:4rem 2.5rem; background:rgba(0,0,0,0.2); border-radius:0.3rem }
 .wrap.setting .container .contents .box.section .mask { cursor:pointer; position:absolute; top:0; left:0; width:100%; height:100%;  backdrop-filter: blur(5px); background:rgba(0,0,0,0.7); }
 .wrap.setting .container .contents .box.section .mask { display:flex; align-items:center; justify-content:center; flex-direction: column; color:#fff; }
 .wrap.setting .container .contents .box.section .mask .ico { margin:1rem 0 }
 .wrap.setting .container .contents .box.none { width:auto; height:auto; padding:0; background:none }
 .wrap.setting .container .contents .box .txt.Certification input { border:0; background-color:transparent; font-size:3rem; color:#fff; letter-spacing:2rem; font-weight:bold }
-.wrap.setting .container .contents .box .txt.code { font-size:3rem; color:#fff; border-bottom:2px solid rgba(255,255,255,.5); padding:0 0 1rem }
+.wrap.setting .container .contents .box .txt.code { font-size:3rem; text-align:center; color:#fff; border-bottom:2px solid rgba(255,255,255,.5); padding:0 0 1rem }
 
-.wrap.setting .container .contents .drag_area { display:flex; flex-wrap:wrap }
-.wrap.setting .container .contents .drag_area div { position:relative; width:19rem; margin:3rem 0; height:4rem; line-height:4rem; text-align:center; font-size:2rem; color:#00CCFF }
+.wrap.setting .container .contents .drag_area { display:flex; flex-wrap:wrap;  }
+.wrap.setting .container .contents .drag_area div { position:relative; width:18rem; margin:0 2rem 2rem 0; height:6rem; line-height:6rem; border-radius:1rem; background:#4b6586; text-align:center; font-size:2rem; color:#fff }
 .wrap.setting .container .contents .drag_area button { position:absolute; top:-0.8rem; right:-0.8rem; width:2rem; height:2rem; background:url('../images/iskra/btn_del.png') 50% 50% no-repeat; background-size:contain }
 .wrap.setting .container .contents .select_area { display:flex; flex-wrap:wrap; align-items:center; padding:2rem 0 1rem; }
 .wrap.setting .container .contents .select_area div { cursor:pointer; background:#fff; width:9.7rem; margin:0 0.5rem 1rem 0.5rem; height:4rem; line-height:4rem; border:1px solid #ddd; text-align:center }
 .wrap.setting .container .contents .select_area div.active { background:#19527a; color:#fff }
-.wrap.setting .container .contents .select_area input { flex:1; margin-right:2rem }
-.wrap.setting .container .contents .select_area button { margin-left:auto; background:#444; border-radius:0.5rem; width:9rem; height:4rem; color:#fff; }
+.wrap.setting .container .contents .select_area input { flex:1; }
+.wrap.setting .container .contents .select_area button { margin-left:1rem; background:#00ccff; border-radius:0.5rem; width:12rem; height:5rem; color:#fff; }
 .wrap.setting .container .contents .info_box { margin:2rem 0 4rem; font-size:1.5rem; font-family: "SofiaPro-Light"; color:#fff;  }
 .wrap.setting .container .contents .info_wide { flex:1;  }
 .wrap.setting .container .contents .info_wide div { margin:1rem 0; display:flex; align-items:center; }
@@ -1069,7 +1069,7 @@ table.tbl_basic td strong { font-size:1.5rem; display:block; margin:0 0 1rem }
 .wrap.open_nft .content .contents h1 { font-size:5rem; font-family:"SofiaPro-Black"; color:#fff; margin:0 0 2rem }
 .wrap.open_nft .content .contents p.main_txt  { font-size:1.8rem; line-height:3rem; font-family: "SofiaPro-Light"; color:rgba(255,255,255,.8) }
 .wrap.open_nft .content .contents p.main_txt strong { display:block; margin:5rem 0 0; font-size:2.5rem; color:rgba(255,255,255,1) }
-.wrap.open_nft .content .contents .title_area p.Description { font-size:1.7rem; font-family: "SofiaPro-Light"; opacity:0.8; color:#fff }
+.wrap.open_nft .content .contents .title_area p.Description { font-size:1.7rem; font-family: "SofiaPro-Light"; opacity:1; color:#fff }
 .wrap.open_nft .content .contents .flex_inline { display:flex; margin:8rem 0 0; }
 .wrap.open_nft .content .contents .flex_inline .step ul { width:23rem; }
 .wrap.open_nft .content .contents .flex_inline .step ul li { opacity:0.3; display:flex; align-items:center; position:relative; padding-left:11rem;  margin:0 0 3rem; height:8rem; }
@@ -1082,8 +1082,8 @@ table.tbl_basic td strong { font-size:1.5rem; display:block; margin:0 0 1rem }
 .wrap.open_nft .content .contents .flex_inline .step ul li:nth-child(4) { background:url('../images/iskra/ico_step_OTP4.png') 0 50% no-repeat; }
 
 .wrap.open_nft .content .contents .flex_inline .txt_area { width:755px; margin-left:auto; }
-.wrap.open_nft .content .contents .flex_inline .txt_area p.step { font-size:1.3rem; opacity:0.8; }
-.wrap.open_nft .content .contents .flex_inline .txt_area p { font-size:1.7rem; opacity:0.8; }
+.wrap.open_nft .content .contents .flex_inline .txt_area p.step { font-size:1.3rem; opacity:1; }
+.wrap.open_nft .content .contents .flex_inline .txt_area p { font-size:1.7rem; opacity:1; }
 .wrap.open_nft .content .contents .flex_inline .txt_area strong { display:block; font-size:3rem; margin:1rem 0 }
 .wrap.open_nft .content .contents .flex_inline .txt_area .Certification { margin:4rem 0 0; position:relative }
 .wrap.open_nft .content .contents .flex_inline .txt_area .Certification input { border:0; color:#fff;  background-color:transparent; font-size:3rem; letter-spacing:2rem; border-bottom:2px solid rgba(204,204,204,.8); border-radius:0; padding:2.5rem 0.5rem !important }
@@ -1094,7 +1094,7 @@ table.tbl_basic td strong { font-size:1.5rem; display:block; margin:0 0 1rem }
 .wrap.open_nft .content .contents .flex_inline .txt_area .chk_text .ico.isk span { width:6rem; height:6rem; padding-left:8rem; background:url('../images/iskra/ico_isk.png') 50% 50% no-repeat; background-size:contain; }
 .wrap.open_nft .content .contents .flex_inline .txt_area .chk_text .txt { width:50%; text-align:right; }
 .wrap.open_nft .content .contents .flex_inline .txt_area .chk_text .txt span { display:block }
-.wrap.open_nft .content .contents .flex_inline .txt_area .chk_text .txt span:nth-child(1) { font-size:1.8rem; opacity:0.8; }
+.wrap.open_nft .content .contents .flex_inline .txt_area .chk_text .txt span:nth-child(1) { font-size:1.8rem; opacity:1; }
 .wrap.open_nft .content .contents .flex_inline .txt_area .chk_text .txt span:nth-child(2) { font-size:2.4rem; }
 .wrap.open_nft .content .contents .flex_inline .txt_area .chk_text .txt span:nth-child(3) { font-size:1.3rem; opacity:0.5; }
 
@@ -1105,7 +1105,7 @@ table.tbl_basic td strong { font-size:1.5rem; display:block; margin:0 0 1rem }
 .wrap.open_nft .content .contents .flex_inline .txt_area .col .status { display:flex; align-items:center; margin:1.5rem 0; padding:1.5rem 0 0 }
 .wrap.open_nft .content .contents .flex_inline .txt_area .col .status div { display:flex; align-items:center; height:1.5rem; padding-right:2rem; margin-right:2rem }
 .wrap.open_nft .content .contents .flex_inline .txt_area .col .status div:nth-child(1) { border-right:2px solid rgba(255,255,255,.2); }
-.wrap.open_nft .content .contents .flex_inline .txt_area .col .status div span { font-size:1.5rem; opacity:0.8; padding:0; margin:0; }
+.wrap.open_nft .content .contents .flex_inline .txt_area .col .status div span { font-size:1.5rem; opacity:1; padding:0; margin:0; }
 .wrap.open_nft .content .contents .flex_inline .txt_area .col .status div strong { font-size:1.7rem; padding:0; margin:0 0 0 1rem; }
 
 .wrap.open_nft .content .contents .flex_inline .txt_area .col .con { padding:2rem 0 }
@@ -1120,16 +1120,16 @@ table.tbl_basic td strong { font-size:1.5rem; display:block; margin:0 0 1rem }
 
 .wrap.open_nft .content .contents .flex_inline .txt_area .col .con .ico_hover_pop { top:3.3rem; right:-2rem; font-size:1.3rem; opacity:1 !important; color:#000 }
 .wrap.open_nft .content .contents .flex_inline .txt_area .col .con .flex_row { margin:0 0 2rem; display:flex; align-items:center }
-.wrap.open_nft .content .contents .flex_inline .txt_area .col .con .flex_row label { font-size:1.7rem; color:#fff; opacity:0.8; }
+.wrap.open_nft .content .contents .flex_inline .txt_area .col .con .flex_row label { font-size:1.7rem; color:#fff; opacity:1; }
 .wrap.open_nft .content .contents .flex_inline .txt_area .col .con .flex_row div { margin-left:auto; text-align:right; }
-.wrap.open_nft .content .contents .flex_inline .txt_area .col .con .flex_row div strong { font-size:2rem; margin:0; opacity:0.8; }
+.wrap.open_nft .content .contents .flex_inline .txt_area .col .con .flex_row div strong { font-size:2rem; margin:0; opacity:1; }
 .wrap.open_nft .content .contents .flex_inline .txt_area .col .con .flex_row div span {  font-size:1.3rem; font-family: "SofiaPro-Light"; opacity:0.5; }
 .wrap.open_nft .content .contents .flex_inline .txt_area .col .con .flex_row.line_top { border-top:1px solid #555; padding:2rem 0 0; margin:2rem 0 0;  }
 .wrap.open_nft .content .contents .flex_inline .txt_area .col .con .flex_row:last-child div strong { opacity:1; }
 .wrap.open_nft .content .contents .flex_inline .txt_area .col .con .flex_row:last-child div span { opacity:1; }
 .wrap.open_nft .content .contents .flex_inline .txt_area .col .con .flex_row:last-child .highlight { font-size:2.5rem !important; opacity:1 !important;  }
 
-.wrap.open_nft .content .contents .flex_inline .txt_area .col .con .flex_row.none div strong { opacity:0.8; }
+.wrap.open_nft .content .contents .flex_inline .txt_area .col .con .flex_row.none div strong { opacity:1; }
 .wrap.open_nft .content .contents .flex_inline .txt_area .col .con .flex_row.none div span { opacity:0.5; }
 
 .wrap.open_nft .content .contents .flex_inline .txt_area .col .con .sm { display:flex; font-size:1.3rem }
@@ -1144,7 +1144,7 @@ table.tbl_basic td strong { font-size:1.5rem; display:block; margin:0 0 1rem }
 .wrap.open_nft .content .contents .flex_inline .txt_area .col .con ul.ntf_list li .box .thumbnail { margin:0 auto; height:14rem; }
 .wrap.open_nft .content .contents .flex_inline .txt_area .col .con ul.ntf_list li .box .thumbnail img {  width:100%;height:100%;-o-object-fit:cover;object-fit:cover  }
 .wrap.open_nft .content .contents .flex_inline .txt_area .col .con ul.ntf_list li .box .txt { padding:1rem; line-height:150%; font-size:1.2rem }
-.wrap.open_nft .content .contents .flex_inline .txt_area .col .con ul.ntf_list li .box .txt div:nth-child(1) { font-size:1.1rem; opacity:0.8; }
+.wrap.open_nft .content .contents .flex_inline .txt_area .col .con ul.ntf_list li .box .txt div:nth-child(1) { font-size:1.1rem; opacity:1; }
 .wrap.open_nft .content .contents .flex_inline .txt_area .col .con ul.ntf_list li .box .txt div:nth-child(2) { font-size:1.3rem; margin:0.5rem 0 }
 .wrap.open_nft .content .contents .flex_inline .txt_area .col .con ul.ntf_list li .box .txt div:nth-child(3) { font-size:1.3rem; }
 
@@ -1159,16 +1159,17 @@ table.tbl_basic td strong { font-size:1.5rem; display:block; margin:0 0 1rem }
 /******************************************* 팝업 *******************************************/
 
 /* 팝업 공통 스타일 */
-.basic_popup { position:fixed; top:0; left:0; width:100%; height:100%; z-index:99999999; background:rgba(255,255,255,.8); display:flex; align-items:center; justify-content:center; }
-.basic_popup .container { position:relative; width:45rem; min-height:10rem; padding:2rem; background:#fff; border:2px solid #ccc; border-radius:1rem; }
-.basic_popup .container button.popup_close { position:absolute; top:2rem; right:2rem; width:2rem; height:2rem; background:url('../images/iskra/ico_popup_close.png') 50% 50% no-repeat; }
+.basic_popup { position:fixed; top:0; left:0; width:100%; height:100%; z-index:99999999; background:rgba(0,0,0,.2); backdrop-filter: blur(10px); display:flex; align-items:center; justify-content:center; }
+.basic_popup .container { position:relative; width:50rem; min-height:20rem; padding:3rem; background:#fff; border-radius:2rem; }
+.basic_popup .container button.popup_close { position:absolute; top:3rem; right:3rem; width:2rem; height:2rem; background:url('../images/iskra/ico_popup_close.png') 50% 50% no-repeat; }
 .basic_popup .container button.btn02 { color:#333 }
-.basic_popup .container h3 { font-size:1.8rem;  }
-.basic_popup .container p { margin:2rem 0 }
+.basic_popup .container h3 { font-size:2.2rem;  }
+.basic_popup .container p { margin:2rem 0; font-size:1.6rem; }
 .basic_popup .container ul.flex_inline { width:25rem }
 .basic_popup .container ul.flex_inline li { display:flex; algin-items:center }
 .basic_popup .container ul.flex_inline li span { margin-right:auto }
 .basic_popup .container a.ico_link { text-decoration:underline; margin-left:auto; padding-right:2rem; background:url('../images/iskra/ico_link_black.png') 100% 50% no-repeat; }
+.basic_popup .container .btn01 { width:10rem; height:3.5rem; line-height:3.5rem; font-size:1.4rem !important; border-radius:0.3rem; background:#00ccff }
 
 /* 서명 팝업 */
 #signature_popup { position:fixed; top:0; left:0; width:100%; height:100%; z-index:99999999; display:flex; align-items:center; justify-content:flex-end; }
@@ -1213,13 +1214,6 @@ table.tbl_basic td strong { font-size:1.5rem; display:block; margin:0 0 1rem }
 #alert_popup_Session .container button.popup_close { position:absolute; top:2rem; right:2rem; width:2rem; height:2rem; background:url('../images/iskra/ico_popup_close.png') 50% 50% no-repeat; }
 #alert_popup_Session .container h3 { font-size:1.8rem;  }
 #alert_popup_Session .container p { margin:2rem 0 }
-
-/* Wallet Password 변경 완료 팝업 */
-#alert_popup_wall_passchange { display:none; position:fixed; top:0; left:0; width:100%; height:100%; z-index:99999999; background:rgba(255,255,255,.8); display:flex; align-items:center; justify-content:center; }
-#alert_popup_wall_passchange .container { position:relative; min-width:30rem; min-height:10rem; padding:2rem; background:#fff; border:2px solid #ccc; border-radius:1rem; }
-#alert_popup_wall_passchange .container button.popup_close { position:absolute; top:2rem; right:2rem; width:2rem; height:2rem; background:url('../images/iskra/ico_popup_close.png') 50% 50% no-repeat; }
-#alert_popup_wall_passchange .container h3 { font-size:1.8rem;  }
-#alert_popup_wall_passchange .container p { margin:2rem 0 }
 
 /* Password 변경 완료 팝업 */
 #alert_popup_passchange { display:none; position:fixed; top:0; left:0; width:100%; height:100%; z-index:99999999; background:rgba(255,255,255,.8); display:flex; align-items:center; justify-content:center; }
