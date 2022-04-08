@@ -56,6 +56,14 @@ select, textarea { border:1px solid #ccc; padding:0.5rem; }
 
 .sr-only{position:absolute;overflow:hidden;width:1px;height:1px;padding:0;margin:-1px;border:0;clip:rect(0, 0, 0, 0)}
 
+input::placeholder {font-family: "SofiaPro-Light";font-weight:normal;color:#000;}
+input::-webkit-input-placeholder {font-family: "SofiaPro-Light";font-weight:normal;color:#000;}
+input:-ms-input-placeholder {font-family: "SofiaPro-Light";font-weight:normal;color:#000;}
+textarea::placeholder {font-family: "SofiaPro-Light";font-weight:normal;color:#000;}
+textarea::-webkit-input-placeholder {font-family: "SofiaPro-Light";font-weight:normal;color:#00;}
+textarea:-ms-input-placeholder {font-family: "SofiaPro-Light";font-weight:normal;color:#000;}
+
+
 @media only screen and (max-width: 767px){
 	html{font-size:9px}
 }
@@ -342,16 +350,17 @@ form .col label { font-size:2rem; color:#fff; margin:0 0 0.5rem }
 form label { display:block; }
 form input { width:100%; padding:0 2rem; height:5rem; border:1px solid #ccc; background:#fff; border-radius:0.5rem; font-family: "SofiaPro-Light"; font-size:1.6rem;  }
 form input.dark { padding:0 2rem; background:#2f3041; border:0; color:#fff }
-form input.dark:focus { color:#000 }
-form input.dark.readonly { background:#000 }
-form input.dark.readonly:focus { background:#000; border:0; color:#fff }
+form input.dark:focus { background:#fff; color:#000 }
+form input.dark.readonly { background:#2f3041 }
+form input.dark.readonly:focus { background:#2f3041; border:0 !important; color:#fff }
 form input:focus { border:1px solid #F23B4A; background:#fff; }
 .form_style input { transition:all 0.2s ease-out; border:1px solid #ccc; background:#fff; }
 .form_style input:focus { border:2px solid #1e3e6e; border:1px solid #F23B4A; background:#fff; }
 .full_input { width:100%; }
+form input.password { width:30rem !important  }
 
-.msg { background:url('../images/iskra/ico_msg.png') 0 0.2rem no-repeat;  padding-left:2.5rem; display:inline-block; margin:1rem 0; font-size:1.4rem; color:#F23B4A }
-.msg2 { background:url('../images/iskra/ico_msg.png') 0 0.2rem no-repeat;  padding-left:2.5rem; display:inline-block; margin:1rem 0; font-family: "SofiaPro-Light"; font-size:1.7rem; color:#fff; font-weight:bold }
+.msg { background:url('../images/iskra/ico_msg.png') 0 0.2rem no-repeat;  padding-left:2.5rem; display:block; margin:1rem 0; font-size:1.4rem; color:#F23B4A }
+.msg2 { background:url('../images/iskra/ico_msg.png') 0 0.2rem no-repeat;  padding-left:2.5rem; display:block; margin:1rem 0; font-family: "SofiaPro-Light"; font-size:1.7rem; color:#fff; font-weight:bold }
 
 .ul_list li { color:#fff; font-family: "SofiaPro-Light"; font-size:1.7rem; background:url('../images/iskra/ico_list.png') 0 1rem no-repeat; padding-left:1.5rem; }
 .ul_list li a { color:#fff; font-family: "SofiaPro-Light"; font-size:1.7rem; }
@@ -722,8 +731,6 @@ table.tbl_basic td.payment { }
 .wrap.Wallet.nohd .container .contents .box.line_none { border:0 !important }
 .wrap.Wallet.nohd .container .contents .box .txt.code { font-size:3rem; color:#fff; border:2px solid rgba(255,255,255,.2); padding:3rem; text-align:center; }
 .wrap.Wallet.nohd .container .contents .box .txt p { padding:3rem 0 0; font-family: "SofiaPro-Light"; color:#fff; font-size:1.7rem; opacity:1; }
-.wrap.Wallet.nohd .container .contents .box .frm_input { padding:1rem 0; color:#fff; background-color:transparent; border:0; border-bottom:1px solid #5c5d6b; border-radius:0; }
-.wrap.Wallet.nohd .container .contents .box .frm_input:focus { border:0; background-color:transparent; border-bottom:1px solid #fff; }
 .wrap.Wallet.nohd .container .contents .box .form_style { border:0 }
 .wrap.Wallet.nohd .container .contents .box.section { position:relative; widtH:100%; height:30rem; padding:4rem 2.5rem; background:rgba(0,0,0,0.2); border-radius:2rem }
 .wrap.Wallet.nohd .container .contents .box.section.save { display:flex; align-items:center; justify-content:center; }
@@ -761,8 +768,10 @@ table.tbl_basic td.payment { }
 .wrap.Wallet.nohd .container .contents .box .txt ul li:last-child { margin:0 }
 .wrap.Wallet.nohd .container .contents .box .txt input { font-size:1.6rem; font-weight:bold }
 .wrap.Wallet.nohd .container .contents .box.small { margin:3rem 0 0 }
-.wrap.Wallet.nohd .container .contents .box .Certification input { width:5rem; text-align:center; margin-right:1rem; padding:1rem 0; color:#fff; background-color:transparent; border:0; border-bottom:2px solid #5c5d6b; font-size:3rem; border-radius:0; }
-.wrap.Wallet.nohd .container .contents .box .Certification input:focus { border:0; background-color:transparent; border-bottom:2px solid #fff; }
+.wrap.Wallet.nohd .container .contents .box.code { padding:2.2rem !important; background:#232536 !important; }
+.wrap.Wallet.nohd .container .contents .Certification { width:35rem; margin:0 auto; position:relative; display:flex; justify-content:center; }
+.wrap.Wallet.nohd .container .contents .Certification input { width:5rem; text-align:center; margin:0 1rem; padding:1rem 0; color:#fff; background-color:transparent; border:0; border-bottom:2px solid #5c5d6b; font-size:3rem; border-radius:0; }
+.wrap.Wallet.nohd .container .contents .Certification input:focus { border:0; background-color:transparent; border-bottom:2px solid #fff; }
 
 
 /* A. Create Wallet - B. Wallet 조회 및 입금 */
@@ -988,10 +997,12 @@ table.tbl_basic td.payment { }
 .wrap.setting .container .contents .link { text-align:center; color:#ccc }
 .wrap.setting .container .contents .link_none { font-family: "SofiaPro-Light"; font-weight:normal; text-align:center; color:#fff; font-size:1.6rem; }
 .wrap.setting .container .contents .link_none span { color:#fff; text-decoration:underline }
-.wrap.setting .container .contents .Certification { position:relative; display:flex }
-.wrap.setting .container .contents .Certification input { width:5rem; text-align:center; margin-right:1rem; padding:1rem 0; color:#fff; background-color:transparent; border:0; border-bottom:2px solid #5c5d6b; font-size:3rem; border-radius:0; }
+
+.wrap.setting .container .contents .box.code { padding:2.2rem !important; background:#232536 !important; }
+.wrap.setting .container .contents .Certification { width:35rem; margin:0 auto; position:relative; display:flex; justify-content:center; }
+.wrap.setting .container .contents .Certification input { width:5rem; text-align:center; margin:0 1rem; padding:1rem 0; color:#fff; background-color:transparent; border:0; border-bottom:2px solid #5c5d6b; font-size:3rem; border-radius:0; }
 .wrap.setting .container .contents .Certification input:focus { border:0; background-color:transparent; border-bottom:2px solid #fff; }
-.wrap.setting .container .contents .timer { position:absolute; top:1.5rem; right:0; width:5rem; height:3rem; font-size:1.7rem; color:#F23B4A; }
+.wrap.setting .container .contents .timer { position:absolute; top:1.5rem; right:-10rem; font-size:1.7rem; color:#fff; }
 
 .wrap.setting .container .contents .box { margin:4rem 0 0; }
 .wrap.setting .container .contents .box .img { border-bottom:1px solid #ddd; }
@@ -1030,7 +1041,7 @@ table.tbl_basic td.payment { }
 .wrap.setting .container .contents ul.work_list2 li p { color:#fff; text-align:center; font-size:1.4rem  }
 
 .wrap.setting .container .contents .flex_col div { flex:1; }
-.wrap.setting .container .contents .flex_col button { margin-left:1rem; width:12rem; height:5rem; border-radius:0.5rem; background:#00ccff; font-size:1.8rem; color:#fff;  }
+.wrap.setting .container .contents .flex_col button { margin-left:1rem; width:12rem; height:5rem; border-radius:0.5rem; background:#00339b; font-size:1.8rem; color:#fff;  }
 .wrap.setting .container .contents .flex_col span { position:absolute; top:1rem; right:2rem; font-size:1.8rem; }
 .wrap.setting .container .contents .flex_col .position { position:relative }
 
