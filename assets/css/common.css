@@ -56,13 +56,14 @@ select, textarea { border:1px solid #ccc; padding:0.5rem; }
 
 .sr-only{position:absolute;overflow:hidden;width:1px;height:1px;padding:0;margin:-1px;border:0;clip:rect(0, 0, 0, 0)}
 
+/*
 input::placeholder {font-family: "SofiaPro-Light";font-weight:normal;color:#000;}
 input::-webkit-input-placeholder {font-family: "SofiaPro-Light";font-weight:normal;color:#000;}
 input:-ms-input-placeholder {font-family: "SofiaPro-Light";font-weight:normal;color:#000;}
 textarea::placeholder {font-family: "SofiaPro-Light";font-weight:normal;color:#000;}
 textarea::-webkit-input-placeholder {font-family: "SofiaPro-Light";font-weight:normal;color:#00;}
 textarea:-ms-input-placeholder {font-family: "SofiaPro-Light";font-weight:normal;color:#000;}
-
+*/
 
 @media only screen and (max-width: 767px){
 	html{font-size:9px}
