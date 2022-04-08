@@ -1126,18 +1126,25 @@ table.tbl_basic td.payment { }
 .wrap.open_nft .content .contents .flex_inline .txt_area p.step { font-size:1.3rem; opacity:1; }
 .wrap.open_nft .content .contents .flex_inline .txt_area p { font-size:1.7rem; opacity:1; }
 .wrap.open_nft .content .contents .flex_inline .txt_area strong { display:block; font-size:3rem; margin:1rem 0 }
-.wrap.open_nft .content .contents .flex_inline .txt_area .Certification { margin:4rem 0 0; position:relative }
-.wrap.open_nft .content .contents .flex_inline .txt_area .Certification input { border:0; color:#fff;  background-color:transparent; font-size:3rem; letter-spacing:2rem; border-bottom:2px solid rgba(204,204,204,.8); border-radius:0; padding:2.5rem 0.5rem !important }
+
+
+.wrap.open_nft .content .contents .flex_inline .txt_area .box { margin:5rem 0 0; padding:2.2rem !important; background:#232536 !important; }
+.wrap.open_nft .content .contents .flex_inline .txt_area .Certification { width:100%; margin:0 auto; position:relative; display:flex; justify-content:center; }
+.wrap.open_nft .content .contents .flex_inline .txt_area .Certification input { width:4rem; text-align:center; margin:0 1rem; padding:1rem 0; color:#fff; background-color:transparent; border:0; border-bottom:2px solid #5c5d6b; font-size:3rem; border-radius:0; }
+.wrap.open_nft .content .contents .flex_inline .txt_area .Certification input:focus { border:0; background-color:transparent; border-bottom:2px solid #fff; }
+.wrap.open_nft .content .contents .flex_inline .txt_area .timer { text-align:right; margin:1rem 0 0; font-size:1.7rem; color:#fff; }
+
+
 
 .wrap.open_nft .content .contents .flex_inline .txt_area .chk_text { margin-bottom:5rem; }
 .wrap.open_nft .content .contents .flex_inline .txt_area .chk_text .ico { width:50%; font-size:2rem }
 .wrap.open_nft .content .contents .flex_inline .txt_area .chk_text .ico.klay span { width:6rem; height:6rem; padding-left:8rem; background:url('../images/iskra/ico_klay.png') 50% 50% no-repeat; background-size:contain; }
 .wrap.open_nft .content .contents .flex_inline .txt_area .chk_text .ico.isk span { width:6rem; height:6rem; padding-left:8rem; background:url('../images/iskra/ico_isk.png') 50% 50% no-repeat; background-size:contain; }
 .wrap.open_nft .content .contents .flex_inline .txt_area .chk_text .txt { width:50%; text-align:right; }
-.wrap.open_nft .content .contents .flex_inline .txt_area .chk_text .txt span { display:block }
+.wrap.open_nft .content .contents .flex_inline .txt_area .chk_text .txt span {  display:block }
 .wrap.open_nft .content .contents .flex_inline .txt_area .chk_text .txt span:nth-child(1) { font-size:1.8rem; opacity:1; }
 .wrap.open_nft .content .contents .flex_inline .txt_area .chk_text .txt span:nth-child(2) { font-size:2.4rem; }
-.wrap.open_nft .content .contents .flex_inline .txt_area .chk_text .txt span:nth-child(3) { font-size:1.3rem; opacity:0.5; }
+.wrap.open_nft .content .contents .flex_inline .txt_area .chk_text .txt span:nth-child(3) { font-size:1.3rem; opacity:1; }
 
 .wrap.open_nft .content .contents .flex_inline .txt_area .s_tit { margin:6.5rem 0 0; font-size:2rem; font-weight:bold; }
 .wrap.open_nft .content .contents .flex_inline .txt_area .line { border-bottom:2px solid rgba(255,255,255,.2); padding:0 0 1rem;  }
@@ -1164,14 +1171,14 @@ table.tbl_basic td.payment { }
 .wrap.open_nft .content .contents .flex_inline .txt_area .col .con .flex_row label { font-size:1.7rem; color:#fff; opacity:1; }
 .wrap.open_nft .content .contents .flex_inline .txt_area .col .con .flex_row div { margin-left:auto; text-align:right; }
 .wrap.open_nft .content .contents .flex_inline .txt_area .col .con .flex_row div strong { font-size:2rem; margin:0; opacity:1; }
-.wrap.open_nft .content .contents .flex_inline .txt_area .col .con .flex_row div span {  font-size:1.3rem; font-family: "SofiaPro-Light"; opacity:0.5; }
+.wrap.open_nft .content .contents .flex_inline .txt_area .col .con .flex_row div span {  font-size:1.3rem; font-family: "SofiaPro-Light"; opacity:1; }
 .wrap.open_nft .content .contents .flex_inline .txt_area .col .con .flex_row.line_top { border-top:1px solid #555; padding:2rem 0 0; margin:2rem 0 0;  }
 .wrap.open_nft .content .contents .flex_inline .txt_area .col .con .flex_row:last-child div strong { opacity:1; }
 .wrap.open_nft .content .contents .flex_inline .txt_area .col .con .flex_row:last-child div span { opacity:1; }
 .wrap.open_nft .content .contents .flex_inline .txt_area .col .con .flex_row:last-child .highlight { font-size:2.5rem !important; opacity:1 !important;  }
 
 .wrap.open_nft .content .contents .flex_inline .txt_area .col .con .flex_row.none div strong { opacity:1; }
-.wrap.open_nft .content .contents .flex_inline .txt_area .col .con .flex_row.none div span { opacity:0.5; }
+.wrap.open_nft .content .contents .flex_inline .txt_area .col .con .flex_row.none div span { opacity:1; }
 
 .wrap.open_nft .content .contents .flex_inline .txt_area .col .con .sm { display:flex; font-size:1.3rem }
 .wrap.open_nft .content .contents .flex_inline .txt_area .col .con .sm a { margin-left:auto }
@@ -1210,6 +1217,7 @@ table.tbl_basic td.payment { }
 .basic_popup .container ul.flex_inline li { display:flex; algin-items:center }
 .basic_popup .container ul.flex_inline li span { margin-right:auto }
 .basic_popup .container a.ico_link { text-decoration:underline; margin-left:auto; padding-right:2rem; background:url('../images/iskra/ico_link_black.png') 100% 50% no-repeat; }
+.basic_popup .container .btn02 { width:10rem; height:3.5rem; line-height:3.5rem; font-size:1.4rem !important; border-radius:0.3rem; }
 .basic_popup .container .btn01 { width:10rem; height:3.5rem; line-height:3.5rem; font-size:1.4rem !important; border-radius:0.3rem; background:#00ccff }
 
 /* 서명 팝업 */
