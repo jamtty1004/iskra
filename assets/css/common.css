@@ -361,7 +361,7 @@ table.tbl_basic th { padding:2rem 0; height:6rem; background:#232536; font-size:
 table.tbl_basic th:first-child { border-radius:1rem 0 0 1rem }
 table.tbl_basic th:last-child { border-radius:0 1rem 1rem 0 }
 table.tbl_basic td { padding:2rem 0;  border-bottom:2px solid #2e3040; font-size:1.6rem; color:#fff;  }
-table.tbl_basic td .thumbnail { display:inline-block; vertical-align:middle }
+table.tbl_basic td .thumbnail { display:inline-block; vertical-align:middle; padding-left:1rem; }
 table.tbl_basic td .txt { margin-left:1rem; display:inline-block; vertical-align:middle }
 table.tbl_basic td strong { font-size:1.5rem; display:block; margin:0 0 1rem }
 table.tbl_basic td .sm { font-size:1.3rem; }
@@ -412,7 +412,7 @@ table.tbl_basic td.payment { }
 
 /* 페이징 오리지날 */
 .paging_original { font-size:1.3rem; margin:5rem auto; height:3.5rem; text-align:center; display:flex; align-items:center; justify-content:center }
-.paging_original div { height:100%; display:flex; align-items:center; justify-content:center }
+.paging_original div { height:100%; display:flex; align-items:center; justify-content:center;  }
 .paging_original a, .paging_original span { display:flex; align-items:center; justify-content:center; width:3.5rem; height:3.5rem; }
 .paging_original a.pg_prev { background:#f9f9f9; transition:all 0.2s ease-out; border:1px solid #bbb; border-radius:5px 0 0 5px; }
 .paging_original a.pg_prev:before { color:#a2a2a2; content:"◀" }
@@ -420,7 +420,7 @@ table.tbl_basic td.payment { }
 .paging_original a.pg_next:before { color:#a2a2a2; content:"▶" }
 .paging_original a.pg_prev:hover,
 .paging_original a.pg_next:hover { background:#eee }
-.paging_original .now_status { width:4rem; height:3.5rem; border:1px solid #bbb; border-left:0; text-align:center;  }
+.paging_original .now_status { margin-left:0.2rem; width:4rem; padding:0 !important; border-radius:0 !important; height:3.5rem; background:#ddd; border:1px solid #bbb; border-left:0; text-align:center; color:#222 !important;  }
 .paging_original .now_num { font-size:1.6rem; font-weight:bold; background:#ff0000; color:#fff; text-align:center; }
 .paging_original .margin { margin:0 1rem; color:#fff }
 
@@ -920,7 +920,7 @@ table.tbl_basic td.payment { }
 .wrap.Pioneer .container .contents ul.ntf_list li .box .txt_area span.name { display:block; font-size:1.7rem; }
 .wrap.Pioneer .container .contents ul.ntf_list li .box .txt_area div:nth-child(1) { margin-right:auto }
 .wrap.Pioneer .container .contents ul.ntf_list li .box .txt_area div:nth-child(2) { margin-left:auto }
-.wrap.Pioneer .container .contents ul.ntf_list li .box .get { z-index:2; text-align:left; position:absolute; top:1.5rem; right:1.5rem; width:14rem; height:7rem; border-radius:1rem; }
+.wrap.Pioneer .container .contents ul.ntf_list li .box .get { z-index:2; text-align:left; position:absolute; top:2rem; right:2rem; width:14rem; height:7rem; border-radius:1rem; }
 .wrap.Pioneer .container .contents ul.ntf_list li .box .get { box-shadow:1px 1px 8px 4px rgba(0,0,0,.2); color:#fff; font-size:1.2rem; padding-left:7rem; background:#16182a url('../images/iskra/ico_getrewards.png') 1rem 50% no-repeat; }
 .wrap.Pioneer .container .contents ul.ntf_list li .hover_mask { padding:2rem; display:flex; align-items:center; justify-content:center; flex-direction: column; color:#fff; width:100%; height:100%; position:absolute; top:0; left:0; background:rgba(0,0,0,.8); z-index:1; }
 .wrap.Pioneer .container .contents ul.ntf_list li .hover_mask div { width:100%; display:flex; align-items:center; margin:0 0 1rem }
@@ -939,6 +939,8 @@ table.tbl_basic td.payment { }
 .wrap.Pioneer .container .contents ul.ntf_view li .box .txt_area span.name { display:block; font-size:1.7rem; }
 .wrap.Pioneer .container .contents ul.ntf_view li .box .txt_area div:nth-child(1) { margin-right:auto }
 .wrap.Pioneer .container .contents ul.ntf_view li .box .txt_area div:nth-child(2) { margin-left:auto }
+.wrap.Pioneer .container .contents ul.ntf_view li .box .get { z-index:2; text-align:left; position:absolute; top:2rem; right:2rem; width:14rem; height:7rem; border-radius:1rem; }
+.wrap.Pioneer .container .contents ul.ntf_view li .box .get { box-shadow:1px 1px 8px 4px rgba(0,0,0,.2); color:#fff; font-size:1.2rem; padding-left:7rem; background:#16182a url('../images/iskra/ico_getrewards.png') 1rem 50% no-repeat; }
 .wrap.Pioneer .container .contents ul.ntf_view li .info { width:40rem; margin:0 0 0 2rem; color:#fff }
 .wrap.Pioneer .container .contents ul.ntf_view li .info h4 { font-size:2.8rem }
 .wrap.Pioneer .container .contents ul.ntf_view li .info p.sub { font-size:1.6rem; margin:1rem 0 2rem }
