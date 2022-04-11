@@ -377,6 +377,7 @@ table.tbl_basic td strong { font-size:1.5rem; display:block; margin:0 0 1rem }
 table.tbl_basic td .sm { font-size:1.3rem; }
 table.tbl_basic td.payment { }
 
+.height260 td { height:260px }
 
 .nomargin { margin:0 !important }
 .margin10 { margin:1rem 0 0 !important }
@@ -403,7 +404,10 @@ table.tbl_basic td.payment { }
 
 /* 폰트 사이즈 */
 .font_big { font-size:1.8rem; font-weight:bold; color:#fff }
+h1.font30  { font-size:3rem !important; color:#fff !important; font-family: "SofiaPro-Medium" !important; }
 
+
+button.ico_copy { margin-left:2rem; width:3.2rem; height:3.2rem; background:url('../images/iskra/ico_copy.png') 50% 50% no-repeat; }
 
 
 /* 페이징 */
@@ -705,7 +709,6 @@ table.tbl_basic td.payment { }
 .wrap.Wallet.nohd .container { width:85rem; margin:0 auto; }
 .wrap.Wallet.nohd .container .title_area { margin:0 0 2rem }
 .wrap.Wallet.nohd .container h1 { font-size:5rem; color:#fff; font-family:"SofiaPro-Black"; }
-.wrap.Wallet.nohd .container h1.font30  { font-size:3rem; color:#fff; font-family: "SofiaPro-Medium"; }
 .wrap.Wallet.nohd .container .step { text-align:center; width:38rem; position:relative; margin:0 auto 18rem; border-bottom:2px solid #4d4f5d;  }
 .wrap.Wallet.nohd .container .step ul { position:absolute; top:-5rem; left:0; width:100%; display:flex; align-items:center; justify-content:center; }
 .wrap.Wallet.nohd .container .step ul li { padding:9rem 1rem 0; font-size:1.3rem; color:#3c3d49; }
@@ -776,7 +779,6 @@ table.tbl_basic td.payment { }
 
 
 /* A. Create Wallet - B. Wallet 조회 및 입금 */
-.wrap.Wallet .container .contents button.ico_copy { margin-left:2rem; width:2rem; height:2rem; background:url('../images/iskra/ico_copy.png') 50% 50% no-repeat; }
 .wrap.Wallet .container .contents h3.line { border-bottom:2px solid rgba(255,255,255,.2); margin:0 0 2.5rem; padding:0 0 0.5rem }
 .wrap.Wallet .container .contents .info_box { margin:0 0 6rem; font-size:1.5rem; font-family: "SofiaPro-Light"; color:#fff;  }
 .wrap.Wallet .container .contents .info_box.line { border-top:2px solid rgba(255,255,255,.2); margin:0 0 2.5rem; padding:0 0 0.5rem }
@@ -788,7 +790,7 @@ table.tbl_basic td.payment { }
 .wrap.Wallet .container .contents .info_wide div p:nth-child(2) { margin-left:auto; text-align:right }
 .wrap.Wallet .container .contents .info_wide div:last-child { border:0 !important; }
 .wrap.Wallet .container .contents .info_wide div strong { font-size:2rem; font-family: "SofiaPro-Light"; }
-.wrap.Wallet .container .contents .info_wide div span { opacity:0.8; }
+.wrap.Wallet .container .contents .info_wide div span { opacity:1; }
 .wrap.Wallet .container .contents .info_wide .row { display:flex; align-items:center; }
 .wrap.Wallet .container .contents .info_wide .row label { padding:0 2rem; }
 .wrap.Wallet .container .contents .info_wide .row label:nth-child(1) { border-right:2px solid #2e3040; }
@@ -796,6 +798,9 @@ table.tbl_basic td.payment { }
 .wrap.Wallet .container .contents .info_wide .row div:nth-child(2) { margin-left:auto }
 .wrap.Wallet .container .contents .info_wide .row div button:nth-child(1) { margin:0 0 1rem }
 .wrap.Wallet .container .contents .info_wide .row div { display:flex; align-items:center; flex-direction: column; }
+.wrap.Wallet .container .contents .info_wide_addr { display:flex; align-items:center; }
+.wrap.Wallet .container .contents .info_wide_addr div { display:flex; align-items:center; }
+.wrap.Wallet .container .contents .info_wide_addr div:nth-child(2) { margin-left:auto }
 
 .wrap.Wallet .container .contents .info_list { margin:3rem 0 0; display:flex; flex-wrap:wrap }
 .wrap.Wallet .container .contents .info_list div { width:49%; border-radius:2rem; background:#1e1f37; color:#fff; padding:2.5rem; margin-bottom:2rem; }
@@ -809,7 +814,7 @@ table.tbl_basic td.payment { }
 .wrap.Wallet .container .contents .form_style .col { }
 .wrap.Wallet .container .contents .form_style label { font-size:2rem; margin:0 0 1rem }
 .wrap.Wallet .container .contents .form_style input { width:100% }
-.wrap.Wallet .container .contents .form_style .layer { position:absolute;height:2rem;line-height:2rem;font-size:1.7rem;color:#aaa;border-left:2px solid #ccc; padding-left:1.5rem;bottom:1.4rem; right:2rem }
+.wrap.Wallet .container .contents .form_style .layer { position:absolute;height:2rem;line-height:2rem;font-size:1.7rem;color:#000;border-left:2px solid #ccc; padding-left:1.5rem;bottom:1.4rem; right:2rem }
 .wrap.Wallet .container .contents .form_style select { }
 .wrap.Wallet .container .contents .info_wide_head { border-bottom:2px solid #2e3040; margin:0 0 2rem }
 .wrap.Wallet .container .contents .info_wide_head div { margin:2rem 0; display:flex; align-items:center; }
@@ -824,7 +829,6 @@ table.tbl_basic td.payment { }
 .wrap.Rewards .container { position:relative; top:-1rem; width:85rem; min-height:50rem; }
 .wrap.Rewards .container .title_area { margin:0 0 2rem }
 .wrap.Rewards .container h1 { font-size:5rem; color:#fff; font-family:"SofiaPro-Black"; }
-.wrap.Rewards .container h1.font30  { font-size:3rem; color:#fff; font-family: "SofiaPro-Medium"; }
 .wrap.Rewards .container span.payment { font-size:3rem; line-height:3rem; }
 .wrap.Rewards .container .contents h2 { font-size:3rem !important; color:#fff;  }
 .wrap.Rewards .container .contents h3 { font-size:2rem !important; color:#fff; margin:0 0 2rem }
@@ -837,7 +841,7 @@ table.tbl_basic td.payment { }
 .wrap.Rewards .container .contents ul.ntf_view li .box { position:relative; width:41rem; height:51rem; padding:3rem; border-radius:2rem; background:#1d1f36;  }
 .wrap.Rewards .container .contents ul.ntf_view li .box .thumbnail { height:27rem; overflow:hidden; border-radius:0 2rem 0 2rem }
 .wrap.Rewards .container .contents ul.ntf_view li .box .thumbnail img { width:100%;height:100%;-o-object-fit:cover;object-fit:cover }
-.wrap.Rewards .container .contents ul.ntf_view li .box .txt_area { color:#fff;  font-family: "SofiaPro-Light"; font-size:1.5rem; opacity:1; padding:2.5rem 0 3rem;  text-align:center; }
+.wrap.Rewards .container .contents ul.ntf_view li .box .txt_area { color:#fff;  font-family: "SofiaPro-Light"; font-size:1.5rem; opacity:1; padding:2.5rem 0 3rem;  }
 .wrap.Rewards .container .contents ul.ntf_view li .box .txt_area.height { height:12rem }
 .wrap.Rewards .container .contents ul.ntf_view li .time { font-size:1.1rem; color:#333; position:absolute; top:-1rem; right:0; border-radius:0.5rem; border:1px solid #ddd; padding:0 1rem 0 2rem; line-height:1.6rem; height:2rem; }
 .wrap.Rewards .container .contents ul.ntf_view li .time { background:#fff url('../images/iskra/ico_time.png') 0.2rem 50% no-repeat; }
@@ -1027,7 +1031,6 @@ table.tbl_basic td.payment { }
 .wrap.setting .container .contents .info_box { margin:2rem 0 4rem; font-size:1.5rem; font-family: "SofiaPro-Light"; color:#fff;  }
 .wrap.setting .container .contents .info_wide { flex:1;  }
 .wrap.setting .container .contents .info_wide div { margin:1rem 0; display:flex; align-items:center; }
-.wrap.setting .container .contents button.ico_copy { margin-left:1rem; width:2rem; height:2rem; background:url('../images/iskra/ico_copy.png') 50% 50% no-repeat; }
 .wrap.setting .container .contents ul.work_list { margin:3rem 0 0; display:flex; flex-wrap:wrap }
 .wrap.setting .container .contents ul.work_list li { cursor:pointer; position:relative; width:27rem; height:32rem; border-radius:2rem; overflow:hidden; margin:0 2rem 2rem 0;  }
 .wrap.setting .container .contents ul.work_list li:nth-child(3n) { margin-right:0 }
@@ -1217,8 +1220,9 @@ table.tbl_basic td.payment { }
 .basic_popup .container ul.flex_inline li { display:flex; algin-items:center }
 .basic_popup .container ul.flex_inline li span { margin-right:auto }
 .basic_popup .container a.ico_link { text-decoration:underline; margin-left:auto; padding-right:2rem; background:url('../images/iskra/ico_link_black.png') 100% 50% no-repeat; }
+.basic_popup .container .btn_area { margin:40px 0 0; }
 .basic_popup .container .btn02 { width:10rem; height:3.5rem; line-height:3.5rem; font-size:1.4rem !important; border-radius:0.3rem; }
-.basic_popup .container .btn01 { width:10rem; height:3.5rem; line-height:3.5rem; font-size:1.4rem !important; border-radius:0.3rem; background:#00ccff }
+.basic_popup .container .btn01 { width:10rem; height:3.5rem; line-height:3.5rem; font-size:1.4rem !important; border-radius:0.3rem; background:#2269cf }
 
 /* 서명 팝업 */
 #signature_popup { position:fixed; top:0; left:0; width:100%; height:100%; z-index:99999999; display:flex; align-items:center; justify-content:flex-end; }
