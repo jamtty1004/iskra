@@ -94,8 +94,10 @@ textarea:-ms-input-placeholder {font-family: "SofiaPro-Light";font-weight:normal
 #header .inner{width:120rem; padding:2rem 0; margin:0 auto; display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}
 #header .logo{ width:15.2rem; height:4.1rem; background:url("../images/common/logo-iskra.png") 0 0 no-repeat; background-size:contain; -webkit-transition:.3s ease;-o-transition:.3s ease;transition:.3s ease}
 #header .logo a{display:block;width:100%;height:100%}
-#header .btn{display:none;width:4.4rem;height:4.4rem;padding:0;border-radius:0; }
-#header .btn.gnb-close{position:absolute;right:4rem;top:2.5rem}
+#header .btn {display:none;width:4.4rem;height:4.4rem;padding:0;border-radius:0; }
+#header .btn1{display:none;width:4.4rem;height:4.4rem;padding:0;border-radius:0; }
+
+#header .btn1.gnb-close{position:absolute;right:4rem;top:2.5rem}
 #gnb{position:relative;margin-left:13rem;}
 #gnb a{display:block;white-space:nowrap}
 #gnb .gnb-depth1{display:-webkit-box;display:-ms-flexbox;display:flex}
@@ -103,7 +105,7 @@ textarea:-ms-input-placeholder {font-family: "SofiaPro-Light";font-weight:normal
 #gnb .gnb-depth1 a{padding:1rem 0;color:#fff;font-size:1.5rem;font-weight:700}
 .mask { display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,.5); z-index:999999 }
 
-#header .member { margin-left:auto; position:relative; }
+#header .member { margin-left:auto; position:relative;  }
 #header .member a { color:#fff }
 #header .member a.signup { margin-left:1.5rem; border:1px solid #fff; border-radius:0.5rem; text-align:center; padding:0.5rem 1rem }
 #header .member button { font-size:1.5rem; color:#fff; padding-right:3rem; background:url("../images/iskra/ico_gnb_open.png") 100% 50% no-repeat; }
@@ -119,7 +121,8 @@ textarea:-ms-input-placeholder {font-family: "SofiaPro-Light";font-weight:normal
 @media only screen and (max-width: 1199px){
 	#header .logo{margin:0.5rem 0 0;}
 	#header .inner{width:100%; padding:1rem 2rem;}
-	/*#header .btn{ display:block; margin-left:1rem; }*/
+	#header .member { display:none }
+	#header .btn1 { display:block; margin-left:auto; }
 	#header.is-gnb #gnb{left:0}
 	#gnb{position:fixed;top:0;left:100%;right:0;bottom:0;background-color:rgba(1,24,46,.98);display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;z-index:20;-webkit-transition:.4s ease;-o-transition:.4s ease;transition:.4s ease}
 	#gnb a{display:block;white-space:nowrap}
@@ -130,7 +133,7 @@ textarea:-ms-input-placeholder {font-family: "SofiaPro-Light";font-weight:normal
 	#header .member { top:0.5rem }
 }
 @media only screen and (max-width: 767px){
-	#header .btn.gnb-close{right:3rem}
+	#header .btn1.gnb-close{right:3rem}
 }
 
 
