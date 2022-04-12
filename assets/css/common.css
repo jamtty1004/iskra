@@ -580,6 +580,35 @@ button.ico_copy { margin-left:2rem; width:3.2rem; height:3.2rem; background:url(
 }
 
 
+
+/* 라디오박스(베이직) */
+.chk_text_basic { position:relative; display:flex; align-items:center; }
+.chk_text_basic input[type="radio"] {
+  width:1px;
+  height:1px;
+  padding:0;
+  border:0 none;
+  margin:0;
+  position:absolute;
+  left:0;
+  top:0;
+  overflow:hidden;
+  clip:rect(0 0 0 0);
+}
+.chk_text_basic label {
+	cursor:pointer;
+	height:3rem;
+	display:flex;
+	align-items:center;
+	font-size:2.5rem;
+	padding-left:2rem;
+	color:rgba(255,255,255,1);
+}
+.chk_text_basic input[type="radio"]:checked + label{
+	background:none;
+}
+
+
 /* 라디오박스(구매 화폐 선택) */
 .chk_text { position:relative; margin:2rem 0; }
 .chk_text input[type="radio"] {
@@ -641,6 +670,7 @@ button.ico_copy { margin-left:2rem; width:3.2rem; height:3.2rem; background:url(
 .chk_text2 input[type="radio"]:checked + label{
 	background:#00CCFF;
 }
+
 
 
 /* 셀렉트박스 */
@@ -1169,6 +1199,7 @@ button.ico_copy { margin-left:2rem; width:3.2rem; height:3.2rem; background:url(
 .wrap.open_nft .content .contents h1 { font-size:5rem; font-family:"SofiaPro-Black"; color:#fff; margin:0 0 2rem }
 .wrap.open_nft .content .contents p.main_txt  { font-size:1.8rem; line-height:3rem; font-family: "SofiaPro-Light"; color:rgba(255,255,255,.8) }
 .wrap.open_nft .content .contents p.main_txt strong { display:block; margin:5rem 0 0; font-size:2.5rem; color:rgba(255,255,255,1) }
+.wrap.open_nft .content .contents p.main_txt .chk_wide label { font-weight:bold; display:block; margin:5rem 0 0; font-size:2.5rem !important; color:rgba(255,255,255,1) !important }
 .wrap.open_nft .content .contents .title_area p.Description { font-size:1.7rem; font-family: "SofiaPro-Light"; opacity:1; color:#fff }
 .wrap.open_nft .content .contents .flex_inline { display:flex; margin:8rem 0 0; }
 .wrap.open_nft .content .contents .flex_inline .step ul { width:23rem; }
