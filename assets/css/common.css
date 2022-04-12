@@ -119,6 +119,9 @@ textarea:-ms-input-placeholder {font-family: "SofiaPro-Light";font-weight:normal
 
 
 @media only screen and (max-width: 1199px){
+	
+	.pc_block { display:none }
+	
 	#header .logo{margin:0.5rem 0 0;}
 	#header .inner{width:100%; padding:1rem 2rem;}
 	#header .member { display:none }
@@ -152,10 +155,12 @@ textarea:-ms-input-placeholder {font-family: "SofiaPro-Light";font-weight:normal
 .wrap.con_about .visual .txt-item .slogan .tit-lg { font-family: "Qualy"; font-weight:normal; text-transform:uppercase; line-height:130%; display:block; font-size:6.5rem; color:#fff }
 .wrap.con_about .visual .txt-item .slogan2 { margin:3rem 0 0; font-size:3rem; color:#fff; font-family: "SofiaPro-Light"; opacity:1 }
 .wrap.con_about .visual .img-item { position:absolute; top:0; right:0; z-index:1; }
+
 .wrap.con_about .content .row { position:relative; }
 .wrap.con_about .content .row.margin { margin-top:22rem; }
 .wrap.con_about .content .row.margin2 { margin-top:5rem; }
 .wrap.con_about .content .row.nomargin { margin-top:0; }
+.wrap.con_about .content .row.margin-bottom { margin-bottom:19rem }
 .wrap.con_about .content .txt-item h2 { font-family: "Qualy";  font-weight:normal; text-transform:uppercase; font-size:5rem; color:#fff; line-height:130%; }
 .wrap.con_about .content .txt-item p {  font-size:2.4rem; margin:2rem 0 0; color:#fff; font-family: "SofiaPro-Light"; opacity:1 }
 .wrap.con_about .content .row.inline { height:77rem; display:flex; align-items:center; }
@@ -164,6 +169,12 @@ textarea:-ms-input-placeholder {font-family: "SofiaPro-Light";font-weight:normal
 .wrap.con_about .content .row.inline2 { height:77rem; display:flex; align-items:center; }
 .wrap.con_about .content .row.inline2 .txt-item { position:relative; z-index:2;  }
 .wrap.con_about .content .row.inline2 .img-item { position:absolute; z-index:1; top:0; right:0; }
+
+/* 신규버튼 */
+.wrap.con_about .btn_wr { margin:3rem 0 0; display:flex; align-items:center; }
+.wrap.con_about .btn_wr a.bt { width:20rem; text-align:Center; height:6rem; line-height:6rem; background:#2269CF; font-size:2rem; color:#fff; border-radius:0.5rem; margin-right:2rem;  }
+.wrap.con_about .btn_wr a:nth-child(2) { margin-right:1rem }
+
 
 /* nft */
 .wrap.con_nft .pc_br { display:block; }
@@ -185,6 +196,12 @@ textarea:-ms-input-placeholder {font-family: "SofiaPro-Light";font-weight:normal
 .wrap.con_nft .content .row.inline2 { height:77rem; display:flex; align-items:center; }
 .wrap.con_nft .content .row.inline2 .txt-item { position:relative; z-index:2;  }
 .wrap.con_nft .content .row.inline2 .img-item { position:absolute; z-index:1; top:0; right:0; }
+
+/* 신규버튼 */
+.wrap.con_nft .btn_wr { margin:3rem 0 0; display:flex; align-items:center; }
+.wrap.con_nft .btn_wr a.bt { width:20rem; text-align:Center; height:6rem; line-height:6rem; background:#2269CF; font-size:2rem; color:#fff; border-radius:0.5rem; margin-right:2rem;  }
+.wrap.con_nft .btn_wr a:nth-child(2) { border:1px solid #a2a3aa; background:none; }
+
 
 /* token */
 .wrap.con_token .pc_br { display:block; }
@@ -294,15 +311,31 @@ textarea:-ms-input-placeholder {font-family: "SofiaPro-Light";font-weight:normal
 }
 
 /* 푸터 */
-#footer{height:12rem; display:flex; justify-content:flex-end; flex-direction: column; background:#232323}
-#footer .copyright{height:100%;padding:5rem 0;text-align:right;color:#a7a7a7}
+#footer { height:24rem; background:#232323}
+#footer .inner { max-width:120rem; margin:0 auto; position:relative; padding:4rem 1.5rem }
+#footer ul.foot-depth { display:flex; }
+#footer ul.foot-depth li { margin-right:7.5rem; }
+#footer ul.foot-depth li:last-child { margin:0 }
+#footer ul.foot-depth li a:nth-child(1) { font-size:1.7rem; color:#fff }
+#footer ul.foot-depth li a { display:block; margin:0 0 1.5rem;  font-size:1.5rem; color:#CBCBCB }
+#footer ul.foot-depth li a:last-child { margin-bottom:0 }
+
+#footer .position { position:absolute; bottom:0; right:1.5rem; }
+#footer .foot-sns { text-align:right; margin:0 0 2rem }
+#footer .foot-sns a:last-child { margin-left:1.5rem }
+#footer .copyright{ text-align:right;font-size:1.5rem;color:#A7A7A7}
+
 
 @media all and (max-width: 1199px){
 	#footer .responsive { width:100%; padding:0 1.5rem }
 }
 @media only screen and (max-width: 768px){
-	#footer{height:auto;display:flex; justify-content:flex-end; flex-direction: column; background:#232323}
-	#footer .copyright{padding:2.5rem 0;text-align:center;color:#a7a7a7}
+	#footer { height:auto; background:#232323}
+	#footer .position { position:relative; bottom:auto; right:auto; }
+	#footer .foot-sns { text-align:left; margin:3rem 0 2rem }
+	#footer .foot-sns a:last-child { margin-left:1.5rem }
+	#footer .copyright{ text-align:right;font-size:1.5rem;color:#A7A7A7}
+	#footer .mobile_br { display:block }
 }
 
 
