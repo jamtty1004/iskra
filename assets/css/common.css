@@ -311,7 +311,7 @@ textarea:-ms-input-placeholder {font-family: "SofiaPro-Light";font-weight:normal
 }
 
 /* 푸터 */
-#footer { height:24rem;  background:#232323}
+#footer { height:24rem; background:#232323}
 #footer .inner { max-width:120rem; margin:0 auto; position:relative; padding:4rem 1.5rem }
 #footer ul.foot-depth { display:flex; }
 #footer ul.foot-depth li { margin-right:7.5rem; }
@@ -396,6 +396,9 @@ form input:focus { border:1px solid #F23B4A; background:#fff; }
 .full_input { width:100%; }
 form input.password { width:30rem !important  }
 
+.msg_line { border:1px solid #00ccff !important }
+
+
 .msg { background:url('../images/iskra/ico_msg.png') 0 0.2rem no-repeat; text-align:left; padding-left:2.5rem; display:block; margin:1.5rem 0; font-size:1.4rem; color:#F23B4A }
 .msg2 { background:url('../images/iskra/ico_msg.png') 0 0.2rem no-repeat; text-align:left;  padding-left:2.5rem; display:block; margin:1.5rem 0; font-family: "SofiaPro-Light"; font-size:1.7rem; color:#fff; font-weight:bold }
 
@@ -428,7 +431,23 @@ table.tbl_basic td.payment { }
 
 .hover_area { position:relative;display:inline-block;}
 .ico_hover { margin-left:1rem; cursor:pointer; }
-.ico_hover_pop { display:none; text-align:left !important; font-size:1.3rem; color:#222; padding:1rem; position:absolute; top:4rem; left:80%; width:40rem; padding:1.5rem; border-radius:1rem; background:#fff; z-index:9999999 }
+.ico_hover_pop { display:none; text-align:left !important; font-size:1.3rem; color:#222; padding:1rem; position:absolute; top:5rem; right:-36.5rem; width:40rem; padding:1.5rem; border-radius:1rem; background:#fff; z-index:9999999 }
+
+.ico_hover_pop:before {
+	content: '';
+	position: absolute;
+	top: -8px;
+	left: 30px;
+	width: 0;
+	height: 0;
+	border: 8px solid transparent;
+	border-bottom-color: #fff;
+	border-top: 0;
+	margin-left: -8px;
+	margin-bottom: -8px;
+}
+
+
 
 .red { color:red }
 .blue { color:#2269cf }
@@ -583,12 +602,15 @@ button.ico_copy { margin-left:2rem; width:3.2rem; height:3.2rem; background:url(
 	margin:0 0 1rem;
 	display:flex;
 	align-items:center;
+	border:1px solid rgba(0,0,0,0);
+	opacity:0.5;
 }
 .chk_text label div:nth-child(2) {
 	margin-left:auto;
 }
 .chk_text input[type="radio"]:checked + label{
-	background:#00CCFF;
+	border:1px solid #fff;
+	opacity:1;
 }
 
 
@@ -1008,8 +1030,6 @@ button.ico_copy { margin-left:2rem; width:3.2rem; height:3.2rem; background:url(
 .wrap.Pioneer .container .contents .info_wide div p { position:relative }
 .wrap.Pioneer .container .contents .info_wide div p:nth-child(1) { font-weight:500 }
 .wrap.Pioneer .container .contents .info_wide div p:nth-child(2) { margin-left:auto; text-align:right }
-.wrap.Pioneer .container .contents .info_wide div .ico_hover { margin-left:0.5rem; cursor:pointer; }
-.wrap.Pioneer .container .contents .info_wide div .ico_hover_pop { display:none; padding:1rem; position:absolute; top:-10rem; right:-9rem; width:18rem; border:2px solid #ddd; background:#fff; }
 
 
 /******************************************* E. Setting *******************************************/
@@ -1105,17 +1125,17 @@ button.ico_copy { margin-left:2rem; width:3.2rem; height:3.2rem; background:url(
 .wrap.con_Account { position:fixed;  top:0; left:0; width:100%; height:100%; display:flex; align-items:center; justify-content:center; z-index:1;  }
 .wrap.con_Account .content { width:120rem; height:80rem;  position:relative; display:flex; align-items:center; justify-content:center; }
 .wrap.con_Account .content .img_area { flex:1; position:relative; }
-.wrap.con_Account .content .img_area .illustration { position:absolute; top:-37rem; right:-15rem; width:92.4rem; height:80.9rem; background:url('../images/Account/home_illustration.png') 50% 50% no-repeat; background-size:cover }
-.wrap.con_Account .content .img_area .illustration2 { position:absolute; top:-37rem; left:-15rem; width:92.4rem; height:80.9rem; background:url('../images/Account/home_illustration2.png') 50% 50% no-repeat; background-size:cover }
-.wrap.con_Account .content .txt_area { width:38rem; }
+.wrap.con_Account .content .img_area .illustration { position:absolute; top:-30rem; right:-15rem; width:80rem; height:70rem; background:url('../images/Account/home_illustration.png') 50% 50% no-repeat; background-size:cover }
+.wrap.con_Account .content .img_area .illustration2 { position:absolute; top:-30rem; left:-15rem; width:80rem; height:70rem; background:url('../images/Account/home_illustration2.png') 50% 50% no-repeat; background-size:cover }
+.wrap.con_Account .content .txt_area { width:50rem; }
 .wrap.con_Account .content .txt_area .title { margin:0 0 4rem }
 .wrap.con_Account .content .txt_area .title h1 { font-family: "SofiaPro-Black"; font-size:5rem; color:#fff; margin:0 0 1rem }
 .wrap.con_Account .content .txt_area .title h2 { font-size:1.8rem; font-family: "SofiaPro-Light"; font-weight:normal; color:#fff }
 .wrap.con_Account .content .txt_area .subtitle { margin:0 0 3rem }
 .wrap.con_Account .content .txt_area .subtitle strong { display:block; color:#fff; margin:0 0 0.5rem; font-family: "SofiaPro-Black"; font-size:2.2rem }
 .wrap.con_Account .content .txt_area .subtitle p { color:#fff; font-size:1.8rem; font-family: "SofiaPro-Light"; font-weight:normal; }
-.wrap.con_Account .content .txt_area .frm_input { padding:1rem 0; color:#fff; background-color:transparent; border:0; border-bottom:1px solid #5c5d6b; border-radius:0; }
-.wrap.con_Account .content .txt_area .frm_input:focus { border:0; background-color:transparent; border-bottom:1px solid #fff; }
+.wrap.con_Account .content .txt_area .frm_input { padding:1rem; color:#fff; background-color:transparent; border:1px solid #454755;  }
+.wrap.con_Account .content .txt_area .frm_input:focus { background-color:transparent; border:1px solid #fff; }
 .wrap.con_Account .content .txt_area .link_none { font-family: "SofiaPro-Light"; font-weight:normal; text-align:center; color:#fff; font-size:1.6rem; }
 .wrap.con_Account .content .txt_area .link_none span { color:#fff; text-decoration:underline }
 
@@ -1123,7 +1143,7 @@ button.ico_copy { margin-left:2rem; width:3.2rem; height:3.2rem; background:url(
 .wrap.con_Account .content .txt_area .Certification { width:100%; margin:0 auto; position:relative; display:flex; justify-content:center; }
 .wrap.con_Account .content .txt_area .Certification input { width:4rem; text-align:center; margin:0 1rem; padding:1rem 0; color:#fff; background-color:transparent; border:0; border-bottom:2px solid #5c5d6b; font-size:3rem; border-radius:0; }
 .wrap.con_Account .content .txt_area .Certification input:focus { border:0; background-color:transparent; border-bottom:2px solid #fff; }
-.wrap.con_Account .content .txt_area .timer { text-align:right; margin:1rem 0 0; font-size:1.7rem; color:#fff; }
+.wrap.con_Account .content .txt_area .timer { text-align:right; margin:1.5rem 0 0 1rem; font-size:1.5rem; color:#fff; }
 
 .wrap.con_Account .content .txt_area input:focus { border:2px solid #1e3e6e; border:1px solid #F23B4A; background:#fff; }
 .wrap.con_Account .content .txt_area .link { font-family: "SofiaPro-Light"; font-size:1.7rem; color:#fff; }
@@ -1171,14 +1191,14 @@ button.ico_copy { margin-left:2rem; width:3.2rem; height:3.2rem; background:url(
 .wrap.open_nft .content .contents .flex_inline .txt_area .Certification { width:100%; margin:0 auto; position:relative; display:flex; justify-content:center; }
 .wrap.open_nft .content .contents .flex_inline .txt_area .Certification input { width:4rem; text-align:center; margin:0 1rem; padding:1rem 0; color:#fff; background-color:transparent; border:0; border-bottom:2px solid #5c5d6b; font-size:3rem; border-radius:0; }
 .wrap.open_nft .content .contents .flex_inline .txt_area .Certification input:focus { border:0; background-color:transparent; border-bottom:2px solid #fff; }
-.wrap.open_nft .content .contents .flex_inline .txt_area .timer { text-align:right; margin:1rem 0 0; font-size:1.7rem; color:#fff; }
+.wrap.open_nft .content .contents .flex_inline .txt_area .timer { text-align:right; margin:1.5rem 0 0 1rem; font-size:1.5rem; color:#fff; }
 
 
 
 .wrap.open_nft .content .contents .flex_inline .txt_area .chk_text { margin-bottom:5rem; }
-.wrap.open_nft .content .contents .flex_inline .txt_area .chk_text .ico { width:50%; font-size:2rem }
-.wrap.open_nft .content .contents .flex_inline .txt_area .chk_text .ico.klay span { width:6rem; height:6rem; padding-left:8rem; background:url('../images/iskra/ico_klay.png') 50% 50% no-repeat; background-size:contain; }
-.wrap.open_nft .content .contents .flex_inline .txt_area .chk_text .ico.isk span { width:6rem; height:6rem; padding-left:8rem; background:url('../images/iskra/ico_isk.png') 50% 50% no-repeat; background-size:contain; }
+.wrap.open_nft .content .contents .flex_inline .txt_area .chk_text .ico {  width:50%; font-size:2rem }
+.wrap.open_nft .content .contents .flex_inline .txt_area .chk_text .ico.klay span { display:inline-block; vertical-align:middle; width:4rem; height:4rem; padding-left:8rem; background:url('../images/iskra/ico_klay_big.png') 50% 50% no-repeat; background-size:contain; }
+.wrap.open_nft .content .contents .flex_inline .txt_area .chk_text .ico.isk span { display:inline-block;  vertical-align:middle; width:4rem; height:4rem; padding-left:8rem; background:url('../images/iskra/ico_isk_big.png') 50% 50% no-repeat; background-size:contain; }
 .wrap.open_nft .content .contents .flex_inline .txt_area .chk_text .txt { width:50%; text-align:right; }
 .wrap.open_nft .content .contents .flex_inline .txt_area .chk_text .txt span {  display:block }
 .wrap.open_nft .content .contents .flex_inline .txt_area .chk_text .txt span:nth-child(1) { font-size:1.8rem; opacity:1; }
@@ -1205,7 +1225,6 @@ button.ico_copy { margin-left:2rem; width:3.2rem; height:3.2rem; background:url(
 .wrap.open_nft .content .contents .flex_inline .txt_area .col .con .card_img_view .txt { padding:1rem }
 .wrap.open_nft .content .contents .flex_inline .txt_area .col .con .card_img_view .txt .name { font-size:1.7rem; }
 
-.wrap.open_nft .content .contents .flex_inline .txt_area .col .con .ico_hover_pop { top:3.3rem; right:-2rem; font-size:1.3rem; opacity:1 !important; color:#000 }
 .wrap.open_nft .content .contents .flex_inline .txt_area .col .con .flex_row { margin:0 0 2rem; display:flex; align-items:center }
 .wrap.open_nft .content .contents .flex_inline .txt_area .col .con .flex_row label { font-size:1.7rem; color:#fff; opacity:1; }
 .wrap.open_nft .content .contents .flex_inline .txt_area .col .con .flex_row div { margin-left:auto; text-align:right; }
