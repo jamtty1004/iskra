@@ -640,6 +640,7 @@ button.ico_copy { margin-left:2rem; width:3.2rem; height:3.2rem; background:url(
 .chk_text input[type="radio"]:checked + label{
 	border:1px solid #fff;
 	opacity:1;
+	font-weight:bold;
 }
 
 
@@ -1217,14 +1218,11 @@ button.ico_copy { margin-left:2rem; width:3.2rem; height:3.2rem; background:url(
 .wrap.open_nft .content .contents .flex_inline .txt_area p { font-size:1.7rem; opacity:1; }
 .wrap.open_nft .content .contents .flex_inline .txt_area strong { display:block; font-size:3rem; margin:1rem 0 }
 
-
 .wrap.open_nft .content .contents .flex_inline .txt_area .box { margin:5rem 0 0; padding:2.2rem !important; background:#232536 !important; }
 .wrap.open_nft .content .contents .flex_inline .txt_area .Certification { width:100%; margin:0 auto; position:relative; display:flex; justify-content:center; }
 .wrap.open_nft .content .contents .flex_inline .txt_area .Certification input { width:4rem; text-align:center; margin:0 1rem; padding:1rem 0; color:#fff; background-color:transparent; border:0; border-bottom:2px solid #5c5d6b; font-size:3rem; border-radius:0; }
 .wrap.open_nft .content .contents .flex_inline .txt_area .Certification input:focus { border:0; background-color:transparent; border-bottom:2px solid #fff; }
 .wrap.open_nft .content .contents .flex_inline .txt_area .timer { text-align:right; margin:1.5rem 0 0 1rem; font-size:1.5rem; color:#fff; }
-
-
 
 .wrap.open_nft .content .contents .flex_inline .txt_area .chk_text { margin-bottom:5rem; }
 .wrap.open_nft .content .contents .flex_inline .txt_area .chk_text .ico {  width:50%; font-size:2rem }
