@@ -1205,7 +1205,7 @@ button.ico_copy { margin-left:2rem; width:3.2rem; height:3.2rem; background:url(
 .wrap.open_nft .content { margin:15rem 0 0;  }
 .wrap.open_nft .content .contents { padding:0 0 15rem; font-size:1.5rem; color:#fff; font-family: "SofiaPro-Light";  }
 .wrap.open_nft .content .contents h1 { font-size:5rem; font-family:"SofiaPro-Black"; color:#fff; margin:0 0 2rem }
-.wrap.open_nft .content .contents p.main_txt  { font-size:1.8rem; line-height:3rem; font-family: "SofiaPro-Light"; color:rgba(255,255,255,.8) }
+.wrap.open_nft .content .contents p.main_txt  { font-size:1.8rem; line-height:3rem; font-family: "SofiaPro-Light"; color:rgba(255,255,255,.8); letter-spacing:-0.02rem; }
 .wrap.open_nft .content .contents p.main_txt strong { display:block; margin:5rem 0 0; font-size:2.5rem; color:rgba(255,255,255,1) }
 .wrap.open_nft .content .contents p.main_txt .chk_wide label { font-weight:bold; display:block; margin:5rem 0 0; font-size:2.5rem !important; color:rgba(255,255,255,1) !important }
 .wrap.open_nft .content .contents .title_area p.Description { font-size:1.7rem; font-family: "SofiaPro-Light"; opacity:1; color:#fff }
