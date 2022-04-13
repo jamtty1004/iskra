@@ -548,7 +548,7 @@ button.ico_copy { margin-left:2rem; width:3.2rem; height:3.2rem; background:url(
 
 /* 체크박스2(텍스트 포함 체크박스) */
 .chk_wide { position:relative; }
-.chk_wide a { color:#aaa; text-decoration:underline;  }
+.chk_wide a { color:#fff; text-decoration:underline;  }
 .chk_wide input[type="checkbox"] {
   width:1px;
   height:1px;
@@ -570,7 +570,7 @@ button.ico_copy { margin-left:2rem; width:3.2rem; height:3.2rem; background:url(
   font-size:1.3rem !important;
   height:2rem;
   line-height:2rem;
-  color:#aaa !important;
+  color:#fff !important;
   background-size:contain;
   font-family: "SofiaPro-Light" !important;
 }
