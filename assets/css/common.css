@@ -671,6 +671,9 @@ button.ico_copy { margin-left:2rem; width:3.2rem; height:3.2rem; background:url(
 .chk_text2 input[type="radio"]:checked + label{
 	background:#00CCFF;
 }
+.chk_text2 .after { display:none; line-height:120%; text-align:Center }
+.chk_text2 input[type="radio"]:checked + label .before { display:none }
+.chk_text2 input[type="radio"]:checked + label .after { display:block }
 
 
 
