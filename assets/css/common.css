@@ -17,7 +17,7 @@
 
 /* 초기화 */
 html,body{overflow-x:hidden;}
-html { -webkit-overflow-scrolling:touch; -webkit-touch-callout:none;-webkit-user-select:none;-webkit-tap-highlight-color:rgba(0,0,0,0); font-size:10px; }
+html { /*-webkit-overflow-scrolling:touch; -webkit-touch-callout:none;-webkit-user-select:none;-webkit-tap-highlight-color:rgba(0,0,0,0);*/ font-size:10px; }
 body { word-break:keep-all; min-width:32rem; margin:0;padding:0;font-family:"SofiaPro-Medium", sans-serif; font-size:1.2rem; background:#181a2c; -webkit-text-size-adjust:none;-moz-text-size-adjust:none;-ms-text-size-adjust:none;scrollbar-color:#2864a3 #01182e;scrollbar-width:thin}
 body::-webkit-scrollbar{width:1rem}
 body::-webkit-scrollbar-track{background:#01182e}
@@ -144,13 +144,14 @@ textarea:-ms-input-placeholder {font-family: "SofiaPro-Light";font-weight:normal
 .responsive { width:120rem; margin:0 auto; position:relative; padding:0 2rem }
 
 .wrap {position:relative;display:flex; height:100%; flex-direction: column;}
+.wrap .img-box { position:relative }
 .wrap .img-box img{ width:100%;height:100%;-o-object-fit:cover;object-fit:cover}
 #container2 { width:120rem; margin:0 auto; min-height:100vh; padding:15rem 0; display:flex; }
 
 /* about */
 .wrap.con_about .pc_br { display:block; }
 .wrap.con_about .visual { height:80rem; }
-.wrap.con_about .visual .txt-item { position:absolute; top:29rem; left:2rem; z-index:2;  }
+.wrap.con_about .visual .txt-item { position:absolute; top:22rem; left:2rem; z-index:2;  }
 .wrap.con_about .visual .txt-item .slogan { }
 .wrap.con_about .visual .txt-item .slogan .tit-lg { font-family: "Qualy"; font-weight:normal; text-transform:uppercase; line-height:130%; display:block; font-size:6.5rem; color:#fff }
 .wrap.con_about .visual .txt-item .slogan2 { margin:3rem 0 0; font-size:3rem; color:#fff; font-family: "SofiaPro-Light"; opacity:1 }
@@ -179,11 +180,18 @@ textarea:-ms-input-placeholder {font-family: "SofiaPro-Light";font-weight:normal
 /* nft */
 .wrap.con_nft .pc_br { display:block; }
 .wrap.con_nft .visual { height:80rem; }
-.wrap.con_nft .visual .txt-item { position:absolute; top:29rem; left:2rem; z-index:2;  }
+.wrap.con_nft .visual .txt-item { position:absolute; top:22rem; left:2rem; z-index:2;  }
 .wrap.con_nft .visual .txt-item .slogan { }
 .wrap.con_nft .visual .txt-item .slogan .tit-lg { font-family: "Qualy"; font-weight:normal; text-transform:uppercase; line-height:130%; display:block; font-size:5rem; color:#fff }
 .wrap.con_nft .visual .txt-item .slogan2 { margin:3rem 0 0; font-size:3rem; color:#fff; font-family: "SofiaPro-Light"; opacity:1 }
 .wrap.con_nft .visual .img-item { position:absolute; top:0; right:0; z-index:1; }
+
+.wrap.con_nft .visual .countdown { position:absolute; bottom:2.5rem; left:15rem; width:53.8rem; height:26.8rem; background:url('../images/nft/ico_countdown.png') 0 50% no-repeat; }
+.wrap.con_nft .visual .countdown .area { position:relative; top:11.5rem; left:6rem; width:30rem; height:7rem;  display:flex; align-items:Center; }
+.wrap.con_nft .visual .countdown .area span { padding:0 1rem; color:#fff; font-size:4rem; letter-spacing:2rem }
+.wrap.con_nft .visual .countdown .area span:nth-child(2) { margin-left:1rem }
+
+
 .wrap.con_nft .content .row { position:relative; }
 .wrap.con_nft .content .row.margin { margin-top:22rem; }
 .wrap.con_nft .content .row.margin2 { margin-top:5rem; }
@@ -198,15 +206,17 @@ textarea:-ms-input-placeholder {font-family: "SofiaPro-Light";font-weight:normal
 .wrap.con_nft .content .row.inline2 .img-item { position:absolute; z-index:1; top:0; right:0; }
 
 /* 신규버튼 */
-.wrap.con_nft .btn_wr { margin:3rem 0 0; display:flex; align-items:center; }
-.wrap.con_nft .btn_wr a.bt { width:20rem; text-align:Center; height:6rem; line-height:6rem; background:#2269CF; font-size:2rem; color:#fff; border-radius:0.5rem; margin-right:2rem;  }
+.wrap.con_nft .btn_wr { margin:6rem 0 0; display:flex; align-items:center; }
+.wrap.con_nft .btn_wr a.bt { position:relative; width:20rem; text-align:Center; height:6rem; line-height:6rem; background:#2269CF; font-size:2rem; color:#fff; border-radius:0.5rem; margin-right:2rem;  }
 .wrap.con_nft .btn_wr a:nth-child(2) { border:1px solid #a2a3aa; background:none; }
+.wrap.con_nft .btn_wr a.bt:hover .ready { display:block }
+.wrap.con_nft .btn_wr .ready { display:none; position:absolute; top:-4.5rem; left:0; width:100%; text-align:center; z-index:99 }
 
 
 /* token */
 .wrap.con_token .pc_br { display:block; }
 .wrap.con_token .visual { }
-.wrap.con_token .visual .txt-item { padding:29rem 0 0; }
+.wrap.con_token .visual .txt-item { padding:22rem 0 0; }
 .wrap.con_token .visual .txt-item .slogan { }
 .wrap.con_token .visual .txt-item .slogan .tit-lg { font-family: "Qualy"; font-weight:normal; text-transform:uppercase; line-height:130%; display:block; font-size:5rem; color:#fff }
 .wrap.con_token .visual .txt-item .slogan2 { margin:3rem 0 0; font-size:3rem; color:#fff; font-family: "SofiaPro-Light"; opacity:1 }
@@ -1276,6 +1286,13 @@ button.ico_copy { margin-left:2rem; width:3.2rem; height:3.2rem; background:url(
 .wrap.open_nft .content .contents .flex_inline .txt_area .col .con .flex_row:last-child div strong { opacity:1; }
 .wrap.open_nft .content .contents .flex_inline .txt_area .col .con .flex_row:last-child div span { opacity:1; }
 .wrap.open_nft .content .contents .flex_inline .txt_area .col .con .flex_row:last-child .highlight { font-size:2.5rem !important; opacity:1 !important;  }
+
+.wrap.open_nft .content .contents .flex_inline .txt_area .col .con .flex_row div.row { display:flex; align-items:center; line-height:150%; }
+.wrap.open_nft .content .contents .flex_inline .txt_area .col .con .flex_row div.row label { padding:0 2rem; }
+.wrap.open_nft .content .contents .flex_inline .txt_area .col .con .flex_row div.row label:nth-child(1) { border-right:2px solid #2e3040; }
+.wrap.open_nft .content .contents .flex_inline .txt_area .col .con .flex_row div.row label:nth-child(2) { padding-right:0 }
+.wrap.open_nft .content .contents .flex_inline .txt_area .col .con .flex_row div.row strong { margin:0 }
+.wrap.open_nft .content .contents .flex_inline .txt_area .col .con .flex_row div.row span { margin:0 }
 
 .wrap.open_nft .content .contents .flex_inline .txt_area .col .con .flex_row.none div strong { opacity:1; }
 .wrap.open_nft .content .contents .flex_inline .txt_area .col .con .flex_row.none div span { opacity:1; }
