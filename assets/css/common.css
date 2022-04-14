@@ -401,6 +401,7 @@ form input.password { width:30rem !important  }
 
 .msg { background:url('../images/iskra/ico_msg.png') 0 0.2rem no-repeat; text-align:left; padding-left:2.5rem; display:block; margin:1.5rem 0; font-size:1.4rem; color:#F23B4A }
 .msg2 { background:url('../images/iskra/ico_msg.png') 0 0.2rem no-repeat; text-align:left;  padding-left:2.5rem; display:block; margin:1.5rem 0; font-family: "SofiaPro-Light"; font-size:1.7rem; color:#fff; font-weight:bold }
+.msg_sky { background:url('../images/iskra/ico_msg_sky.png') 0 50% no-repeat; text-align:left;  padding-left:2.5rem; display:block; margin:1.5rem 0; font-family: "SofiaPro-Light"; font-size:1.7rem; color:#00ccff; font-weight:bold }
 
 .ul_list li { color:#fff; font-family: "SofiaPro-Light"; font-size:1.7rem; background:url('../images/iskra/ico_list.png') 0 1rem no-repeat; padding-left:1.5rem; }
 .ul_list li a { color:#fff; font-family: "SofiaPro-Light"; font-size:1.7rem; }
@@ -423,6 +424,7 @@ table.tbl_basic td.payment { }
 .margin30 { margin:3rem 0 0 !important }
 .margin100 { margin:10rem 0 0 !important }
 .margin-top50 { margin-top:5rem!important }
+.margin-top60 { margin-top:6rem!important }
 
 .important { font-size:1.6rem; color:#fff; padding-left:2.5rem; background:url('../images/iskra/ico_important.png') 0 50% no-repeat; }
 .important a { color:#fff }
@@ -783,10 +785,10 @@ button.ico_copy { margin-left:2rem; width:3.2rem; height:3.2rem; background:url(
 .lnb ul li:nth-child(4) { padding-left:4rem; background:url('../images/iskra/ic_setting.png') 0 0 no-repeat; }
 .lnb ul li a { display:block; width:100%; font-size:1.7rem; color:#fff; }
 .lnb ul li.active a { color:#00CCFF; opacity:1 }
-.lnb ul li button.btn_lnb_toggle { padding-right:3rem; text-align:left; font-size:1.7rem; color:#fff; background:url('../images/iskra/ico_lnb_arrow_off.png') 100% 50% no-repeat; }
+.lnb ul li button.btn_lnb_toggle { font-family: "SofiaPro-Medium"; padding-right:3rem; text-align:left; font-size:1.7rem; color:#fff; background:url('../images/iskra/ico_lnb_arrow_off.png') 100% 50% no-repeat; }
 .lnb ul li button.btn_lnb_toggle.active { background:url('../images/iskra/ico_lnb_arrow_on.png') 100% 50% no-repeat; }
 .lnb ul li.active button.btn_lnb_toggle { color:#00CCFF; opacity:1 }
-.lnb ul li .sub { display:none; margin:3rem 0 0 0 }
+.lnb ul li .sub { display:block; margin:3rem 0 0 0 }
 .lnb ul li .sub a { font-size:1.7rem; color:#fff; text-transform:uppercase }
 .lnb ul li .sub a.active { color:#00CCFF; opacity:1 }
 .lnb ul li .sub a:nth-child(1) { background:url('../images/iskra/ico_list1.png') 0 50% no-repeat; display:block; margin:0 0 3rem; padding-left:4rem }
