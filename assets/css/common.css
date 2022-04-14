@@ -1048,7 +1048,7 @@ button.ico_copy { margin-left:2rem; width:3.2rem; height:3.2rem; background:url(
 .wrap.Pioneer .container .contents ul.ntf_list li .box .txt_area div:nth-child(2) { margin-left:auto }
 .wrap.Pioneer .container .contents ul.ntf_list li .box .get { z-index:2; text-align:left; position:absolute; top:2rem; right:2rem; width:14rem; height:7rem; border-radius:1rem; }
 .wrap.Pioneer .container .contents ul.ntf_list li .box .get { box-shadow:1px 1px 8px 4px rgba(0,0,0,.2); color:#fff; font-size:1.2rem; padding-left:7rem; background:#16182a url('../images/iskra/ico_getrewards.png') 1rem 50% no-repeat; }
-.wrap.Pioneer .container .contents ul.ntf_list li .hover_mask { padding:2rem; display:flex; align-items:center; justify-content:center; flex-direction: column; color:#fff; width:100%; height:100%; position:absolute; top:0; left:0; background:rgba(0,0,0,.8); z-index:1; }
+.wrap.Pioneer .container .contents ul.ntf_list li .hover_mask { padding:2rem; display:flex; align-items:center; justify-content:center; flex-direction: column; color:#fff; width:100%; height:100%; position:absolute; top:0; left:0; background:rgba(0,0,0,.8); z-index:3; }
 .wrap.Pioneer .container .contents ul.ntf_list li .hover_mask div { width:100%; display:flex; align-items:center; margin:0 0 1rem }
 .wrap.Pioneer .container .contents ul.ntf_list li .hover_mask div strong { font-size:1.1rem; margin-right:auto; text-align:left; }
 .wrap.Pioneer .container .contents ul.ntf_list li .hover_mask div p { font-size:1.1rem; margin-left:auto; text-align:right; }
