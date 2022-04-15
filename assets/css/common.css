@@ -1050,7 +1050,7 @@ button.ico_copy { margin-left:2rem; width:3.2rem; height:3.2rem; background:url(
 .wrap.Rewards .container .contents .info_wide_head { border-bottom:2px solid #2e3040; margin:0 0 2rem }
 .wrap.Rewards .container .contents .info_wide_head div { margin:2rem 0; display:flex; align-items:center; }
 .wrap.Rewards .container .contents .info_wide_head div p { position:relative }
-.wrap.Rewards .container .contents .info_wide_head div p:nth-child(1) { font-size:1.5rem; color:#fff; }
+.wrap.Rewards .container .contents .info_wide_head div p:nth-child(1) { font-size:1.7rem; color:#fff; }
 .wrap.Rewards .container .contents .info_wide_head div p:nth-child(2) { margin-left:auto; text-align:right }
 .wrap.Rewards .container .contents .info_wide_head div p:nth-child(2) a { color:#fff }
 .wrap.Rewards .container .contents .Reward_none { font-size:1.4rem; color:#fff; opacity:1; margin:0 0 6rem }
