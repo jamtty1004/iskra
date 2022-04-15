@@ -415,6 +415,9 @@ form input.password { width:30rem !important  }
 .msg2 { background:url('../images/iskra/ico_msg.png') 0 0.2rem no-repeat; text-align:left;  padding-left:2.5rem; display:block; margin:1.5rem 0; font-family: "SofiaPro-Light"; font-size:1.7rem; color:#fff; font-weight:bold }
 .msg_sky { background:url('../images/iskra/ico_msg_sky.png') 0 50% no-repeat; text-align:left;  padding-left:2.5rem; display:block; margin:1.5rem 0; font-family: "SofiaPro-Light"; font-size:1.7rem; color:#00ccff; font-weight:bold }
 
+.msg-middle { background:url('../images/iskra/ico_msg.png') 0 50% no-repeat; text-align:left; padding-left:2.5rem; display:block; margin:1.5rem 0; font-size:1.4rem; color:#F23B4A }
+.msg-middle span { display:inline-block; vertical-align:middle; font-size:2.5rem; color:rgba(255,255,255,1) }
+
 .ul_list li { color:#fff; font-family: "SofiaPro-Light"; font-size:1.7rem; background:url('../images/iskra/ico_list.png') 0 1rem no-repeat; padding-left:1.5rem; }
 .ul_list li a { color:#fff; font-family: "SofiaPro-Light"; font-size:1.7rem; }
 
@@ -1129,7 +1132,7 @@ button.ico_copy { margin-left:2rem; width:3.2rem; height:3.2rem; background:url(
 .wrap.setting .container h1 { font-size:5rem; color:#fff; font-family:"SofiaPro-Black"; }
 .wrap.setting .container span.payment { font-size:3rem; line-height:3rem; }
 .wrap.setting .container .contents h2 { font-size:3rem !important; color:#fff; font-weight:normal }
-.wrap.setting .container .contents h3 { font-size:2rem !important; color:#fff; font-weight:normal; margin:0 0 1.5rem }
+.wrap.setting .container .contents h3 { font-size:2rem !important; color:#fff; font-weight:normal; margin:0 0 0.5rem }
 .wrap.setting .container .contents h3.line_bottom { padding:0 0 1rem; border-bottom:2px solid #2e3040 }
 .wrap.setting .container .contents p.Description { color:#fff;  font-family: "SofiaPro-Light"; font-size:1.7rem; opacity:1; }
 .wrap.setting .container .btn_modify { margin-left:2rem; width:1.6rem; height:1.6rem; background:url('../images/iskra/ico_pencil_white.png') 50% 50% no-repeat; background-size:contain }
@@ -1258,7 +1261,7 @@ button.ico_copy { margin-left:2rem; width:3.2rem; height:3.2rem; background:url(
 .wrap.open_nft .content .contents h1 { font-size:5rem; font-family:"SofiaPro-Black"; color:#fff; margin:0 0 2rem }
 .wrap.open_nft .content .contents p.main_txt  { font-size:1.8rem; line-height:3rem; font-family: "SofiaPro-Light"; color:rgba(255,255,255,.8); letter-spacing:-0.02rem; }
 .wrap.open_nft .content .contents p.main_txt strong { display:block; margin:5rem 0 0; font-size:2.5rem; color:rgba(255,255,255,1) }
-.wrap.open_nft .content .contents p.main_txt .chk_wide_block label { font-weight:bold; display:block; margin:5rem 0 0; font-size:2.5rem !important; color:rgba(255,255,255,1) !important }
+.wrap.open_nft .content .contents p.main_txt .chk_wide { display:block; margin:5rem 0 0 !important }
 .wrap.open_nft .content .contents .title_area p.Description { font-size:1.7rem; font-family: "SofiaPro-Light"; opacity:1; color:#fff }
 .wrap.open_nft .content .contents .flex_inline { display:flex; margin:8rem 0 0; }
 .wrap.open_nft .content .contents .flex_inline .step ul { width:23rem; }
@@ -1379,8 +1382,8 @@ button.ico_copy { margin-left:2rem; width:3.2rem; height:3.2rem; background:url(
 .basic_popup .container .btn01 { width:10rem; height:3.5rem; line-height:3.5rem; font-size:1.4rem !important; border-radius:0.3rem; background:#2269cf }
 
 /* 서명 팝업 */
-#signature_popup { position:fixed; top:0; left:0; width:100%; height:100%; z-index:99999999; display:flex; align-items:center; justify-content:flex-end; }
-#signature_popup .container { position:relative; margin-right:5rem; width:43rem; min-height:77rem; padding:5rem; background:#fff; border:2px solid #ccc; border-radius:1rem; }
+#signature_popup { position:absolute; top:6rem; right:5rem; width:43rem; z-index:99999999;  }
+#signature_popup .container { padding:5rem; background:#fff; border:2px solid #ccc; border-radius:1rem; }
 #signature_popup .container button.popup_close { position:absolute; top:5rem; right:5rem; width:2rem; height:2rem; background:url('../images/iskra/ico_popup_close.png') 50% 50% no-repeat; }
 #signature_popup .container h3 { text-align:left; font-size:2.4rem; font-family: "SofiaPro-Black"; }
 #signature_popup .container p { margin:1rem 0; text-align:left; font-size:1.4rem; line-height:140%; }
