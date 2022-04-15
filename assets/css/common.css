@@ -207,11 +207,13 @@ textarea:-ms-input-placeholder {font-family: "SofiaPro-Light";font-weight:normal
 
 /* 신규버튼 */
 .wrap.con_nft .btn_wr { margin:6rem 0 0; display:flex; align-items:center; }
-.wrap.con_nft .btn_wr a.bt { position:relative; width:20rem; text-align:Center; height:6rem; line-height:6rem; background:#2269CF; font-size:2rem; color:#fff; border-radius:0.5rem; margin-right:2rem;  }
-.wrap.con_nft .btn_wr a:nth-child(2) { border:1px solid #a2a3aa; background:none; }
-.wrap.con_nft .btn_wr a.bt:hover .ready { display:block }
+.wrap.con_nft .btn_wr button.bt { position:relative; width:20rem; text-align:Center; height:6rem; line-height:6rem; background:#2269CF; font-size:2rem; color:#fff; border-radius:0.5rem; margin-right:2rem;  }
+.wrap.con_nft .btn_wr button:nth-child(2) { border:1px solid #a2a3aa; background:none; }
+.wrap.con_nft .btn_wr button.bt:hover .ready { display:block }
+.wrap.con_nft .btn_wr button.bt.disabled { background:#aaa }
 .wrap.con_nft .btn_wr .ready { display:none; position:absolute; top:-4.5rem; left:0; width:100%; text-align:center; z-index:99 }
 .wrap.con_nft .btn_wr .ready.active { display:block }
+
 
 /* token */
 .wrap.con_token .pc_br { display:block; }
