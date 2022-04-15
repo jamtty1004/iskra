@@ -422,12 +422,12 @@ form input.password { width:30rem !important  }
 .ul_list li a { color:#fff; font-family: "SofiaPro-Light"; font-size:1.7rem; }
 
 table.tbl_basic { width:100%; }
-table.tbl_basic th { padding:2rem 0; height:6rem; background:#232536; font-size:1.7rem; color:#fff; }
+table.tbl_basic th { padding:2rem 0; height:6rem; background:#1b1d35; font-size:1.7rem; color:#fff; }
 table.tbl_basic th:first-child { border-radius:1rem 0 0 1rem }
 table.tbl_basic th:last-child { border-radius:0 1rem 1rem 0 }
-table.tbl_basic td { padding:2rem 0;  border-bottom:2px solid #2e3040; font-size:1.6rem; color:#fff;  }
+table.tbl_basic td { padding:3rem 0;  border-bottom:1px solid #2b2c3e; font-size:1.6rem; color:#fff;  }
 table.tbl_basic td .thumbnail { display:inline-block; vertical-align:middle; padding-left:1rem; }
-table.tbl_basic td .txt { margin-left:1rem; display:inline-block; vertical-align:middle }
+table.tbl_basic td .txt { margin-left:2rem; display:inline-block; vertical-align:middle }
 table.tbl_basic td strong { font-size:1.5rem; display:block; margin:0 0 1rem }
 table.tbl_basic td .sm { font-size:1.3rem; }
 table.tbl_basic td.payment { }
@@ -1031,15 +1031,14 @@ button.ico_copy { margin-left:2rem; width:3.2rem; height:3.2rem; background:url(
 /* A-3b. Claim Detail - Referral 있음 & A-7 서명 완료 */
 .wrap.Rewards .container .contents .tit_area { display:flex; align-items:center; }
 .wrap.Rewards .container .contents .info_box { margin:2rem 0 6rem; }
-.wrap.Rewards .container .contents .info { display:flex; align-items:center; }
-.wrap.Rewards .container .contents .info .date { color:#fff; background:#232536; border-radius:2rem; padding:3rem 4rem }
-.wrap.Rewards .container .contents .info .date:nth-child(1) { width:32rem; height:15.5rem; margin-right:1rem; }
-.wrap.Rewards .container .contents .info .date:nth-child(2) { flex:1; display:flex; align-items:center; height:15.5rem; border-right:1px solid #2a2c3d }
-.wrap.Rewards .container .contents .info .date:nth-child(2) div { width:50%; height:100%; }
-.wrap.Rewards .container .contents .info .date:nth-child(2) div:nth-child(1) { border-right:1px solid #2a2c3d }
-.wrap.Rewards .container .contents .info .date:nth-child(2) div:nth-child(2) { padding-left:4rem }
-.wrap.Rewards .container .contents .info .date p.tit { font-size:2rem; margin:0 0 1.5rem }
-.wrap.Rewards .container .contents .info .date strong { font-size:2.4rem; color:#00CCFF; font-weight:normal }
+.wrap.Rewards .container .contents .info { display:flex; align-items:center; background:#1b1d35; height:14rem; border-radius:2rem; padding:3rem 4rem }
+.wrap.Rewards .container .contents .info div:nth-child(1) { margin-right:4rem; }
+.wrap.Rewards .container .contents .info div:nth-child(3) { margin-left:auto }
+.wrap.Rewards .container .contents .info .date { color:#fff; background:#info_box; border-radius:2rem; }
+.wrap.Rewards .container .contents .info .date p { font-family: "SofiaPro-Light";  font-size:1.5rem; line-height:190%; }
+.wrap.Rewards .container .contents .info .date p.tit { font-size:1.6rem; font-weight:bold  }
+.wrap.Rewards .container .contents .info .date p span { min-width:9rem; display:inline-block; text-align:right; }
+
 
 .wrap.Rewards .container .contents .link { width:20rem; display:flex; align-items:center; justify-content:center; }
 .wrap.Rewards .container .contents .info_wide { flex:1; }
@@ -1058,6 +1057,10 @@ button.ico_copy { margin-left:2rem; width:3.2rem; height:3.2rem; background:url(
 .wrap.Rewards .container .contents .info_wide_head div p:nth-child(2) a { color:#fff }
 .wrap.Rewards .container .contents .Reward_none { font-size:1.4rem; color:#fff; opacity:1; margin:0 0 6rem }
 .wrap.Rewards .container .contents .Reward_none a { font-size:1.4rem; color:#fff; margin-left:2rem; padding-right:2rem; background:url('../images/iskra/ico_link.png') 100% 50% no-repeat; }
+
+.wrap.Rewards .container .contents .thumbnail { padding:0.5rem; width:8rem; height:8rem; background:#000; border-radius:0 1.2rem 0 1.2rem; overflow:hidden }
+.wrap.Rewards .container .contents .thumbnail img { }
+
 
 
 /******************************************* D-3.Pioneer NFT *******************************************/
