@@ -1134,7 +1134,7 @@ button.ico_copy { margin-left:2rem; width:3.2rem; height:3.2rem; background:url(
 .wrap.setting .container .contents h2 { font-size:3rem !important; color:#fff; font-weight:normal }
 .wrap.setting .container .contents h3 { font-size:2rem !important; color:#fff; font-weight:normal; margin:0 0 0.5rem }
 .wrap.setting .container .contents h3.line_bottom { padding:0 0 1rem; border-bottom:2px solid #2e3040 }
-.wrap.setting .container .contents p.Description { color:#fff;  font-family: "SofiaPro-Light"; font-size:1.7rem; opacity:1; }
+.wrap.setting .container .contents p.Description { margin:0.5rem 0 0; color:#fff;  font-family: "SofiaPro-Light"; font-size:1.7rem; opacity:1; }
 .wrap.setting .container .btn_modify { margin-left:2rem; width:1.6rem; height:1.6rem; background:url('../images/iskra/ico_pencil_white.png') 50% 50% no-repeat; background-size:contain }
 .wrap.setting .container .btn_Verify { margin-left:2rem; font-size:1.7rem; color:#00ccff }
 .wrap.setting .container .line { border-top:2px solid #333 }
@@ -1177,21 +1177,31 @@ button.ico_copy { margin-left:2rem; width:3.2rem; height:3.2rem; background:url(
 .wrap.setting .container .contents .select_area div.active { background:#19527a; color:#fff }
 .wrap.setting .container .contents .select_area input { flex:1; }
 .wrap.setting .container .contents .select_area button { margin-left:1rem; background:#00ccff; border-radius:0.5rem; width:12rem; height:5rem; color:#fff; }
-.wrap.setting .container .contents .info_box { margin:2rem 0 4rem; font-size:1.5rem; font-family: "SofiaPro-Light"; color:#fff;  }
+.wrap.setting .container .contents .info_box { margin:2rem 0 6rem; font-size:1.5rem; font-family: "SofiaPro-Light"; color:#fff;  }
 .wrap.setting .container .contents .info_wide { flex:1;  }
 .wrap.setting .container .contents .info_wide div { margin:1rem 0; display:flex; align-items:center; }
+
+.wrap.setting .container .contents .info_wide .bg_box { height:5rem; display:flex; align-items:center; background:#1b1d35; padding:1.5rem; border-radius:1.2rem; }
+.wrap.setting .container .contents .info_wide .bg_box a { color:#fff; text-decoration:underline }
+.wrap.setting .container .contents .info_wide .bg_box button { margin-left:auto; text-decoration:underline; color:#fff; }
+
 .wrap.setting .container .contents ul.work_list { margin:3rem 0 0; display:flex; flex-wrap:wrap }
 .wrap.setting .container .contents ul.work_list li { cursor:pointer; position:relative; width:27rem; height:32rem; border-radius:2rem; overflow:hidden; margin:0 2rem 2rem 0;  }
 .wrap.setting .container .contents ul.work_list li:nth-child(3n) { margin-right:0 }
-.wrap.setting .container .contents ul.work_list li .inner_box { position:relative; width:100%; height:100%; background:#1d1f36; padding:1rem; }
-.wrap.setting .container .contents ul.work_list li .inner_box .thumbnail { height:20rem; overflow:hidden; border-radius:1rem; }
+.wrap.setting .container .contents ul.work_list li .inner_box { position:relative; width:100%; height:100%; padding:1rem; }
+.wrap.setting .container .contents ul.work_list li .inner_box .thumbnail { margin:0 auto; width:20rem; height:21rem; border-radius:0 2rem 0 2rem; overflow:hidden;  }
 .wrap.setting .container .contents ul.work_list li .inner_box .thumbnail img { width:100%;height:100%;-o-object-fit:cover;object-fit:cover }
 .wrap.setting .container .contents ul.work_list li .inner_box strong { color:#fff; display:block; margin:1rem 0; text-align:center; font-size:1.5rem; }
 .wrap.setting .container .contents ul.work_list li .inner_box p { color:#fff; text-align:center; }
 .wrap.setting .container .contents ul.work_list2 { margin:3rem 0 0; display:flex; justify-content:space-between; }
-.wrap.setting .container .contents ul.work_list2 li { background:#1d1f36; padding:2rem; width:27rem; border-radius:2rem; display:flex; align-items:center; justify-content:center; flex-direction: column;  }
-.wrap.setting .container .contents ul.work_list2 li strong { color:#fff; text-align:center; font-size:1.8rem; }
-.wrap.setting .container .contents ul.work_list2 li p { color:#fff; text-align:center; font-size:1.4rem  }
+.wrap.setting .container .contents ul.work_list2 li { background:#1d1f36; padding:3rem; width:27rem; height:15rem; border-radius:2rem; }
+.wrap.setting .container .contents ul.work_list2 li p strong { color:#fff; font-size:2.3rem; }
+.wrap.setting .container .contents ul.work_list2 li p { color:#fff; font-size:1.7rem; line-height:180%  }
+.wrap.setting .container .contents ul.work_list2 li p span img { width:100%;height:100%;-o-object-fit:cover;object-fit:cover }
+.wrap.setting .container .contents ul.work_list2 li:nth-child(1) p { padding-left:3.3rem; height:2.6rem;  background:url('../images/iskra/referral_4.png') 0 50% no-repeat; background-size:contain }
+.wrap.setting .container .contents ul.work_list2 li:nth-child(2) p { padding-left:3.3rem; height:2.6rem;  background:url('../images/iskra/referral_5.png') 0 50% no-repeat; background-size:contain }
+.wrap.setting .container .contents ul.work_list2 li:nth-child(3) p { padding-left:3.3rem; height:2.6rem;  background:url('../images/iskra/referral_6.png') 0 50% no-repeat; background-size:contain }
+.wrap.setting .container .contents ul.work_list2 li span { font-family: "SofiaPro-Light"; font-size:1.4rem }
 
 .wrap.setting .container .contents .flex_col div { flex:1; }
 .wrap.setting .container .contents .flex_col button { margin-left:1rem; width:12rem; height:5rem; border-radius:0.5rem; background:#00339b; font-size:1.8rem; color:#fff;  }
