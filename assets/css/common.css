@@ -186,7 +186,7 @@ textarea:-ms-input-placeholder {font-family: "SofiaPro-Light";font-weight:normal
 .wrap.con_nft .visual .txt-item .slogan2 { margin:3rem 0 0; font-size:3rem; color:#fff; font-family: "SofiaPro-Light"; opacity:1 }
 .wrap.con_nft .visual .img-item { position:absolute; top:0; right:0; z-index:1; }
 
-.wrap.con_nft .visual .countdown { position:absolute; bottom:2.5rem; left:15rem; width:53.8rem; height:26.8rem; background:url('../images/nft/ico_countdown.png') 0 50% no-repeat; }
+.wrap.con_nft .visual .countdown { z-index:9; position:absolute; bottom:2.5rem; left:15rem; width:53.8rem; height:26.8rem; background:url('../images/nft/ico_countdown.png') 0 50% no-repeat; }
 .wrap.con_nft .visual .countdown .area { position:relative; top:11.5rem; left:6rem; width:30rem; height:7rem;  display:flex; align-items:Center; }
 .wrap.con_nft .visual .countdown .area span { padding:0 1rem; color:#fff; font-size:4rem; letter-spacing:2rem }
 .wrap.con_nft .visual .countdown .area span:nth-child(2) { margin-left:1rem }
@@ -211,7 +211,7 @@ textarea:-ms-input-placeholder {font-family: "SofiaPro-Light";font-weight:normal
 .wrap.con_nft .btn_wr a:nth-child(2) { border:1px solid #a2a3aa; background:none; }
 .wrap.con_nft .btn_wr a.bt:hover .ready { display:block }
 .wrap.con_nft .btn_wr .ready { display:none; position:absolute; top:-4.5rem; left:0; width:100%; text-align:center; z-index:99 }
-
+.wrap.con_nft .btn_wr .ready.active { display:block }
 
 /* token */
 .wrap.con_token .pc_br { display:block; }
