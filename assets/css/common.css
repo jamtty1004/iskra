@@ -17,7 +17,7 @@
 
 /* 초기화 */
 html,body{overflow-x:hidden;}
-html { /*-webkit-overflow-scrolling:touch; -webkit-touch-callout:none;-webkit-user-select:none;-webkit-tap-highlight-color:rgba(0,0,0,0);*/ font-size:10px; }
+html { -webkit-overflow-scrolling:touch; -webkit-touch-callout:none;-webkit-user-select:none;-webkit-tap-highlight-color:rgba(0,0,0,0); font-size:10px; }
 body { word-break:keep-all; min-width:32rem; margin:0;padding:0;font-family:"SofiaPro-Medium", sans-serif; font-size:1.2rem; background:#181a2c; -webkit-text-size-adjust:none;-moz-text-size-adjust:none;-ms-text-size-adjust:none;scrollbar-color:#2864a3 #01182e;scrollbar-width:thin}
 body::-webkit-scrollbar{width:1rem}
 body::-webkit-scrollbar-track{background:#01182e}
