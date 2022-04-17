@@ -1222,7 +1222,7 @@ button.ico_copy { margin-left:2rem; width:2.2rem; height:2.2rem; background:url(
 
 .wrap.setting .container .contents .drag_area { display:flex; flex-wrap:wrap;  }
 .wrap.setting .container .contents .drag_area div { position:relative; width:18rem; margin:0 2rem 2rem 0; height:6rem; line-height:6rem; border-radius:1rem; background:#4b6586; text-align:center; font-size:2rem; color:#fff }
-.wrap.setting .container .contents .drag_area button { position:absolute; top:-0.8rem; right:-0.8rem; width:2rem; height:2rem; background:url('../images/iskra/btn_del.png') 50% 50% no-repeat; background-size:contain }
+.wrap.setting .container .contents .drag_area button { position:absolute; top:-1.2rem; right:-1.2rem; width:2.6rem; height:2.6rem; background:url('../images/iskra/btn_del.png') 50% 50% no-repeat; background-size:contain }
 .wrap.setting .container .contents .select_area { display:flex; flex-wrap:wrap; align-items:center; padding:2rem 0 1rem; }
 .wrap.setting .container .contents .select_area div { cursor:pointer; background:#fff; width:9.7rem; margin:0 0.5rem 1rem 0.5rem; height:4rem; line-height:4rem; border:1px solid #ddd; text-align:center }
 .wrap.setting .container .contents .select_area div.active { background:#19527a; color:#fff }
