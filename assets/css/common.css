@@ -89,7 +89,7 @@ textarea:-ms-input-placeholder {font-size:1.7rem;font-family: "SofiaPro-Light";f
 .ic-scroll:after{width:0.6rem;height:0.6rem;border-radius:100%;background-color:#b9d9f1}
 
 /* 헤더 */
-#header{position:fixed;top:0;left:0;right:0;width:100%;background-color:rgba(0,0,0,0);-webkit-transition:.3s ease;-o-transition:.3s ease;transition:.3s ease;z-index:9999999}
+#header{position:fixed;top:0;left:0;right:0;width:100%;background-color:rgba(0,0,0,0);-webkit-transition:.3s ease;-o-transition:.3s ease;transition:.3s ease;z-index:99999}
 #header.is-fixed{background-color:rgba(0,0,0,.95)}
 #header .inner{width:120rem; padding:2rem 0; margin:0 auto; display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}
 #header .logo{ width:15.2rem; height:4.1rem; background:url("../images/common/logo-iskra.png") 0 0 no-repeat; background-size:contain; -webkit-transition:.3s ease;-o-transition:.3s ease;transition:.3s ease}
@@ -1454,19 +1454,21 @@ button.ico_copy { margin-left:2rem; width:2.2rem; height:2.2rem; background:url(
 .basic_popup .container .btn01 { width:10rem; height:3.5rem; line-height:3.5rem; font-size:1.4rem !important; border-radius:0.3rem; background:#2269cf }
 
 /* 서명 팝업 */
-#signature_popup { position:absolute; width:100%; height:100%; top:0; right:0; z-index:99999999;  }
-#signature_popup .container { position:fixed; top:6rem; right:5rem; width:43rem; padding:5rem; background:#fff; border:2px solid #ccc; border-radius:1rem; }
+#signature_popup { position:fixed; width:100%; height:100%; top:0; right:0; z-index:99999999;  }
+#signature_popup .container { position:absolute; top:6rem; right:5rem; width:43rem; padding:5rem; background:#fff; border:2px solid #ccc; border-radius:1rem; }
 #signature_popup .container button.popup_close { position:absolute; top:5rem; right:5rem; width:2rem; height:2rem; background:url('../images/iskra/ico_popup_close.png') 50% 50% no-repeat; }
 #signature_popup .container h3 { text-align:left; font-size:2.4rem; font-family: "SofiaPro-Black"; }
 #signature_popup .container p { margin:1rem 0; text-align:left; font-size:1.4rem; line-height:140%; }
 #signature_popup .container .txt { margin:3rem 0 0 }
 #signature_popup .container .txt a { font-size:1.5rem; color:#222 }
 #signature_popup .container .txt h4 { font-size:1.9rem; margin:2rem 0 0;  }
-#signature_popup .container .txt .inline { display:flex; align-items:Center; font-family: "SofiaPro-Light"; font-size:1.5rem; }
+#signature_popup .container .txt .inline {  display:flex; align-items:Center; font-family: "SofiaPro-Light"; font-size:1.5rem; }
 #signature_popup .container .txt .inline strong { font-weight:normal; margin-right:auto; padding:0.5rem 0 }
-#signature_popup .container .txt .inline span { margin-left:auto; padding:0.5rem 0; text-align:right; }
+#signature_popup .container .txt .inline span { flex:1; margin-left:auto; padding:0.5rem 0; text-align:right; }
+
+
 #signature_popup .container .txt label { font-size:1.5rem; font-family: "SofiaPro-Light"; }
-#signature_popup .container .txt .sign_toggle { font-weight:bold; text-align:left; width:100%; padding:1rem 0; margin:1rem 0; border-bottom:1px solid #ddd; background:url('../images/iskra/ico_toggle_off.png') 100% 50% no-repeat; }
+#signature_popup .container .txt .sign_toggle { font-size:1.9rem; font-family: "SofiaPro-Medium"; font-weight:bold; text-align:left; width:100%; padding:1rem 0; margin:1rem 0; border-bottom:1px solid #ddd; background:url('../images/iskra/ico_toggle_off.png') 100% 50% no-repeat; }
 #signature_popup .container .txt .sign_toggle.active { background:url('../images/iskra/ico_toggle_on.png') 100% 50% no-repeat; }
 #signature_popup .container .txt .sign_area { height:15rem; overflow-y:auto; border-radius:1rem; border:2px solid #ddd; display:flex; align-items:center; justify-content:center; }
 #signature_popup .container .txt input { width:100%; margin:1rem 0 0; }
