@@ -1454,8 +1454,9 @@ button.ico_copy { margin-left:2rem; width:2.2rem; height:2.2rem; background:url(
 .basic_popup .container .btn01 { width:10rem; height:3.5rem; line-height:3.5rem; font-size:1.4rem !important; border-radius:0.3rem; background:#2269cf }
 
 /* 서명 팝업 */
-#signature_popup { position:fixed; width:100%; height:100%; top:0; right:0; z-index:99999999;  }
-#signature_popup .container { position:absolute; top:6rem; right:5rem; width:43rem; padding:5rem; background:#fff; border:2px solid #ccc; border-radius:1rem; }
+.scroll-hidden { overflow-y:hidden }
+#signature_popup { position:fixed; width:100%; height:100%; overflow-y:auto; top:0; right:0; z-index:99999999; display:flex; align-items:flex-end; flex-direction: column;  }
+#signature_popup .container { flex:1; width:43rem; padding:5rem; background:#fff; border:2px solid #ccc; border-radius:1rem; }
 #signature_popup .container button.popup_close { position:absolute; top:5rem; right:5rem; width:2rem; height:2rem; background:url('../images/iskra/ico_popup_close.png') 50% 50% no-repeat; }
 #signature_popup .container h3 { text-align:left; font-size:2.4rem; font-family: "SofiaPro-Black"; }
 #signature_popup .container p { margin:1rem 0; text-align:left; font-size:1.4rem; line-height:140%; }
@@ -1465,6 +1466,12 @@ button.ico_copy { margin-left:2rem; width:2.2rem; height:2.2rem; background:url(
 #signature_popup .container .txt .inline {  display:flex; align-items:Center; font-family: "SofiaPro-Light"; font-size:1.5rem; }
 #signature_popup .container .txt .inline strong { font-weight:normal; margin-right:auto; padding:0.5rem 0 }
 #signature_popup .container .txt .inline span { flex:1; margin-left:auto; padding:0.5rem 0; text-align:right; }
+
+#signature_popup { scrollbar-color:#2864a3 #01182e;scrollbar-width:thin }
+#signature_popup::-webkit-scrollbar{width:1rem}
+#signature_popup::-webkit-scrollbar-track{background:#01182e}
+#signature_popup::-webkit-scrollbar-thumb{background:#2864a3;border-radius:100px}
+#signature_popup::-webkit-scrollbar-thumb:hover{background:#3f96d9; -webkit-text-size-adjust:none;}
 
 
 #signature_popup .container .txt label { font-size:1.5rem; font-family: "SofiaPro-Light"; }

@@ -150,6 +150,8 @@ $(function(){
 	$('#signature_popup .container .txt .sign_toggle').on("click" , function(){
 		$(this).toggleClass('active');
 		$(this).next('#signature_popup .container .txt .sign_area').toggle();
+		$('html, body').toggleClass('scroll-hidden');
+		
 	});
 	// 서명 팝업 닫기
 	$('#signature_popup .container button.popup_close').on("click" , function(){
@@ -158,6 +160,10 @@ $(function(){
 	// 서명 팝업 취소
 	$('#signature_popup .container .popup_cancel').on("click" , function(){
 		$('#signature_popup').hide();
+	});
+
+	$(window).scroll(function(){
+		$("#signature_popup").css("margin-top",Math.max(0,0-$(this).scrollTop()));
 	});
 
 	
