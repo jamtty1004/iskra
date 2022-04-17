@@ -445,6 +445,7 @@ table.tbl_basic.tbl_left td { text-align:left; }
 .margin-top50 { margin-top:5rem!important }
 .margin-top60 { margin-top:6rem!important }
 
+.margin-bottom10 { margin:0 0 1rem !important }
 .margin-bottom20 { margin:0 0 2rem !important }
 
 
@@ -452,7 +453,7 @@ table.tbl_basic.tbl_left td { text-align:left; }
 
 .opacity { opacity:0.8 !important; }
 
-.important { font-size:1.6rem; color:#fff; padding-left:2.5rem; background:url('../images/iskra/ico_important.png') 0 50% no-repeat; }
+.important { font-family: "SofiaPro-Light"; font-size:1.7rem; color:#fff; padding-left:2.5rem; background:url('../images/iskra/ico_important.png') 0 50% no-repeat; }
 .important a { color:#fff }
 .line-top { border-top:2px solid #2e3040 !important; padding:2rem 0 0 !important; }
 .line-bottom { border-bottom:2px solid #2e3040 !important;  padding:0 0 2rem !important; }
@@ -478,13 +479,13 @@ table.tbl_basic.tbl_left td { text-align:left; }
 
 
 .red { color:red }
-.blue { color:#2269cf }
+.blue { color:#00ccff }
 .green { color:#4ae34f }
 .gray { color:#ccc }
 
-.red label { display:inline-block; width:0.5rem; height:0.5rem; background:red; border-radius:50% }
-.blue label { display:inline-block; width:0.5rem; height:0.5rem; background:#2269cf; border-radius:50% }
-.green label { display:inline-block; width:0.5rem; height:0.5rem; background:#4ae34f; border-radius:50% }
+.red label { display:inline-block; margin-right:0.3rem; width:0.5rem; height:0.5rem; background:red; border-radius:50% }
+.blue label { display:inline-block; margin-right:0.3rem; width:0.5rem; height:0.5rem; background:#00ccff; border-radius:50% }
+.green label { display:inline-block; margin-right:0.3rem; width:0.5rem; height:0.5rem; background:#4ae34f; border-radius:50% }
 
 
 .link { text-decoration:underline }
@@ -1090,21 +1091,25 @@ button.ico_copy { margin-left:2rem; width:2.2rem; height:2.2rem; background:url(
 .wrap.Pioneer .container .contents .tit_area { display:flex; align-items:center; margin: 0 0 3rem; }
 .wrap.Pioneer .container .contents a.link { font-size:1.4rem; color:#fff; margin-left:2rem; padding-right:1.5rem; background:url('../images/iskra/ico_link.png') 100% 50% no-repeat; }
 .wrap.Pioneer .container .contents a.link.nomargin { margin:0 }
+
+.wrap.Pioneer .container .contents a.link-block { font-size:1.4rem; color:#fff; padding-right:1.5rem; background:url('../images/iskra/ico_link.png') 100% 50% no-repeat; }
+
 /*.wrap.Pioneer .container .contents a.goback { display:block; margin-left:auto; width:3.5rem; height:3.5rem; background:url('../images/iskra/ico_back.png') 0 50% no-repeat; }*/
 .wrap.Pioneer .container .contents a.goback { display:block; margin-left:auto; color:#fff; }
 .wrap.Pioneer .container .contents ul.ntf_list { margin:3rem 0 0; display:flex; flex-wrap:wrap }
-.wrap.Pioneer .container .contents ul.ntf_list li { cursor:pointer; position:relative; width:27rem; height:29rem; border-radius:2rem; overflow:hidden; margin:0 2rem 2rem 0;  }
+.wrap.Pioneer .container .contents ul.ntf_list li { cursor:pointer; position:relative; width:27rem; height:37rem; border-radius:2rem; overflow:hidden; margin:0 2rem 2rem 0;  }
 .wrap.Pioneer .container .contents ul.ntf_list li:nth-child(3n) { margin-right:0 }
-.wrap.Pioneer .container .contents ul.ntf_list li .box { position:relative; width:100%; height:100%; background:#1d1f36; padding:1rem; }
-.wrap.Pioneer .container .contents ul.ntf_list li .box .id { position:absolute; top:2rem; left:2rem; width:7rem; line-height:3rem; border-radius:1rem; text-align:center; background:rgba(255,255,255,.8) }
-.wrap.Pioneer .container .contents ul.ntf_list li .box .thumbnail { height:20rem; overflow:hidden; border-radius:1rem; }
+.wrap.Pioneer .container .contents ul.ntf_list li .box { position:relative; width:100%; height:100%; background:#1d1f36; padding:2rem; }
+.wrap.Pioneer .container .contents ul.ntf_list li .box .id { position:absolute; top:3rem; left:3rem; padding:0 1rem; line-height:2rem; border-radius:1rem; text-align:center; background:rgba(23,25,43,.9); color:#fff }
+.wrap.Pioneer .container .contents ul.ntf_list li .box .thumbnail { height:26rem; overflow:hidden; border-radius:1rem; }
 .wrap.Pioneer .container .contents ul.ntf_list li .box .thumbnail img { width:100%;height:100%;-o-object-fit:cover;object-fit:cover }
 .wrap.Pioneer .container .contents ul.ntf_list li .box .txt_area { display:flex; padding:2rem 0; line-height:170%; color:#fff }
-.wrap.Pioneer .container .contents ul.ntf_list li .box .txt_area span.name { display:block; font-size:1.7rem; }
+.wrap.Pioneer .container .contents ul.ntf_list li .box .txt_area span.prd { display:block; margin:0 0 0.5rem; font-size:2rem; font-family: "SofiaPro-Medium"; }
+.wrap.Pioneer .container .contents ul.ntf_list li .box .txt_area span.name { display:block; font-size:1.7rem; font-family: "SofiaPro-Light"; opacity:0.7 }
 .wrap.Pioneer .container .contents ul.ntf_list li .box .txt_area div:nth-child(1) { margin-right:auto }
 .wrap.Pioneer .container .contents ul.ntf_list li .box .txt_area div:nth-child(2) { margin-left:auto }
-.wrap.Pioneer .container .contents ul.ntf_list li .box .get { z-index:2; text-align:left; position:absolute; top:2rem; right:2rem; width:14rem; height:7rem; border-radius:1rem; }
-.wrap.Pioneer .container .contents ul.ntf_list li .box .get { box-shadow:1px 1px 8px 4px rgba(0,0,0,.2); color:#fff; font-size:1.2rem; padding-left:7rem; background:#16182a url('../images/iskra/ico_getrewards.png') 1rem 50% no-repeat; }
+.wrap.Pioneer .container .contents ul.ntf_list li .box .get { z-index:2; text-align:left; position:absolute; top:3rem; right:0; width:14rem; height:7rem; border-radius:1rem; }
+.wrap.Pioneer .container .contents ul.ntf_list li .box .get { box-shadow:1px 1px 8px 4px rgba(0,0,0,.2); color:#fff; font-size:1.2rem; padding-left:6rem; background:#202654 url('../images/iskra/ico_getrewards.png') 1.5rem 50% no-repeat; background-size:4rem; }
 .wrap.Pioneer .container .contents ul.ntf_list li .hover_mask { padding:2rem; display:flex; align-items:center; justify-content:center; flex-direction: column; color:#fff; width:100%; height:100%; position:absolute; top:0; left:0; background:rgba(0,0,0,.8); z-index:3; }
 .wrap.Pioneer .container .contents ul.ntf_list li .hover_mask div { width:100%; display:flex; align-items:center; margin:0 0 1rem }
 .wrap.Pioneer .container .contents ul.ntf_list li .hover_mask div strong { font-size:1.1rem; margin-right:auto; text-align:left; }
