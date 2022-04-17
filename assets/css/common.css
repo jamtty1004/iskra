@@ -873,7 +873,7 @@ button.ico_copy { margin-left:2rem; width:2.2rem; height:2.2rem; background:url(
 .wrap.Wallet.nohd .container .contents {  }
 .wrap.Wallet.nohd .container .contents .form_style { margin:0; border:0 }
 .wrap.Wallet.nohd .container .contents h2 { color:#fff; font-size:4rem; font-family:"SofiaPro-Black"; margin:0 0 1rem }
-.wrap.Wallet.nohd .container .contents h3 { color:#fff; font-size:3rem; font-weight:normal; margin:0 0 1rem; }
+.wrap.Wallet.nohd .container .contents h3 { font-size:2rem !important; color:#fff; margin:0 0 2rem; font-family: "SofiaPro-Light"; }
 .wrap.Wallet.nohd .container .contents h3.light { font-size:2.5rem; font-family: "SofiaPro-Light"; }
 .wrap.Wallet.nohd .container .contents h4 { color:#fff; font-size:2rem; }
 .wrap.Wallet.nohd .container .contents p.Description { color:#fff;  font-family: "SofiaPro-Light"; font-size:1.7rem; opacity:1; }
@@ -932,7 +932,7 @@ button.ico_copy { margin-left:2rem; width:2.2rem; height:2.2rem; background:url(
 /* A. Create Wallet - B. Wallet 조회 및 입금 */
 .wrap.Wallet .container .contents h3.line { border-bottom:2px solid rgba(255,255,255,.2); margin:0 0 2.5rem; padding:0 0 0.5rem }
 .wrap.Wallet .container .contents div.addr { font-size:1.7rem; color:#fff; font-family: "SofiaPro-Light"; }
-.wrap.Wallet .container .contents .info_box { margin:0 0 6rem; font-size:1.5rem; font-family: "SofiaPro-Light"; color:#fff;  }
+.wrap.Wallet .container .contents .info_box { margin:1rem 0 6rem; font-size:1.5rem; font-family: "SofiaPro-Light"; color:#fff; border-top:2px solid #2e3040; }
 .wrap.Wallet .container .contents .info_box.line { border-top:2px solid rgba(255,255,255,.2); margin:0 0 2.5rem; padding:0 0 0.5rem }
 .wrap.Wallet .container .contents .info_wide { flex:1;  }
 .wrap.Wallet .container .contents .info_wide div { margin:1rem 0; display:flex; align-items:center; text-align:left; }
@@ -941,7 +941,7 @@ button.ico_copy { margin-left:2rem; width:2.2rem; height:2.2rem; background:url(
 .wrap.Wallet .container .contents .info_wide div p:nth-child(1) { font-size:1.7rem; font-family: "SofiaPro-Light"; }
 .wrap.Wallet .container .contents .info_wide div p:nth-child(2) { margin-left:auto; text-align:right }
 .wrap.Wallet .container .contents .info_wide div:last-child { border:0; }
-.wrap.Wallet .container .contents .info_wide div strong { font-size:2rem; font-family: "SofiaPro-Light"; }
+.wrap.Wallet .container .contents .info_wide div strong { font-size:2rem; font-family: "SofiaPro-Light"; font-weight:normal }
 .wrap.Wallet .container .contents .info_wide div strong.pay { font-size:2rem; font-family: "SofiaPro-Medium"; }
 .wrap.Wallet .container .contents .info_wide div span { opacity:1; }
 .wrap.Wallet .container .contents .info_wide .row { display:flex; align-items:center; }
@@ -978,17 +978,19 @@ button.ico_copy { margin-left:2rem; width:2.2rem; height:2.2rem; background:url(
 .wrap.Wallet .container .contents .form_style input { width:100% }
 .wrap.Wallet .container .contents .form_style .layer { position:absolute;height:2rem;line-height:2rem;font-size:1.7rem;color:#000;border-left:2px solid #ccc; padding-left:1.5rem;bottom:1.4rem; right:2rem }
 .wrap.Wallet .container .contents .form_style select { }
-.wrap.Wallet .container .contents .info_wide_head { border-bottom:2px solid #2e3040; margin:0 0 2rem }
+.wrap.Wallet .container .contents .info_wide_head {  margin:0 0 7rem }
 .wrap.Wallet .container .contents .info_wide_head div { margin:2rem 0; display:flex; align-items:center; }
 .wrap.Wallet .container .contents .info_wide_head div p { position:relative }
-.wrap.Wallet .container .contents .info_wide_head div p:nth-child(1) { font-weight:500 }
+.wrap.Wallet .container .contents .info_wide_head div p:nth-child(1) { font-size:2rem; color:#fff; font-family: "SofiaPro-Medium";  }
 .wrap.Wallet .container .contents .info_wide_head div p:nth-child(2) { margin-left:auto; text-align:right }
+.wrap.Wallet .container .contents .info_wide_head div p:nth-child(2) a { font-size:2rem; font-family:"SofiaPro-Black"; color:#fff }
+
 
 
 /******************************************* D-2.Rewards *******************************************/
 /* A-1a. 구매 전 */
 .wrap.Rewards { }
-.wrap.Rewards .container { position:relative; top:-1rem; width:85rem;  }
+.wrap.Rewards .container { position:relative; width:85rem;  }
 .wrap.Rewards .container .title_area { margin:0 0 5rem }
 .wrap.Rewards .container h1 { font-size:5rem; color:#fff; font-family:"SofiaPro-Black"; }
 .wrap.Rewards .container span.payment { font-size:3rem; line-height:3rem; }
