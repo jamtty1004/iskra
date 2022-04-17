@@ -129,7 +129,7 @@ $(function(){
 		} else {
 			$('.change').attr('disabled', true);
 			$('.change').removeClass('active');
-			$('.change').text('Stake ' + '(' + num + ')');
+			$('.change').text('Stake');
 		}
 	});
 
