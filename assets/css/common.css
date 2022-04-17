@@ -1007,8 +1007,8 @@ button.ico_copy { margin-left:2rem; width:2.2rem; height:2.2rem; background:url(
 .wrap.Rewards .container .contents ul.ntf_view li .box .thumbnail img { width:100%;height:100%;-o-object-fit:cover;object-fit:cover }
 .wrap.Rewards .container .contents ul.ntf_view li .box .txt_area { color:#fff;  font-family: "SofiaPro-Light"; font-size:1.5rem; opacity:1; padding:2.5rem 0 3rem;  }
 .wrap.Rewards .container .contents ul.ntf_view li .box .txt_area.height { height:12rem }
-.wrap.Rewards .container .contents ul.ntf_view li .time { font-size:1.1rem; color:#333; position:absolute; top:-1rem; right:0; border-radius:0.5rem; border:1px solid #ddd; padding:0 1rem 0 2rem; line-height:1.6rem; height:2rem; }
-.wrap.Rewards .container .contents ul.ntf_view li .time { background:#fff url('../images/iskra/ico_time.png') 0.2rem 50% no-repeat; }
+.wrap.Rewards .container .contents ul.ntf_view li .time { position:absolute; top:-4rem; right:-5rem;  }
+.wrap.Rewards .container .contents ul.ntf_view li .time img { width:16.5rem; height:7.2rem }
 .wrap.Rewards .container .contents ul.ntf_view li .btn01 .txt_hover { display:none }
 .wrap.Rewards .container .contents ul.ntf_view li .btn01 .txt_hover strong { color:#03a6fd }
 .wrap.Rewards .container .contents ul.ntf_view li .btn01:hover .txt_hover { display:flex; align-items:center; position:absolute; font-size:1.4rem; color:#333; background:#fff; border:1px solid #ddd; border-radius:0.5rem; top:110%; left:0; width:100%; height:7rem; padding:1rem; line-height:130%; text-align:left; }
@@ -1071,8 +1071,8 @@ button.ico_copy { margin-left:2rem; width:2.2rem; height:2.2rem; background:url(
 .wrap.Rewards .container .contents .Reward_none { font-size:1.4rem; color:#fff; opacity:1; margin:0 0 6rem }
 .wrap.Rewards .container .contents .Reward_none a { font-size:1.4rem; color:#fff; margin-left:2rem; padding-right:2rem; background:url('../images/iskra/ico_link.png') 100% 50% no-repeat; }
 
-.wrap.Rewards .container .contents .thumbnail { padding:0.5rem; width:8rem; height:8rem; background:#000; border-radius:0 1.2rem 0 1.2rem; overflow:hidden }
-.wrap.Rewards .container .contents .thumbnail img { }
+.wrap.Rewards .container .contents .thumbnail-s { padding:0.5rem; width:8rem; height:8rem; background:#000; border-radius:0 1.2rem 0 1.2rem; overflow:hidden }
+.wrap.Rewards .container .contents .thumbnail-s img { }
 
 
 /******************************************* D-3.Pioneer NFT *******************************************/
