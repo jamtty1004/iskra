@@ -1260,7 +1260,8 @@ button.ico_copy { margin-left:2rem; width:2.2rem; height:2.2rem; background:url(
 .wrap.setting .container .contents .flex_col .position { position:relative }
 
 .wrap.setting .container .contents .tbl_basic td.dep p { margin:1rem 0; font-family: "SofiaPro-Light"; font-size:1.7rem }
-
+.wrap.setting .container .contents .tbl_basic td.dep h3 { font-size:2rem; font-family: "SofiaPro-Medium"; }
+.wrap.setting .container .contents .tbl_basic td.dep .comming { font-size:1.7rem; font-family: "SofiaPro-Medium"; opacity:0.4 }
 
 
 .frm_modify { border:0; width:20rem; }
