@@ -88,7 +88,7 @@
 					<h1>{Display Name}’s Wallet</h1>
 				</div>
 				<div class="contents">
-					<h2>My Address</h2>
+					<h2 class="font20">My Address</h2>
 					<div class="info_box">
 						<div class="info_wide_addr">
 							<div class="addr">
@@ -96,18 +96,18 @@
 								<button type="button" class="ico_copy"></button><!-- 클립보드 복사 -->
 							</div>
 							<div>
-								<button type="button" onclick="location.href='./B-2. Receive.html'" class="btn02">Receive</button>
+								<button type="button" onclick="location.href='./B-2. Receive.html'" class="btn02 active" style="border:0">Receive</button>
 								<button type="button" onclick="location.href='#'" class="btn01 active">Send</button>
 							</div>
 						</div>
 					</div>
-					<h2>Assets</h2>
+					<h2 class="font20">Assets</h2>
 					<div class="info_box line" style="margin:0">
 						<div class="info_wide flex">
 							<div class="row">
 								<div>
 									<p>Total Balance<br /></p>
-									<p><strong>0 USD</strong></p>
+									<p><strong class="pay">0 USD</strong></p>
 								</div>
 							</div>
 						</div>
@@ -115,24 +115,30 @@
 					<div class="info_list">
 						<!-- col -->
 						<div>
-							<img src="../../assets/images/iskra/ico_klay.png" width="20" height="20" />
+							<img src="../../assets/images/iskra/ico_klay.png" width="27" height="27" />
 							<span>KLAY</span><br />
-							<strong class="big">0</strong> KLAY<br />
-							≈ {KLAY USD 환산가} USD
+							<label>
+								<strong>0 KLAY</strong><br />
+								≈ {KLAY USD 환산가} USD
+							</label>
 						</div>
 						<!-- col -->
 						<div>
-							<img src="../../assets/images/iskra/ico_isk.png" width="20" height="20" />
+							<img src="../../assets/images/iskra/ico_isk.png" width="27" height="27" />
 							<span>ISK</span><br />
-							<strong class="big">0</strong> ISK<br />
-							≈ {KLAY USD 환산가} USD
+							<label>
+								<strong>0 ISK</strong><br />
+								≈ {KLAY USD 환산가} USD
+							</label>
 						</div>
 						<!-- col -->
 						<div>
-							<img src="../../assets/images/iskra/ico_isk.png" width="20" height="20" />
+							<img src="../../assets/images/iskra/ico_isk.png" width="27" height="27" />
 							<span>BORA</span><br />
-							<strong class="big">0</strong> BORA<br />
-							≈ {KLAY USD 환산가} USD
+							<label>
+								<strong>0 BORA</strong><br />
+								≈ {KLAY USD 환산가} USD
+							</label>
 						</div>
 					</div>
 				</div>

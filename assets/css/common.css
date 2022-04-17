@@ -18,14 +18,14 @@
 /* 초기화 */
 html,body{overflow-x:hidden;}
 html { -webkit-overflow-scrolling:touch; -webkit-touch-callout:none;-webkit-user-select:none;-webkit-tap-highlight-color:rgba(0,0,0,0); font-size:10px; }
-body { word-break:keep-all; min-width:32rem; margin:0;padding:0;font-family:"SofiaPro-Medium", sans-serif; font-size:1.2rem; background:#181a2c; -webkit-text-size-adjust:none;-moz-text-size-adjust:none;-ms-text-size-adjust:none;scrollbar-color:#2864a3 #01182e;scrollbar-width:thin}
+body { word-break:keep-all; min-width:32rem; margin:0;padding:0;font-family:"SofiaPro-Medium", sans-serif; font-size:1.3rem; background:#181a2c; -webkit-text-size-adjust:none;-moz-text-size-adjust:none;-ms-text-size-adjust:none;scrollbar-color:#2864a3 #01182e;scrollbar-width:thin}
 body::-webkit-scrollbar{width:1rem}
 body::-webkit-scrollbar-track{background:#01182e}
 body::-webkit-scrollbar-thumb{background:#2864a3;border-radius:100px}
 body::-webkit-scrollbar-thumb:hover{background:#3f96d9; -webkit-text-size-adjust:none;}
 em { font-style:normal }
 html, h1, h2, h3, h4, h5, h6, form, fieldset, img {margin:0;padding:0;border:0; }
-h1, h2, h3, h4, h5, h6 {font-family:"SofiaPro-Medium", sans-serif; }
+h1, h2, h3, h4, h5, h6 { }
 main, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display:block}
 ul {margin:0;padding:0;list-style:none}
 ol,li,dl,dt,dd {margin:0;padding:0} 
@@ -354,9 +354,9 @@ textarea:-ms-input-placeholder {font-family: "SofiaPro-Light";font-weight:normal
 /******************************************* D Wallet *******************************************/
 
 /* 전체 공통 */
-.txt_left { text-align:left; }
-.txt_center { text-align:center; }
-.txt_right { text-align:right; }
+.txt_left { text-align:left !important; }
+.txt_center { text-align:center !important; }
+.txt_right { text-align:right !important; }
 .position_right { display:flex; justify-content:flex-end }
 
 .flex_col { display:flex; align-items:center; position:relative; }
@@ -409,7 +409,7 @@ form input:focus { border:1px solid #F23B4A; background:#fff; }
 form input.password { width:30rem !important  }
 
 .msg_line { border:1px solid #00ccff !important }
-
+.noline { border:0 !important }
 
 .msg { background:url('../images/iskra/ico_msg.png') 0 0.2rem no-repeat; text-align:left; padding-left:2.5rem; display:block; margin:1.5rem 0; font-size:1.4rem; color:#F23B4A }
 .msg2 { background:url('../images/iskra/ico_msg.png') 0 0.2rem no-repeat; text-align:left;  padding-left:2.5rem; display:block; margin:1.5rem 0; font-family: "SofiaPro-Light"; font-size:1.7rem; color:#fff; font-weight:bold }
@@ -477,7 +477,7 @@ table.tbl_basic td.payment { }
 /* 폰트 사이즈 */
 .font_big { font-size:1.8rem; font-weight:bold; color:#fff }
 h1.font30  { font-size:3rem !important; color:#fff !important; font-family: "SofiaPro-Medium" !important; }
-
+h2.font20  { font-size:2rem !important; color:#fff !important; font-family: "SofiaPro-Medium" !important; }
 
 button.ico_copy { margin-left:2rem; width:3.2rem; height:3.2rem; background:url('../images/iskra/ico_copy.png') 50% 50% no-repeat; }
 
@@ -850,7 +850,7 @@ button.ico_copy { margin-left:2rem; width:3.2rem; height:3.2rem; background:url(
 
 .wrap.Wallet.nohd {  }
 .wrap.Wallet.nohd .container { width:85rem; margin:0 auto; }
-.wrap.Wallet.nohd .container .title_area { margin:0 0 2rem }
+.wrap.Wallet.nohd .container .title_area { margin:0 0 5rem }
 .wrap.Wallet.nohd .container h1 { font-size:5rem; color:#fff; font-family:"SofiaPro-Black"; }
 .wrap.Wallet.nohd .container .step { text-align:center; width:38rem; position:relative; margin:0 auto 18rem; border-bottom:2px solid #4d4f5d;  }
 .wrap.Wallet.nohd .container .step ul { position:absolute; top:-5rem; left:0; width:100%; display:flex; align-items:center; justify-content:center; }
@@ -865,7 +865,7 @@ button.ico_copy { margin-left:2rem; width:3.2rem; height:3.2rem; background:url(
 
 .wrap.Wallet.nohd .container .contents {  }
 .wrap.Wallet.nohd .container .contents .form_style { margin:0; border:0 }
-.wrap.Wallet.nohd .container .contents h2 { color:#fff; font-size:4rem; font-family:"SofiaPro-Black"; margin:0 0 2rem }
+.wrap.Wallet.nohd .container .contents h2 { color:#fff; font-size:4rem; font-family:"SofiaPro-Black"; margin:0 0 1rem }
 .wrap.Wallet.nohd .container .contents h3 { color:#fff; font-size:3rem; font-weight:normal; margin:0 0 1rem; }
 .wrap.Wallet.nohd .container .contents h3.light { font-size:2.5rem; font-family: "SofiaPro-Light"; }
 .wrap.Wallet.nohd .container .contents h4 { color:#fff; font-size:2rem; }
@@ -924,16 +924,17 @@ button.ico_copy { margin-left:2rem; width:3.2rem; height:3.2rem; background:url(
 
 /* A. Create Wallet - B. Wallet 조회 및 입금 */
 .wrap.Wallet .container .contents h3.line { border-bottom:2px solid rgba(255,255,255,.2); margin:0 0 2.5rem; padding:0 0 0.5rem }
+.wrap.Wallet .container .contents div.addr { font-size:1.7rem; color:#fff; font-family: "SofiaPro-Light"; }
 .wrap.Wallet .container .contents .info_box { margin:0 0 6rem; font-size:1.5rem; font-family: "SofiaPro-Light"; color:#fff;  }
 .wrap.Wallet .container .contents .info_box.line { border-top:2px solid rgba(255,255,255,.2); margin:0 0 2.5rem; padding:0 0 0.5rem }
 .wrap.Wallet .container .contents .info_wide { flex:1;  }
-.wrap.Wallet .container .contents .info_wide div { margin:2rem 0; display:flex; align-items:center; text-align:left; }
-.wrap.Wallet .container .contents .info_wide div.addr { font-size:1.7rem; color:#fff; }
+.wrap.Wallet .container .contents .info_wide div { margin:1rem 0; display:flex; align-items:center; text-align:left; }
 .wrap.Wallet .container .contents .info_wide div p { font-size:1.3rem; font-family: "SofiaPro-Light";  color:#fff; opacity:1; position:relative }
 .wrap.Wallet .container .contents .info_wide div p:nth-child(1) { font-size:1.7rem; font-family: "SofiaPro-Light"; }
-.wrap.Wallet .container .contents .info_wide div p:nth-child(2) { margin-left:auto; text-align:right }
+.wrap.Wallet .container .contents .info_wide div p:nth-child(2) { margin-right:auto; }
 .wrap.Wallet .container .contents .info_wide div:last-child { border:0 !important; }
 .wrap.Wallet .container .contents .info_wide div strong { font-size:2rem; font-family: "SofiaPro-Light"; }
+.wrap.Wallet .container .contents .info_wide div strong.pay { font-size:2rem; font-family: "SofiaPro-Medium"; }
 .wrap.Wallet .container .contents .info_wide div span { opacity:1; }
 .wrap.Wallet .container .contents .info_wide .row { display:flex; align-items:center; }
 .wrap.Wallet .container .contents .info_wide .row label { padding:0 2rem; }
@@ -953,12 +954,13 @@ button.ico_copy { margin-left:2rem; width:3.2rem; height:3.2rem; background:url(
 .wrap.Wallet .container .contents .info_wide_addr div { display:flex; align-items:center; }
 .wrap.Wallet .container .contents .info_wide_addr div:nth-child(2) { margin-left:auto }
 
-.wrap.Wallet .container .contents .info_list { margin:3rem 0 0; display:flex; flex-wrap:wrap }
+.wrap.Wallet .container .contents .info_list { margin:2rem 0 0; display:flex; flex-wrap:wrap }
 .wrap.Wallet .container .contents .info_list div { width:49%; border-radius:2rem; background:#1e1f37; color:#fff; padding:2.5rem; margin-bottom:2rem; }
 .wrap.Wallet .container .contents .info_list div:nth-child(2n) { margin-right:0; margin-left:auto; }
 .wrap.Wallet .container .contents .info_list div span { vertical-align:middle; font-size:2rem; margin-left:1rem }
 .wrap.Wallet .container .contents .info_list div .big { font-size:3rem; margin-right:1rem }
-.wrap.Wallet .container .contents .info_list div strong { font-size:2rem; }
+.wrap.Wallet .container .contents .info_list div strong { font-size:2rem; font-weight:normal; }
+.wrap.Wallet .container .contents .info_list div label { display:block; margin:1rem 0 0 }
 
 /* A. Create Wallet - C. KLAY 송금 & D. ISK 및 토큰 송금 */
 .wrap.Wallet .container .contents .form_style { border-top:2px solid #333; margin:2rem 0 0; padding:2rem 0 }
@@ -978,11 +980,11 @@ button.ico_copy { margin-left:2rem; width:3.2rem; height:3.2rem; background:url(
 /* A-1a. 구매 전 */
 .wrap.Rewards { }
 .wrap.Rewards .container { position:relative; top:-1rem; width:85rem;  }
-.wrap.Rewards .container .title_area { margin:0 0 2rem }
+.wrap.Rewards .container .title_area { margin:0 0 5rem }
 .wrap.Rewards .container h1 { font-size:5rem; color:#fff; font-family:"SofiaPro-Black"; }
 .wrap.Rewards .container span.payment { font-size:3rem; line-height:3rem; }
 .wrap.Rewards .container .contents h2 { font-size:3rem !important; color:#fff;  }
-.wrap.Rewards .container .contents h3 { font-size:2rem !important; color:#fff; margin:0 0 2rem }
+.wrap.Rewards .container .contents h3 { font-size:2rem !important; color:#fff; margin:0 0 2rem; font-family: "SofiaPro-Light"; }
 .wrap.Rewards .container .contents h3.line_bottom { padding:0 0 1rem; border-bottom:2px solid #2e3040 }
 .wrap.Rewards .container .contents p.Description { color:#fff;  font-family: "SofiaPro-Light"; font-size:1.7rem; opacity:1; }
 /*.wrap.Rewards .container .contents a.goback { margin-left:auto; width:3.5rem; height:3.5rem; background:url('../images/iskra/ico_back.png') 0 50% no-repeat; }*/
@@ -1030,7 +1032,7 @@ button.ico_copy { margin-left:2rem; width:3.2rem; height:3.2rem; background:url(
 
 /* A-3b. Claim Detail - Referral 있음 & A-7 서명 완료 */
 .wrap.Rewards .container .contents .tit_area { display:flex; align-items:center; }
-.wrap.Rewards .container .contents .info_box { margin:2rem 0 6rem; }
+.wrap.Rewards .container .contents .info_box { margin:2rem 0 6rem; border-top:2px solid #2e3040; }
 .wrap.Rewards .container .contents .info { display:flex; align-items:center; background:#1b1d35; height:14rem; border-radius:2rem; padding:3rem 4rem }
 .wrap.Rewards .container .contents .info div:nth-child(1) { margin-right:4rem; }
 .wrap.Rewards .container .contents .info div:nth-child(3) { margin-left:auto }
@@ -1045,16 +1047,16 @@ button.ico_copy { margin-left:2rem; width:3.2rem; height:3.2rem; background:url(
 .wrap.Rewards .container .contents .info_wide div { margin:2rem 0; display:flex; align-items:center; }
 .wrap.Rewards .container .contents .info_wide div p { color:#fff; opacity:1; position:relative }
 .wrap.Rewards .container .contents .info_wide div p:nth-child(1) { font-size:1.7rem; font-family: "SofiaPro-Light"; }
-.wrap.Rewards .container .contents .info_wide div p:nth-child(2) { font-size:2rem; margin-left:auto; text-align:right }
-.wrap.Rewards .container .contents .info_wide div p:nth-child(2) span { font-size:1.4rem; font-family: "SofiaPro-Light"; }
-.wrap.Rewards .container .contents .info_wide div:last-child { border-top:2px solid #2e3040; padding:2rem 0 0  }
-.wrap.Rewards .container .contents .info_wide div strong { font-size:2rem; font-family: "SofiaPro-Light"; }
-.wrap.Rewards .container .contents .info_wide_head { border-bottom:2px solid #2e3040; margin:0 0 2rem }
+.wrap.Rewards .container .contents .info_wide div p:nth-child(2) { font-family: "SofiaPro-Light";  font-size:2rem; margin-left:auto; text-align:right }
+.wrap.Rewards .container .contents .info_wide div p:nth-child(2) span { font-size:1.3rem; font-family: "SofiaPro-Light"; }
+.wrap.Rewards .container .contents .info_wide div:last-child {  }
+.wrap.Rewards .container .contents .info_wide div strong { font-size:2.5rem; font-family: "SofiaPro-Light"; }
+.wrap.Rewards .container .contents .info_wide_head {  margin:0 0 5rem }
 .wrap.Rewards .container .contents .info_wide_head div { margin:2rem 0; display:flex; align-items:center; }
 .wrap.Rewards .container .contents .info_wide_head div p { position:relative }
-.wrap.Rewards .container .contents .info_wide_head div p:nth-child(1) { font-size:1.7rem; color:#fff; }
+.wrap.Rewards .container .contents .info_wide_head div p:nth-child(1) { font-size:2rem; color:#fff; }
 .wrap.Rewards .container .contents .info_wide_head div p:nth-child(2) { margin-left:auto; text-align:right }
-.wrap.Rewards .container .contents .info_wide_head div p:nth-child(2) a { color:#fff }
+.wrap.Rewards .container .contents .info_wide_head div p:nth-child(2) a { font-size:2rem; font-family:"SofiaPro-Black"; color:#fff }
 .wrap.Rewards .container .contents .Reward_none { font-size:1.4rem; color:#fff; opacity:1; margin:0 0 6rem }
 .wrap.Rewards .container .contents .Reward_none a { font-size:1.4rem; color:#fff; margin-left:2rem; padding-right:2rem; background:url('../images/iskra/ico_link.png') 100% 50% no-repeat; }
 
@@ -1062,12 +1064,11 @@ button.ico_copy { margin-left:2rem; width:3.2rem; height:3.2rem; background:url(
 .wrap.Rewards .container .contents .thumbnail img { }
 
 
-
 /******************************************* D-3.Pioneer NFT *******************************************/
 /* A-2c My NFTs */
 .wrap.Pioneer { }
 .wrap.Pioneer .container { position:relative; top:-1rem; width:85rem; }
-.wrap.Pioneer .container .title_area { margin:0 0 2rem;  }
+.wrap.Pioneer .container .title_area { margin:0 0 5rem;  }
 .wrap.Pioneer .container h1 { font-size:5rem; color:#fff; font-family:"SofiaPro-Black"; }
 .wrap.Pioneer .container span.payment { font-size:3rem; line-height:3rem; }
 .wrap.Pioneer .container .contents h2 { font-size:3rem !important; color:#fff;  }
@@ -1131,7 +1132,7 @@ button.ico_copy { margin-left:2rem; width:3.2rem; height:3.2rem; background:url(
 
 .wrap.setting { }
 .wrap.setting .container { position:relative; top:-1rem; width:85rem;  }
-.wrap.setting .container .title_area { margin:0 0 2rem }
+.wrap.setting .container .title_area { margin:0 0 5rem }
 .wrap.setting .container h1 { font-size:5rem; color:#fff; font-family:"SofiaPro-Black"; }
 .wrap.setting .container span.payment { font-size:3rem; line-height:3rem; }
 .wrap.setting .container .contents h2 { font-size:3rem !important; color:#fff; font-weight:normal }
@@ -1395,8 +1396,8 @@ button.ico_copy { margin-left:2rem; width:3.2rem; height:3.2rem; background:url(
 .basic_popup .container .btn01 { width:10rem; height:3.5rem; line-height:3.5rem; font-size:1.4rem !important; border-radius:0.3rem; background:#2269cf }
 
 /* 서명 팝업 */
-#signature_popup { position:absolute; top:6rem; right:5rem; width:43rem; z-index:99999999;  }
-#signature_popup .container { padding:5rem; background:#fff; border:2px solid #ccc; border-radius:1rem; }
+#signature_popup { position:absolute; width:100%; height:100%; top:0; right:0; z-index:99999999;  }
+#signature_popup .container { position:fixed; top:6rem; right:5rem; width:43rem; padding:5rem; background:#fff; border:2px solid #ccc; border-radius:1rem; }
 #signature_popup .container button.popup_close { position:absolute; top:5rem; right:5rem; width:2rem; height:2rem; background:url('../images/iskra/ico_popup_close.png') 50% 50% no-repeat; }
 #signature_popup .container h3 { text-align:left; font-size:2.4rem; font-family: "SofiaPro-Black"; }
 #signature_popup .container p { margin:1rem 0; text-align:left; font-size:1.4rem; line-height:140%; }
