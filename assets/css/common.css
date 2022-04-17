@@ -931,9 +931,10 @@ button.ico_copy { margin-left:2rem; width:2.2rem; height:2.2rem; background:url(
 .wrap.Wallet .container .contents .info_box.line { border-top:2px solid rgba(255,255,255,.2); margin:0 0 2.5rem; padding:0 0 0.5rem }
 .wrap.Wallet .container .contents .info_wide { flex:1;  }
 .wrap.Wallet .container .contents .info_wide div { margin:1rem 0; display:flex; align-items:center; text-align:left; }
-.wrap.Wallet .container .contents .info_wide div p { font-size:1.3rem; font-family: "SofiaPro-Light";  color:#fff; opacity:1; position:relative }
+.wrap.Wallet .container .contents .info_wide div p { font-size:1.3rem; font-family: "SofiaPro-Light";  color:#fff; opacity:1; position:relative;  }
+.wrap.Wallet .container .contents .info_wide div p.left{ margin-right:auto; width:100%; }
 .wrap.Wallet .container .contents .info_wide div p:nth-child(1) { font-size:1.7rem; font-family: "SofiaPro-Light"; }
-.wrap.Wallet .container .contents .info_wide div p:nth-child(2) { margin-right:auto; }
+.wrap.Wallet .container .contents .info_wide div p:nth-child(2) { margin-left:auto; text-align:right }
 .wrap.Wallet .container .contents .info_wide div:last-child { border:0 !important; }
 .wrap.Wallet .container .contents .info_wide div strong { font-size:2rem; font-family: "SofiaPro-Light"; }
 .wrap.Wallet .container .contents .info_wide div strong.pay { font-size:2rem; font-family: "SofiaPro-Medium"; }
@@ -947,8 +948,8 @@ button.ico_copy { margin-left:2rem; width:2.2rem; height:2.2rem; background:url(
 .wrap.Wallet .container .contents .info_wide .row div { display:flex; align-items:center; flex-direction: column; }
 
 .wrap.Wallet .container .contents .info_wide .row2 { flex:1; display:flex; align-items:center;  }
-.wrap.Wallet .container .contents .info_wide .row2 label { flex:1; width:50%; }
-.wrap.Wallet .container .contents .info_wide .row2 label:nth-child(1) { }
+.wrap.Wallet .container .contents .info_wide .row2 label { flex:1; width:50%; display:flex; align-items:center; }
+.wrap.Wallet .container .contents .info_wide .row2 label:nth-child(1) { padding-right:3rem }
 .wrap.Wallet .container .contents .info_wide .row2 label:nth-child(2) { border-left:2px solid #2e3040; padding-left:3rem }
 
 
