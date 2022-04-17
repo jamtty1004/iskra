@@ -441,6 +441,8 @@ table.tbl_basic td.payment { }
 .margin-top50 { margin-top:5rem!important }
 .margin-top60 { margin-top:6rem!important }
 
+.margin-bottom20 { margin:0 0 2rem !important }
+
 .important { font-size:1.6rem; color:#fff; padding-left:2.5rem; background:url('../images/iskra/ico_important.png') 0 50% no-repeat; }
 .important a { color:#fff }
 .line-top { border-top:2px solid #2e3040; padding:2rem 0 0 }
@@ -479,7 +481,7 @@ table.tbl_basic td.payment { }
 h1.font30  { font-size:3rem !important; color:#fff !important; font-family: "SofiaPro-Medium" !important; }
 h2.font20  { font-size:2rem !important; color:#fff !important; font-family: "SofiaPro-Medium" !important; }
 
-button.ico_copy { margin-left:2rem; width:3.2rem; height:3.2rem; background:url('../images/iskra/ico_copy.png') 50% 50% no-repeat; }
+button.ico_copy { margin-left:2rem; width:2.2rem; height:2.2rem; background:url('../images/iskra/ico_copy.png') 50% 50% no-repeat; }
 
 
 /* 페이징 */
