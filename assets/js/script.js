@@ -12,6 +12,12 @@ $(function(){
 		$('#coin').val(txt);
 		$('.select_coin').hide();
 		$('#coin').removeClass('active');
+		if($(this).hasClass("klay") === true) {
+			$('#coin').addClass('coin1');
+		}
+		if($(this).hasClass("isk") === true) {
+			$('#coin').addClass('coin2')
+		}
 	});
 
 	// 송금 셀렉트 닫기
