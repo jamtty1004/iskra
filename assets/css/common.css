@@ -952,18 +952,17 @@ button.ico_copy { margin-left:2rem; width:2.2rem; height:2.2rem; background:url(
 .wrap.Wallet .container .contents h3.line { border-bottom:2px solid rgba(255,255,255,.2); margin:0 0 2.5rem; padding:0 0 0.5rem }
 .wrap.Wallet .container .contents div.addr { font-size:1.7rem; color:#fff; font-family: "SofiaPro-Light"; }
 .wrap.Wallet .container .contents .info_box { margin:1rem 0 6rem; font-size:1.5rem; font-family: "SofiaPro-Light"; color:#fff; border-top:2px solid #2e3040; }
-.wrap.Wallet .container .contents .info_box.line { border-top:2px solid rgba(255,255,255,.2); margin:0 0 2.5rem; padding:0 0 0.5rem }
+.wrap.Wallet .container .contents .info_box.line { border-top:2px solid #2e3040; margin:0 0 2.5rem; padding:0 0 0.5rem }
 .wrap.Wallet .container .contents .info_wide { flex:1;  }
+.wrap.Wallet .container .contents .info_wide .pay { font-size:2rem; font-family: "SofiaPro-Medium"; position:relative; top:-1.5rem  }
 .wrap.Wallet .container .contents .info_wide div { margin:1rem 0; display:flex; align-items:center; text-align:left; }
 .wrap.Wallet .container .contents .info_wide div p { font-size:1.3rem; font-family: "SofiaPro-Light";  color:#fff; opacity:1; position:relative;  }
-.wrap.Wallet .container .contents .info_wide div p.left{ margin-right:auto; width:100%; }
 .wrap.Wallet .container .contents .info_wide div p:nth-child(1) { font-size:1.7rem; font-family: "SofiaPro-Light"; }
 .wrap.Wallet .container .contents .info_wide div p:nth-child(2) { margin-left:auto; text-align:right }
 .wrap.Wallet .container .contents .info_wide div:last-child { border:0; }
 .wrap.Wallet .container .contents .info_wide div strong { font-size:2rem; font-family: "SofiaPro-Light"; font-weight:normal }
-.wrap.Wallet .container .contents .info_wide div strong.pay { font-size:2rem; font-family: "SofiaPro-Medium"; }
 .wrap.Wallet .container .contents .info_wide div span { opacity:1; }
-.wrap.Wallet .container .contents .info_wide .row { display:flex; align-items:center; }
+.wrap.Wallet .container .contents .info_wide .row {  display:flex; align-items:center; }
 .wrap.Wallet .container .contents .info_wide .row label { padding:0 2rem; }
 .wrap.Wallet .container .contents .info_wide .row label:nth-child(1) { border-right:2px solid #2e3040; }
 .wrap.Wallet .container .contents .info_wide .row label:nth-child(2) { padding-right:0 }
@@ -978,7 +977,7 @@ button.ico_copy { margin-left:2rem; width:2.2rem; height:2.2rem; background:url(
 .wrap.Wallet .container .contents .info_wide .row2 label:nth-child(2) { border-left:2px solid #2e3040; padding-left:3rem; margin-left:3rem; }
 
 
-.wrap.Wallet .container .contents .info_wide_addr { display:flex; align-items:center; }
+.wrap.Wallet .container .contents .info_wide_addr { display:flex; align-items:center; margin:2rem 0 0; }
 .wrap.Wallet .container .contents .info_wide_addr div { display:flex; align-items:center; }
 .wrap.Wallet .container .contents .info_wide_addr div:nth-child(2) { margin-left:auto }
 
@@ -1386,7 +1385,7 @@ button.ico_copy { margin-left:2rem; width:2.2rem; height:2.2rem; background:url(
 .wrap.open_nft .content .contents .flex_inline .txt_area .col .con .card_img_view .card img { width:100%;height:100%;-o-object-fit:cover;object-fit:cover }
 .wrap.open_nft .content .contents .flex_inline .txt_area .col .con .card_img_view .txt { padding:1rem }
 .wrap.open_nft .content .contents .flex_inline .txt_area .col .con .card_img_view .txt .name { font-size:1.7rem; }
-.wrap.open_nft .content .contents .flex_inline .txt_area .col .con .card_img_view .id { position:absolute; top:1rem; left:1rem; width:7rem; line-height:3rem; border-radius:1rem; text-align:center; background:rgba(255,255,255,.8); color:#000 }
+.wrap.open_nft .content .contents .flex_inline .txt_area .col .con .card_img_view .id { position:absolute; top:2rem; left:2rem; padding:0 1rem; line-height:2rem; border-radius:1rem; text-align:center; background:rgba(23,25,43,.9); color:#fff }
 
 .wrap.open_nft .content .contents .flex_inline .txt_area .col .con .flex_row { margin:0 0 2rem; display:flex; align-items:center }
 .wrap.open_nft .content .contents .flex_inline .txt_area .col .con .flex_row label { font-size:1.7rem; color:#fff; opacity:1; }
@@ -1415,7 +1414,7 @@ button.ico_copy { margin-left:2rem; width:2.2rem; height:2.2rem; background:url(
 .wrap.open_nft .content .contents .flex_inline .txt_area .col .con ul.ntf_list li:nth-child(5n) { margin-right:0;  }
 .wrap.open_nft .content .contents .flex_inline .txt_area .col .con ul.ntf_list li .box_wr { position:relative; margin:0 auto; width:100%; height:100%; }
 .wrap.open_nft .content .contents .flex_inline .txt_area .col .con ul.ntf_list li .box_wr .chk { position:absolute; top:1rem; right:1rem; z-index:99999; }
-.wrap.open_nft .content .contents .flex_inline .txt_area .col .con ul.ntf_list li .box_wr .id { position:absolute; top:1rem; z-index:99999; left:1rem; width:7rem; line-height:3rem; border-radius:1rem; text-align:center; background:rgba(255,255,255,.8); color:#000 }
+.wrap.open_nft .content .contents .flex_inline .txt_area .col .con ul.ntf_list li .box_wr .id { position:absolute; top:3rem; left:3rem; padding:0 1rem; line-height:2rem; border-radius:1rem; text-align:center; background:rgba(23,25,43,.9); color:#fff }
 .wrap.open_nft .content .contents .flex_inline .txt_area .col .con ul.ntf_list li .box_wr .thumbnail { position:relative; z-index:1; margin:0 auto; height:14rem; }
 .wrap.open_nft .content .contents .flex_inline .txt_area .col .con ul.ntf_list li .box_wr .thumbnail img {  width:100%;height:100%;-o-object-fit:cover;object-fit:cover  }
 .wrap.open_nft .content .contents .flex_inline .txt_area .col .con ul.ntf_list li .box_wr .txt { padding:1rem; line-height:150%; font-size:1.2rem }
