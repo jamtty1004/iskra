@@ -1023,29 +1023,39 @@ button.ico_copy { margin-left:2rem; width:2.2rem; height:2.2rem; background:url(
 
 
 /* A-2b. Staking 후 - Claimable 발생 전후 */
-.wrap.Rewards .container .contents .flex_row { margin:3.5rem 0 0; display:flex; }
-.wrap.Rewards .container .contents .flex_row .row1 { margin-right:2.5rem; width:61rem; height:44.5rem; display:flex; display:flex; justify-content:center; flex-direction: column; }
-.wrap.Rewards .container .contents .flex_row .row1 .img { width:20.5rem; border-radius:0 2.5rem 0 2.5rem; overflow:hidden }
-.wrap.Rewards .container .contents .flex_row .row1 div:nth-child(1) { padding:3rem; margin:0 0 2.5rem; background:#1d1e35; border-radius:2.5rem; height:27.5rem; display:flex; align-items:center; }
-.wrap.Rewards .container .contents .flex_row .row1 div:nth-child(2) { color:#fff; padding:3rem; background:#1d1e35; border-radius:2.5rem; flex:1; display:flex; flex-direction: column; }
-.wrap.Rewards .container .contents .flex_row .row1 div:nth-child(2) span.title { font-size:1.6rem; padding-left:3rem; background:url('../images/iskra/ico_claimed_rewards.png') 0 50% no-repeat; }
-.wrap.Rewards .container .contents .flex_row .row1 div:nth-child(2) span.payment { font-size:2.5rem; line-height:4rem; }
+.wrap.Rewards .container .contents .flex_row { height:34rem; margin:3.5rem 0 0; display:flex; }
+.wrap.Rewards .container .contents .flex_row .row:nth-child(1) { margin-right:1.5rem; width:40rem; height:44.5rem; display:flex; display:flex;  flex-direction: column; }
+.wrap.Rewards .container .contents .flex_row .row:nth-child(1) .img { width:11rem; height:11rem; border-radius:0 2.5rem 0 2.5rem; overflow:hidden }
+.wrap.Rewards .container .contents .flex_row .row:nth-child(1) div:nth-child(1) { padding:3rem 2rem 2rem 3rem; margin:0 0 1.5rem; background:rgba(255, 255, 255, 0.05); border-radius:2.5rem; height:20rem; display:flex; align-items:center; }
+.wrap.Rewards .container .contents .flex_row .row:nth-child(1) div:nth-child(2) { color:#fff; padding:3rem; background:rgba(255, 255, 255, 0.05); border-radius:2.5rem; height:12.5rem; display:flex; flex-direction: column; }
 
-.wrap.Rewards .container .contents .flex_row .row2 { color:#fff; padding:3rem; width:22rem; height:21rem; background:#1d1e35; border-radius:2.5rem; flex-direction: column; display:flex; align-items:center; justify-content:center; margin:0 0 2.5rem }
-.wrap.Rewards .container .contents .flex_row .row2 p { text-align:center }
-.wrap.Rewards .container .contents .flex_row .row2 span.title { font-size:1.6rem; padding-left:3rem; background:url('../images/iskra/ico_locked_rewards.png') 0 50% no-repeat; }
-.wrap.Rewards .container .contents .flex_row .row2 span.payment { font-size:2.5rem; line-height:4rem; }
+.wrap.Rewards .container .contents .flex_row .row:nth-child(1) div:nth-child(2) label { padding-left:3rem; background:url('../images/iskra/ico_claimed_rewards.png') 0 0 no-repeat; }
+.wrap.Rewards .container .contents .flex_row .row:nth-child(1) div:nth-child(2) span.title { font-size:1.6rem; }
+.wrap.Rewards .container .contents .flex_row .row:nth-child(1) div:nth-child(2) span.payment { font-size:2.5rem; line-height:4rem; }
 
-.wrap.Rewards .container .contents .flex_row .row3 { color:#fff; padding:3rem; width:22rem; height:21rem; background:#1d1e35; border-radius:2.5rem; flex-direction: column; display:flex; align-items:center; justify-content:center; }
-.wrap.Rewards .container .contents .flex_row .row3 p { text-align:center }
-.wrap.Rewards .container .contents .flex_row .row3 span.title { font-size:1.6rem; padding-left:3rem; background:url('../images/iskra/ico_total_rewards.png') 0 50% no-repeat; }
-.wrap.Rewards .container .contents .flex_row .row3 span.payment { font-size:2.5rem; line-height:4rem; }
-.wrap.Rewards .container .contents .flex_row .txt { flex:1; margin:0 0 0 3rem; color:#fff; font-size:1.5rem; }
-.wrap.Rewards .container .contents .flex_row strong { display:block; font-size:3rem; font-weight:normal; margin:0 0 1rem }
+
+
+.wrap.Rewards .container .contents .flex_row .row:nth-child(2) { flex:1; display:flex; }
+.wrap.Rewards .container .contents .flex_row .row:nth-child(2) div { color:#fff; padding:2rem; flex:1; height:100%; background:rgba(255, 255, 255, 0.05);border-radius:2.5rem; flex-direction: column; display:flex; align-items:center; justify-content:center; margin:0 0 2.5rem;  }
+
+.wrap.Rewards .container .contents .flex_row .row:nth-child(2) div:nth-child(1) { margin-right:1.5rem }
+.wrap.Rewards .container .contents .flex_row .row:nth-child(2) div:nth-child(1) label { padding-left:3rem; background:url('../images/iskra/ico_locked_rewards.png') 0 0 no-repeat; }
+.wrap.Rewards .container .contents .flex_row .row:nth-child(2) div:nth-child(2) label { padding-left:3rem; background:url('../images/iskra/ico_total_rewards.png') 0 0 no-repeat; }
+
+
+
+.wrap.Rewards .container .contents .flex_row .row span.title-b { font-size:2rem; }
+.wrap.Rewards .container .contents .flex_row .row span.title { font-size:1.6rem; }
+.wrap.Rewards .container .contents .flex_row .row span.payment { font-size:2rem; line-height:130%;  }
+.wrap.Rewards .container .contents .flex_row .txt { flex:1; margin:0 0 0 2rem; color:#fff; font-size:1.5rem; font-family: "SofiaPro-Light"; }
+.wrap.Rewards .container .contents .flex_row .txt .sm { font-size:1.3rem; }
+.wrap.Rewards .container .contents .flex_row strong { display:block; font-size:2rem; font-family: "SofiaPro-Medium"; font-weight:normal; }
 .wrap.Rewards .container .contents .flex_row strong.title { display:block; padding-left:2.5rem; background:url('../images/iskra/ico_dot.png') 0 50% no-repeat; }
-.wrap.Rewards .container .contents .flex_row .btn_area { margin:2rem 0 0 }
-.wrap.Rewards .container .contents .flex_row .btn_area .btn02 { width:18rem; margin-right:1.5rem; font-size:1.8rem; font-weight:bold; letter-spacing:0.1rem; text-transform:uppercase; border:0; background:#292a41; border-radius:1rem; }
-.wrap.Rewards .container .contents .flex_row .btn_area .btn01 { width:12rem; font-size:1.8rem; font-weight:bold; letter-spacing:0.1rem; text-transform:uppercase; border:0; background:#00339b; border-radius:1rem; }
+.wrap.Rewards .container .contents .flex_row span.usd { font-size:1.3rem; font-family: "SofiaPro-Light"; }
+
+.wrap.Rewards .container .contents .flex_row .btn_area_w { margin:1rem 0 0; display:flex; }
+.wrap.Rewards .container .contents .flex_row .btn_area_w .btn02 { width:11rem; height:4rem; line-height:4rem; margin-right:0.5rem; font-size:1.4rem !important; font-weight:bold; letter-spacing:0.1rem; text-transform:uppercase; border-radius:0.5rem; }
+.wrap.Rewards .container .contents .flex_row .btn_area_w .btn01 { width:11rem; height:4rem; line-height:4rem; font-size:1.4rem !important; font-weight:bold; letter-spacing:0.1rem; text-transform:uppercase; border:0; background:#00339b; border-radius:0.5rem; }
 
 
 /* A-3b. Claim Detail - Referral 있음 & A-7 서명 완료 */
