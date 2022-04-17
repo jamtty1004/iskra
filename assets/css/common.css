@@ -402,9 +402,9 @@ form input.dark { padding:0 2rem; background:#2f3041; border:0; color:#fff }
 form input.dark:focus { background:#fff; color:#000 }
 form input.dark.readonly { background:#2f3041 }
 form input.dark.readonly:focus { background:#2f3041; border:0 !important; color:#fff }
-form input:focus { border:1px solid #F23B4A; background:#fff; }
+form input:focus { border:1px solid #1990c8; background:#fff; }
 .form_style input { transition:all 0.2s ease-out; border:1px solid #ccc; background:#fff; }
-.form_style input:focus { border:2px solid #1e3e6e; border:1px solid #F23B4A; background:#fff; }
+.form_style input:focus { border:2px solid #1e3e6e; border:1px solid #1990c8; background:#fff; }
 .full_input { width:100%; }
 form input.password { width:30rem !important  }
 
