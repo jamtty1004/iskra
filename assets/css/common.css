@@ -1071,9 +1071,6 @@ button.ico_copy { margin-left:2rem; width:2.2rem; height:2.2rem; background:url(
 .wrap.Rewards .container .contents .Reward_none { font-size:1.4rem; color:#fff; opacity:1; margin:0 0 6rem }
 .wrap.Rewards .container .contents .Reward_none a { font-size:1.4rem; color:#fff; margin-left:2rem; padding-right:2rem; background:url('../images/iskra/ico_link.png') 100% 50% no-repeat; }
 
-.wrap.Rewards .container .contents .thumbnail-s { padding:0.5rem; width:8rem; height:8rem; background:#000; border-radius:0 1.2rem 0 1.2rem; overflow:hidden }
-.wrap.Rewards .container .contents .thumbnail-s img { }
-
 
 /******************************************* D-3.Pioneer NFT *******************************************/
 /* A-2c My NFTs */
