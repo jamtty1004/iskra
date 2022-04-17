@@ -13,6 +13,14 @@ $(function(){
 		$('.select_coin').hide();
 		$('#coin').removeClass('active');
 	});
+
+	// 송금 셀렉트 닫기
+	$(document).click(function(e){
+		if (!$(e.target).is('#coin')) {
+			$('.select_coin').hide();
+			$('#coin').removeClass('active');
+		}
+	});
 	
 	// 최종 팝업
 	$('.popup_close').on("click" , function(){
