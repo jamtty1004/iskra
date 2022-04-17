@@ -1126,24 +1126,29 @@ button.ico_copy { margin-left:2rem; width:2.2rem; height:2.2rem; background:url(
 /* B-1a. NFT 상세 */
 .wrap.Pioneer .container .contents ul.ntf_view { margin:1rem 0 0; display:flex; flex-wrap:wrap }
 .wrap.Pioneer .container .contents ul.ntf_view li { position:relative; display:flex;  }
-.wrap.Pioneer .container .contents ul.ntf_view li .box { position:relative; width:30rem; height:35rem; padding:1rem; border-radius:2rem; overflow:hidden; background:#1d1f36; }
-.wrap.Pioneer .container .contents ul.ntf_view li .box .id { position:absolute; top:2rem; left:2rem; width:7rem; line-height:3rem; border-radius:1rem; text-align:center; background:rgba(255,255,255,.8) }
-.wrap.Pioneer .container .contents ul.ntf_view li .box .thumbnail { height:25rem; overflow:hidden; border-radius:1rem; }
-.wrap.Pioneer .container .contents ul.ntf_view li .box .thumbnail img { width:100%; height:100% }
+.wrap.Pioneer .container .contents ul.ntf_view li .box { position:relative; width:27rem; height:40rem; background:#1d1f36; padding:2rem; }
+.wrap.Pioneer .container .contents ul.ntf_view li .box .id { position:absolute; top:3rem; left:3rem; padding:0 1rem; line-height:2rem; border-radius:1rem; text-align:center; background:rgba(23,25,43,.9); color:#fff }
+.wrap.Pioneer .container .contents ul.ntf_view li .box .thumbnail { height:28rem; overflow:hidden; border-radius:1rem; }
+.wrap.Pioneer .container .contents ul.ntf_view li .box .thumbnail img { width:100%;height:100%;-o-object-fit:cover;object-fit:cover }
 .wrap.Pioneer .container .contents ul.ntf_view li .box .txt_area { display:flex; padding:2rem 0; line-height:170%; color:#fff }
-.wrap.Pioneer .container .contents ul.ntf_view li .txt_area a { color:#fff !important }
-.wrap.Pioneer .container .contents ul.ntf_view li .box .txt_area span.name { display:block; font-size:1.7rem; }
+.wrap.Pioneer .container .contents ul.ntf_view li .box .txt_area span.prd { display:block; margin:0 0 0.5rem; font-size:2rem; font-family: "SofiaPro-Medium"; }
+.wrap.Pioneer .container .contents ul.ntf_view li .box .txt_area span.name { display:block; font-size:1.7rem; font-family: "SofiaPro-Light"; opacity:0.7 }
 .wrap.Pioneer .container .contents ul.ntf_view li .box .txt_area div:nth-child(1) { margin-right:auto }
 .wrap.Pioneer .container .contents ul.ntf_view li .box .txt_area div:nth-child(2) { margin-left:auto }
-.wrap.Pioneer .container .contents ul.ntf_view li .box .get { z-index:2; text-align:left; position:absolute; top:2rem; right:2rem; width:14rem; height:7rem; border-radius:1rem; }
-.wrap.Pioneer .container .contents ul.ntf_view li .box .get { box-shadow:1px 1px 8px 4px rgba(0,0,0,.2); color:#fff; font-size:1.2rem; padding-left:7rem; background:#16182a url('../images/iskra/ico_getrewards.png') 1rem 50% no-repeat; }
-.wrap.Pioneer .container .contents ul.ntf_view li .info { width:40rem; margin:0 0 0 2rem; color:#fff }
+.wrap.Pioneer .container .contents ul.ntf_view li .box .get { z-index:2; text-align:left; position:absolute; top:3rem; right:0; width:14rem; height:7rem; border-radius:1rem; }
+.wrap.Pioneer .container .contents ul.ntf_view li .box .get { box-shadow:1px 1px 8px 4px rgba(0,0,0,.2); color:#fff; font-size:1.2rem; padding-left:6rem; background:#202654 url('../images/iskra/ico_getrewards.png') 1.5rem 50% no-repeat; background-size:4rem; }
+.wrap.Pioneer .container .contents ul.ntf_view li .info { width:55rem; margin:0 0 0 2rem; color:#fff }
 .wrap.Pioneer .container .contents ul.ntf_view li .info h4 { font-size:2.8rem }
-.wrap.Pioneer .container .contents ul.ntf_view li .info p.sub { font-size:1.6rem; margin:1rem 0 2rem }
-.wrap.Pioneer .container .contents ul.ntf_view li .info .txt_area { margin:0 0 0.8rem; }
+.wrap.Pioneer .container .contents ul.ntf_view li .info p.sub { margin:1rem 0 2rem; padding:0 0 5rem; border-bottom:2px solid #2e3040; font-size:1.7rem; font-family: "SofiaPro-Light";}
+
+
+.wrap.Pioneer .container .contents ul.ntf_view li .info .txt_area { margin:0 0 2rem; }
 .wrap.Pioneer .container .contents ul.ntf_view li .info .txt_area div { display:flex; align-items:center; }
-.wrap.Pioneer .container .contents ul.ntf_view li .info .txt_area div strong { margin-right:auto; text-align:left; }
-.wrap.Pioneer .container .contents ul.ntf_view li .info .txt_area div p { margin-left:auto; text-align:right; }
+.wrap.Pioneer .container .contents ul.ntf_view li .info .txt_area div strong { font-size:1.7rem; font-family: "SofiaPro-Medium";  margin-right:auto; text-align:left; }
+.wrap.Pioneer .container .contents ul.ntf_view li .info .txt_area div p { font-size:1.5rem; font-family: "SofiaPro-Light"; margin-left:auto; text-align:right; }
+.wrap.Pioneer .container .contents ul.ntf_view li .info .txt_area div p span { font-size:1.3rem; font-family: "SofiaPro-Light"; }
+.wrap.Pioneer .container .contents ul.ntf_view li .info .txt_area div a { font-size:1.5rem; font-family: "SofiaPro-Light"; color:#fff }
+
 .wrap.Pioneer .container .contents ul.ntf_view li .info .important { margin:2rem 0 0; font-size:1.3rem; }
 
 /* B-2a. 낱개 Stake */
