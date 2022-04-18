@@ -492,6 +492,8 @@ table.tbl_basic.tbl_left td { text-align:left; }
 .wind-video { position:relative; z-index:1; width:100%; height:100% }
 .thumbnail { background:#000 }
 
+.info_wide div p { line-height:130% }
+
 
 .red { color:#f23b4a }
 .blue { color:#00ccff }
