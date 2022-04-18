@@ -1121,7 +1121,7 @@ button.ico_copy { margin-left:2rem; width:2.2rem; height:2.2rem; background:url(
 .wrap.Pioneer .container .contents ul.ntf_list li { cursor:pointer; position:relative; width:27rem; height:40rem; border-radius:2rem; overflow:hidden; margin:0 2rem 2rem 0;  }
 .wrap.Pioneer .container .contents ul.ntf_list li:nth-child(3n) { margin-right:0 }
 .wrap.Pioneer .container .contents ul.ntf_list li .box { position:relative; width:100%; height:100%; background:#1d1f36; padding:2rem; }
-.wrap.Pioneer .container .contents ul.ntf_list li .box .id { position:absolute; top:3rem; left:3rem; padding:0 1rem; line-height:2rem; border-radius:1rem; text-align:center; background:rgba(23,25,43,.9); color:#fff }
+.wrap.Pioneer .container .contents ul.ntf_list li .box .id { z-index:3; position:absolute; top:3rem; left:3rem; padding:0 1rem; line-height:2rem; border-radius:1rem; text-align:center; background:rgba(23,25,43,.9); color:#fff }
 .wrap.Pioneer .container .contents ul.ntf_list li .box .thumbnail { height:28rem; overflow:hidden; border-radius:1rem; }
 .wrap.Pioneer .container .contents ul.ntf_list li .box .thumbnail img { width:100%;height:100%;-o-object-fit:cover;object-fit:cover }
 .wrap.Pioneer .container .contents ul.ntf_list li .box .txt_area { display:flex; padding:2rem 0; line-height:170%; color:#fff }
@@ -1148,7 +1148,7 @@ button.ico_copy { margin-left:2rem; width:2.2rem; height:2.2rem; background:url(
 .wrap.Pioneer .container .contents ul.ntf_view { margin:1rem 0 0; display:flex; flex-wrap:wrap }
 .wrap.Pioneer .container .contents ul.ntf_view li { position:relative; display:flex;  }
 .wrap.Pioneer .container .contents ul.ntf_view li .box { position:relative; width:27rem; height:40rem; background:#1d1f36; padding:2rem; }
-.wrap.Pioneer .container .contents ul.ntf_view li .box .id { position:absolute; top:3rem; left:3rem; padding:0 1rem; line-height:2rem; border-radius:1rem; text-align:center; background:rgba(23,25,43,.9); color:#fff }
+.wrap.Pioneer .container .contents ul.ntf_view li .box .id { z-index:3; position:absolute; top:3rem; left:3rem; padding:0 1rem; line-height:2rem; border-radius:1rem; text-align:center; background:rgba(23,25,43,.9); color:#fff }
 .wrap.Pioneer .container .contents ul.ntf_view li .box .thumbnail { height:28rem; overflow:hidden; border-radius:1rem; }
 .wrap.Pioneer .container .contents ul.ntf_view li .box .thumbnail img { width:100%;height:100%;-o-object-fit:cover;object-fit:cover }
 .wrap.Pioneer .container .contents ul.ntf_view li .box .txt_area { display:flex; padding:2rem 0; line-height:170%; color:#fff }
@@ -1387,7 +1387,7 @@ button.ico_copy { margin-left:2rem; width:2.2rem; height:2.2rem; background:url(
 .wrap.open_nft .content .contents .flex_inline .txt_area .col .con .card_img_view .card img { width:100%;height:100%;-o-object-fit:cover;object-fit:cover }
 .wrap.open_nft .content .contents .flex_inline .txt_area .col .con .card_img_view .txt { padding:1rem }
 .wrap.open_nft .content .contents .flex_inline .txt_area .col .con .card_img_view .txt .name { font-size:1.7rem; }
-.wrap.open_nft .content .contents .flex_inline .txt_area .col .con .card_img_view .id { position:absolute; top:2rem; left:2rem; padding:0 1rem; line-height:2rem; border-radius:1rem; text-align:center; background:rgba(23,25,43,.9); color:#fff }
+.wrap.open_nft .content .contents .flex_inline .txt_area .col .con .card_img_view .id { z-index:3; position:absolute; top:2rem; left:2rem; padding:0 1rem; line-height:2rem; border-radius:1rem; text-align:center; background:rgba(23,25,43,.9); color:#fff }
 
 .wrap.open_nft .content .contents .flex_inline .txt_area .col .con .flex_row { margin:0 0 2rem; display:flex; align-items:center }
 .wrap.open_nft .content .contents .flex_inline .txt_area .col .con .flex_row label { font-size:1.7rem; color:#fff; opacity:1; }
@@ -1416,7 +1416,7 @@ button.ico_copy { margin-left:2rem; width:2.2rem; height:2.2rem; background:url(
 .wrap.open_nft .content .contents .flex_inline .txt_area .col .con ul.ntf_list li:nth-child(5n) { margin-right:0;  }
 .wrap.open_nft .content .contents .flex_inline .txt_area .col .con ul.ntf_list li .box_wr { position:relative; margin:0 auto; width:100%; height:100%; }
 .wrap.open_nft .content .contents .flex_inline .txt_area .col .con ul.ntf_list li .box_wr .chk { position:absolute; top:1rem; right:1rem; z-index:99999; }
-.wrap.open_nft .content .contents .flex_inline .txt_area .col .con ul.ntf_list li .box_wr .id { position:absolute; top:3rem; left:3rem; padding:0 1rem; line-height:2rem; border-radius:1rem; text-align:center; background:rgba(23,25,43,.9); color:#fff }
+.wrap.open_nft .content .contents .flex_inline .txt_area .col .con ul.ntf_list li .box_wr .id { z-index:3; position:absolute; top:3rem; left:3rem; padding:0 1rem; line-height:2rem; border-radius:1rem; text-align:center; background:rgba(23,25,43,.9); color:#fff }
 .wrap.open_nft .content .contents .flex_inline .txt_area .col .con ul.ntf_list li .box_wr .thumbnail { position:relative; z-index:1; margin:0 auto; height:14rem; }
 .wrap.open_nft .content .contents .flex_inline .txt_area .col .con ul.ntf_list li .box_wr .thumbnail img {  width:100%;height:100%;-o-object-fit:cover;object-fit:cover  }
 .wrap.open_nft .content .contents .flex_inline .txt_area .col .con ul.ntf_list li .box_wr .txt { padding:1rem; line-height:150%; font-size:1.2rem }
