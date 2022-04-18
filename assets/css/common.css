@@ -1370,7 +1370,7 @@ button.ico_copy { margin-left:2rem; width:2.2rem; height:2.2rem; background:url(
 .wrap.open_nft .content .contents .flex_inline .txt_area .chk_text .txt span:nth-child(2) { font-size:2.4rem; }
 .wrap.open_nft .content .contents .flex_inline .txt_area .chk_text .txt span:nth-child(3) { font-size:1.3rem; opacity:1; }
 
-.wrap.open_nft .content .contents .flex_inline .txt_area .s_tit { margin:6.5rem 0 0; font-size:2rem; font-weight:bold; }
+.wrap.open_nft .content .contents .flex_inline .txt_area .s_tit { margin:4rem 0 0; font-size:2rem; font-weight:bold; }
 .wrap.open_nft .content .contents .flex_inline .txt_area .line { border-bottom:2px solid rgba(255,255,255,.2); padding:0 0 1rem;  }
 .wrap.open_nft .content .contents .flex_inline .txt_area .line-top { border-top:2px solid rgba(255,255,255,.2); padding:0 0 1rem;  }
 .wrap.open_nft .content .contents .flex_inline .txt_area .col { }
@@ -1382,18 +1382,23 @@ button.ico_copy { margin-left:2rem; width:2.2rem; height:2.2rem; background:url(
 
 .wrap.open_nft .content .contents .flex_inline .txt_area .col .con { padding:2rem 0 }
 .wrap.open_nft .content .contents .flex_inline .txt_area .col .con .card_img { margin:4rem auto 0; width:50rem; height:50rem; }
-.wrap.open_nft .content .contents .flex_inline .txt_area .col .con .card_img img { width:100%;height:100%;-o-object-fit:cover;object-fit:cover }
 
-.wrap.open_nft .content .contents .flex_inline .txt_area .col .con .card_img_view { position:relative; margin:4rem auto 0; width:36.5rem; background:#232536; }
-.wrap.open_nft .content .contents .flex_inline .txt_area .col .con .card_img_view .card { width:36.5rem; height:45rem; }
-.wrap.open_nft .content .contents .flex_inline .txt_area .col .con .card_img_view .card img { width:100%;height:100%;-o-object-fit:cover;object-fit:cover }
-.wrap.open_nft .content .contents .flex_inline .txt_area .col .con .card_img_view .txt { padding:1rem }
-.wrap.open_nft .content .contents .flex_inline .txt_area .col .con .card_img_view .txt .name { font-size:1.7rem; }
-.wrap.open_nft .content .contents .flex_inline .txt_area .col .con .card_img_view .id { z-index:3; position:absolute; top:2rem; left:2rem; padding:0 1rem; line-height:2rem; border-radius:1rem; text-align:center; background:rgba(23,25,43,.9); color:#fff }
+
+.wrap.open_nft .content .contents .flex_inline .txt_area .col .con .cd_box { position:relative; border-radius:2rem; width:56rem; height:64rem; margin:4rem auto 0; background:#1d1f36; padding:3rem; }
+.wrap.open_nft .content .contents .flex_inline .txt_area .col .con .cd_box .id { z-index:3; position:absolute; top:5rem; left:5rem; padding:0 1rem; line-height:2rem; border-radius:1rem; text-align:center; background:rgba(23,25,43,.9); color:#fff }
+.wrap.open_nft .content .contents .flex_inline .txt_area .col .con .cd_box .thumbnail { width:50rem; height:50rem; margin:0 auto; overflow:hidden; border-radius:1rem; }
+.wrap.open_nft .content .contents .flex_inline .txt_area .col .con .cd_box .thumbnail img { width:100%;height:100%;-o-object-fit:cover;object-fit:cover }
+.wrap.open_nft .content .contents .flex_inline .txt_area .col .con .cd_box .cd_txt_area { display:flex; padding:2rem 0; line-height:170%; color:#fff }
+.wrap.open_nft .content .contents .flex_inline .txt_area .col .con .cd_box .cd_txt_area span.prd { display:block; margin:0 0 0.5rem; font-size:2rem; font-family: "SofiaPro-Medium"; }
+.wrap.open_nft .content .contents .flex_inline .txt_area .col .con .cd_box .cd_txt_area span.name { display:block; font-size:1.7rem; font-family: "SofiaPro-Light"; opacity:0.7 }
+.wrap.open_nft .content .contents .flex_inline .txt_area .col .con .cd_box .cd_txt_area div:nth-child(1) { margin-right:auto }
+.wrap.open_nft .content .contents .flex_inline .txt_area .col .con .cd_box .cd_txt_area div:nth-child(2) { margin-left:auto }
+
 
 .wrap.open_nft .content .contents .flex_inline .txt_area .col .con .flex_row { margin:0 0 2rem; display:flex; align-items:center }
-.wrap.open_nft .content .contents .flex_inline .txt_area .col .con .flex_row label { font-size:1.7rem; color:#fff; opacity:1; }
+.wrap.open_nft .content .contents .flex_inline .txt_area .col .con .flex_row label { font-size:2rem; color:#fff; opacity:1; }
 .wrap.open_nft .content .contents .flex_inline .txt_area .col .con .flex_row div { margin-left:auto; text-align:right; }
+.wrap.open_nft .content .contents .flex_inline .txt_area .col .con .flex_row div.tx { font-size:2rem; font-family: "SofiaPro-Black"; }
 .wrap.open_nft .content .contents .flex_inline .txt_area .col .con .flex_row div img.ico-coin { margin-top:-2px; margin-right:0.5rem }
 .wrap.open_nft .content .contents .flex_inline .txt_area .col .con .flex_row div strong { font-size:2rem; margin:0; opacity:1; }
 .wrap.open_nft .content .contents .flex_inline .txt_area .col .con .flex_row div span {  font-size:1.3rem; font-family: "SofiaPro-Light"; opacity:1; }
