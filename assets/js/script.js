@@ -13,10 +13,12 @@ $(function(){
 		$('.select_coin').hide();
 		$('#coin').removeClass('active');
 		if($(this).hasClass("klay") === true) {
-			$('#coin').addClass('coin-klay');
+			$('.coin-layer div').hide();
+			$('.coin-klay').show();
 		}
 		if($(this).hasClass("isk") === true) {
-			$('#coin').addClass('coin-isk')
+			$('.coin-layer div').hide();
+			$('.coin-isk').show();
 		}
 	});
 
