@@ -1468,6 +1468,8 @@ button.ico_copy { margin-left:2rem; width:2.2rem; height:2.2rem; background:url(
 #signature_popup .container .txt .inline strong { font-weight:normal; margin-right:auto; padding:0.5rem 0 }
 #signature_popup .container .txt .inline span { flex:1; margin-left:auto; padding:0.5rem 0; text-align:right; }
 
+#signature_popup .container .txt .inline.width strong { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
 #signature_popup { scrollbar-color:#2864a3 #01182e;scrollbar-width:thin }
 #signature_popup::-webkit-scrollbar{width:1rem}
 #signature_popup::-webkit-scrollbar-track{background:#01182e}
