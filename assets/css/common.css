@@ -489,6 +489,8 @@ table.tbl_basic.tbl_left td { text-align:left; }
 	margin-bottom: -8px;
 }
 
+.wind-video { position:relative; z-index:1; width:100%; height:100% }
+.thumbnail { background:#000 }
 
 
 .red { color:#f23b4a }
@@ -542,7 +544,7 @@ button.ico_copy { margin-left:2rem; width:2.2rem; height:2.2rem; background:url(
 
 
 /* 체크박스(체크박스만) */
-.chk { position:relative }
+.chk { position:relative; z-index:999 }
 .chk input[type="checkbox"]{
 	display: none;
 }
@@ -564,7 +566,7 @@ button.ico_copy { margin-left:2rem; width:2.2rem; height:2.2rem; background:url(
 
 
 /* 체크박스(체크박스만-블루) */
-.chk.sky { position:relative }
+.chk.sky { position:relative; z-index:999 }
 .chk.sky input[type="checkbox"]{
 	display: none;
 }
@@ -592,7 +594,7 @@ button.ico_copy { margin-left:2rem; width:2.2rem; height:2.2rem; background:url(
 
 
 /* 체크박스2(텍스트 포함 체크박스) */
-.chk_wide { position:relative; }
+.chk_wide { position:relative; z-index:999 }
 .chk_wide a { color:#fff; text-decoration:underline;  }
 .chk_wide input[type="checkbox"] {
   width:1px;
@@ -626,7 +628,7 @@ button.ico_copy { margin-left:2rem; width:2.2rem; height:2.2rem; background:url(
 
 
 /* 체크박스2(텍스트 포함 체크박스) */
-.chk_wide_block { position:relative; display:inline-block }
+.chk_wide_block { position:relative; display:inline-block; z-index:999 }
 .chk_wide_block a { color:#fff; text-decoration:underline;  }
 .chk_wide_block input[type="checkbox"] {
   width:1px;
@@ -661,7 +663,7 @@ button.ico_copy { margin-left:2rem; width:2.2rem; height:2.2rem; background:url(
 
 
 /* 라디오박스(베이직) */
-.chk_text_basic { position:relative; display:flex; align-items:center; }
+.chk_text_basic { position:relative; display:flex; align-items:center; z-index:999 }
 .chk_text_basic input[type="radio"] {
   width:1px;
   height:1px;
