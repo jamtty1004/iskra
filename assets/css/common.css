@@ -1300,6 +1300,7 @@ button.ico_copy { margin-left:2rem; width:2.2rem; height:2.2rem; background:url(
 .wrap.con_Account .content .txt_area .subtitle strong { display:block; color:#fff; margin:0 0 0.5rem; font-family: "SofiaPro-Black"; font-size:2.2rem }
 .wrap.con_Account .content .txt_area .subtitle p { color:#fff; font-size:1.8rem; font-family: "SofiaPro-Light"; font-weight:normal; }
 .wrap.con_Account .content .txt_area .frm_input { padding:1.5rem; color:#fff; background-color:transparent; border:1px solid #454755;  }
+.wrap.con_Account .content .txt_area .frm_input.height { }
 .wrap.con_Account .content .txt_area .frm_input:focus { background-color:transparent; border:1px solid #fff; }
 .wrap.con_Account .content .txt_area .link_none { font-family: "SofiaPro-Light"; font-weight:normal; text-align:center; color:#fff; font-size:1.6rem; }
 .wrap.con_Account .content .txt_area .link_none span { color:#fff; text-decoration:underline }
