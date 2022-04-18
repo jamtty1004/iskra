@@ -917,8 +917,10 @@ button.ico_copy { margin-left:2rem; width:2.2rem; height:2.2rem; background:url(
 .wrap.Wallet.nohd .container .contents .select_area div.active { background:#00CCFF; color:#fff }
 .wrap.Wallet.nohd .container .contents .select_wrap { position:relative; }
 
-.wrap.Wallet.nohd .container .contents .select_wrap .coin1 { padding-left:5rem !important; background:#fff url('../images/iskra/ico_klay.png') 1rem 50% no-repeat }
-.wrap.Wallet.nohd .container .contents .select_wrap .coin2 { padding-left:5rem !important; background:#fff url('../images/iskra/ico_isk.png') 1rem 50% no-repeat }
+.wrap.Wallet.nohd .container .contents .select_wrap .coin-klay { padding-left:5rem !important; background:#fff url('../images/iskra/ico_klay.png') 1rem 50% no-repeat }
+.wrap.Wallet.nohd .container .contents .select_wrap .coin-isk { padding-left:5rem !important; background:#fff url('../images/iskra/ico_isk.png') 1rem 50% no-repeat }
+
+
 
 .wrap.Wallet.nohd .container .contents ul.select_coin { position:absolute; width:100%; top:5.1rem; left:0; background:#fff; border-radius:0 0 1rem 1rem; z-index:999 }
 .wrap.Wallet.nohd .container .contents ul.select_coin li { cursor:pointer; line-height:5rem; border-bottom:1px solid #ddd; font-size:1.7rem; padding:0 1rem }
