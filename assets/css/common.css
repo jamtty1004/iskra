@@ -491,9 +491,9 @@ table.tbl_basic.tbl_left td { text-align:left; }
 
 
 
-.red { color:red }
+.red { color:#f23b4a }
 .blue { color:#00ccff }
-.green { color:#4ae34f }
+.green { color:#2ce39a }
 .gray { color:#ccc }
 
 .red label { display:inline-block; margin-right:0.3rem; width:0.5rem; height:0.5rem; background:red; border-radius:50% }
