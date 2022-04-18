@@ -453,6 +453,14 @@ table.tbl_basic.tbl_left td { text-align:left; }
 .margin-bottom30 { margin:0 0 3rem !important }
 .margin-bottom40 { margin:0 0 4rem !important }
 
+.no-padding { padding:0 !important }
+.no-margin { margin:0 !important }
+
+.no-padding-top{ padding-top:0 !important }
+.no-margin-top { margin-top:0 !important }
+
+.no-padding-bottom { padding-bottom:0 !important }
+.no-margin-bottom { margin-bottom:0 !important }
 
 .line-height100 { line-height:100% }
 
@@ -498,8 +506,8 @@ table.tbl_basic.tbl_left td { text-align:left; }
 
 /* 폰트 사이즈 */
 .font_big { font-size:1.8rem; font-weight:bold; color:#fff }
-h1.font30  { font-size:3rem !important; color:#fff !important; font-family: "SofiaPro-Medium" !important; }
-h2.font20  { font-size:2rem !important; color:#fff !important; font-family: "SofiaPro-Medium" !important; }
+.font30  { font-size:3rem !important; color:#fff !important; font-family: "SofiaPro-Medium" !important; }
+.font20  { font-size:2rem !important; color:#fff !important; font-family: "SofiaPro-Medium" !important; }
 
 button.ico_copy { margin-left:2rem; width:2.2rem; height:2.2rem; background:url('../images/iskra/ico_copy.png') 50% 50% no-repeat; }
 
