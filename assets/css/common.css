@@ -410,6 +410,10 @@ form input:focus { border:1px solid #1990c8; background:#fff; }
 .form_style input:focus { border:2px solid #1e3e6e; border:1px solid #1990c8; background:#fff; }
 .full_input { width:100%; }
 form input.password { width:30rem !important  }
+form input.letter { }
+.readonly-div { width:100%; padding:1.5rem; height:5rem; background:#2f3041; border-radius:0.5rem; font-family: "SofiaPro-Light"; font-size:1.7rem; color:#fff; }
+.readonly-div span { display:inline-block; margin-left:1rem }
+
 
 .msg_line { border:1px solid #00ccff !important }
 .noline { border:0 !important }
@@ -493,7 +497,7 @@ table.tbl_basic.tbl_left td { text-align:left; }
 .wind-video { position:relative; z-index:1; width:100%; height:100% }
 .thumbnail { background:#000 }
 
-.info_wide div p { line-height:130% }
+.info_wide div p { line-height:160% }
 
 
 .red { color:#f23b4a }
@@ -935,7 +939,8 @@ button.ico_copy { margin-left:2rem; width:2.2rem; height:2.2rem; background:url(
 
 .wrap.Wallet.nohd .container .contents ul.select_coin { position:absolute; width:100%; top:5.1rem; left:0; background:#fff; border-radius:0 0 1rem 1rem; z-index:999 }
 .wrap.Wallet.nohd .container .contents ul.select_coin li { cursor:pointer; line-height:5rem; border-bottom:1px solid #ddd; font-size:1.7rem; padding:0 1rem }
-.wrap.Wallet.nohd .container .contents ul.select_coin li img { margin-right:10px }
+.wrap.Wallet.nohd .container .contents ul.select_coin li span { display:inline-block;  margin-left:1rem }
+.wrap.Wallet.nohd .container .contents ul.select_coin li img { margin-right:1rem }
 .wrap.Wallet.nohd .container .contents .coin { cursor:pointer; position:relative; padding:0 1rem 0 5rem !important; background:#fff url('../images/iskra/ico_toggle_off.png') 98% center no-repeat }
 
 
