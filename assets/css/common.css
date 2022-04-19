@@ -597,7 +597,7 @@ button.ico_copy { margin-left:2rem; width:2.2rem; height:2.2rem; background:url(
 
 
 /* 체크박스2(텍스트 포함 체크박스) */
-.chk_wide { position:relative; z-index:999 }
+.chk_wide { position:relative; z-index:999; color:#fff; }
 .chk_wide a { color:#fff; text-decoration:underline;  }
 .chk_wide input[type="checkbox"] {
   width:1px;
@@ -612,21 +612,19 @@ button.ico_copy { margin-left:2rem; width:2.2rem; height:2.2rem; background:url(
   clip:rect(0 0 0 0);
 }
 .chk_wide label {
-  padding-left:3rem;
-  display:inline-block;
-  background:url('../images/Account/chk_white_off.png') no-repeat 0 50%;
-  vertical-align:middle;
-  cursor:pointer;
-  font-size:1.3rem !important;
-  height:2rem;
-  line-height:2rem;
-  color:#fff !important;
-  background-size:contain;
-  font-family: "SofiaPro-Light" !important;
+	display: inline-block;
+	width: 2rem;
+	height: 2rem;
+	border:1px solid #ddd;
+	position: relative;
+	border-radius:0.2rem;
 }
+.chk_wide span { margin-left:1rem; display:inline-block }
 .chk_wide input[type="checkbox"]:checked + label{
-  background:url('../images/Account/chk_on.png') no-repeat 0 50%;
-  background-size:contain;
+	background:url('../images/iskra/chk_on.png') no-repeat 50% 50%;
+	width: 2rem;
+	height: 2rem;
+	text-align: center;
 }
 
 
@@ -1307,8 +1305,8 @@ button.ico_copy { margin-left:2rem; width:2.2rem; height:2.2rem; background:url(
 
 /******************************************* A. Home / Account *******************************************/
 /* B. Sign in */
-.wrap.con_Account { position:fixed;  top:0; left:0; width:100%; height:100%; display:flex; align-items:center; justify-content:center; z-index:1;  }
-.wrap.con_Account .content { width:120rem; height:80rem;  position:relative; display:flex; align-items:center; justify-content:center; }
+.wrap.con_Account { position:fixed; top:0; left:0; width:100%; height:100%; display:flex; align-items:center; justify-content:center; z-index:1;  }
+.wrap.con_Account .content { width:120rem; position:relative; display:flex; align-items:center; justify-content:center; }
 .wrap.con_Account .content .img_area { flex:1; position:relative; }
 .wrap.con_Account .content .img_area .illustration { position:absolute; top:-30rem; right:-15rem; width:80rem; height:70rem; background:url('../images/Account/home_illustration.png') 50% 50% no-repeat; background-size:cover }
 .wrap.con_Account .content .img_area .illustration2 { position:absolute; top:-30rem; left:-15rem; width:80rem; height:70rem; background:url('../images/Account/home_illustration2.png') 50% 50% no-repeat; background-size:cover }
@@ -1324,6 +1322,8 @@ button.ico_copy { margin-left:2rem; width:2.2rem; height:2.2rem; background:url(
 .wrap.con_Account .content .txt_area .frm_input:focus { background-color:transparent; border:1px solid #fff; }
 .wrap.con_Account .content .txt_area .link_none { font-family: "SofiaPro-Light"; font-weight:normal; text-align:center; color:#fff; font-size:1.6rem; }
 .wrap.con_Account .content .txt_area .link_none span { color:#fff; text-decoration:underline }
+
+.wrap.con_Account .content .txt_area .form_style .col { }
 
 .wrap.con_Account .content .txt_area .box { padding:2.2rem !important; background:#232536 !important; }
 .wrap.con_Account .content .txt_area .Certification { width:100%; margin:0 auto; position:relative; display:flex; justify-content:center; }
@@ -1565,9 +1565,3 @@ button.ico_copy { margin-left:2rem; width:2.2rem; height:2.2rem; background:url(
 #alert_popup_pay .container button.popup_close { position:absolute; top:2rem; right:2rem; width:2rem; height:2rem; background:url('../images/iskra/ico_popup_close.png') 50% 50% no-repeat; }
 #alert_popup_pay .container h3 { font-size:1.8rem;  }
 #alert_popup_pay .container p { margin:2rem 0 }
-
-
-
-
-
-
