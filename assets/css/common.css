@@ -902,17 +902,18 @@ button.ico_copy { margin-left:2rem; width:2.2rem; height:2.2rem; background:url(
 .wrap.Wallet.nohd .container .contents h4 { color:#fff; font-size:2rem; }
 .wrap.Wallet.nohd .container .contents p.Description { color:#fff;  font-family: "SofiaPro-Light"; font-size:1.7rem; opacity:1; }
 .wrap.Wallet.nohd .container .contents p { font-size:1.7rem; color:#fff; font-family: "SofiaPro-Light"; }
-.wrap.Wallet.nohd .container .contents .box { margin:6rem auto 0; width:50rem; height:52rem; padding:3.5rem; background:#1d1f36; border-radius:2rem; overflow:hidden }
+.wrap.Wallet.nohd .container .contents .box { margin:4rem auto 0; width:50rem; height:52rem; padding:3.5rem; background:#1d1f36; border-radius:2rem; overflow:hidden }
 .wrap.Wallet.nohd .container .contents .box.none { width:auto; height:auto; padding:0; background:none; border-radius:0; }
 .wrap.Wallet.nohd .container .contents .box .img { height:34rem; overflow:hidden; border-radius:0 2rem 0 2rem; }
 .wrap.Wallet.nohd .container .contents .box .img img { width:100%;height:100%;-o-object-fit:cover;object-fit:cover } 
 .wrap.Wallet.nohd .container .contents .box.line_none { border:0 !important }
-.wrap.Wallet.nohd .container .contents .box .txt.code { font-size:3rem; color:#fff; border:2px solid rgba(255,255,255,.2); padding:3rem; text-align:center; }
+.wrap.Wallet.nohd .container .contents .box.nopad { padding-top:0 }
+.wrap.Wallet.nohd .container .contents .box .txt.code { font-size:3rem; color:#fff; border-bottom:2px solid #747580; padding:0 0 1.5rem; text-align:center; }
 .wrap.Wallet.nohd .container .contents .box .txt p { padding:3rem 0 0; font-family: "SofiaPro-Light"; color:#fff; font-size:1.7rem; opacity:1; }
 .wrap.Wallet.nohd .container .contents .box .form_style { border:0 }
 .wrap.Wallet.nohd .container .contents .box.section { position:relative; widtH:100%; height:30rem; padding:4rem 2.5rem; background:rgba(0,0,0,0.2); border-radius:2rem }
 .wrap.Wallet.nohd .container .contents .box.section.save { display:flex; align-items:center; justify-content:center; }
-.wrap.Wallet.nohd .container .contents .box.section.ready {  }
+.wrap.Wallet.nohd .container .contents .box.section.ready { }
 .wrap.Wallet.nohd .container .contents .box.section .mask { font-size:1.6rem; cursor:pointer; position:absolute; top:0; left:0; width:100%; height:100%; background:#1d1f36 }
 .wrap.Wallet.nohd .container .contents .box.section .mask { display:flex; align-items:center; justify-content:center; flex-direction: column; color:#fff; }
 .wrap.Wallet.nohd .container .contents .box.section .mask .ico { margin:0 0 2rem }
@@ -945,7 +946,7 @@ button.ico_copy { margin-left:2rem; width:2.2rem; height:2.2rem; background:url(
 
 
 /* A. Create Wallet - A-6. OTP 등록 */
-.wrap.Wallet.nohd .container .contents .qr { margin:2rem 0; text-align:Center; width:15rem; height:15rem; border-radius:1rem; overflow:hidden }
+.wrap.Wallet.nohd .container .contents .qr { margin:5rem auto; text-align:Center; width:15rem; height:15rem; border-radius:1rem; overflow:hidden }
 .wrap.Wallet.nohd .container .contents .qr.left { text-align:left; }
 .wrap.Wallet.nohd .container .contents .qr img { width:100%;height:100%;-o-object-fit:cover;object-fit:cover;  }
 .wrap.Wallet.nohd .container .contents .box .txt ul { display:flex; align-items:center; }
