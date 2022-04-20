@@ -1226,7 +1226,7 @@ button.ico_copy { margin-left:2rem; width:2.2rem; height:2.2rem; background:url(
 .wrap.setting .container .contents p.Description { margin:0.5rem 0 0; color:#fff;  font-family: "SofiaPro-Light"; font-size:1.7rem; opacity:1; }
 .wrap.setting .container .btn_modify { margin-left:2rem; width:1.6rem; height:1.6rem; background:url('../images/iskra/ico_pencil_white.png') 50% 50% no-repeat; background-size:contain }
 .wrap.setting .container .btn_Verify { margin-left:2rem; font-size:1.7rem; color:#00ccff }
-.wrap.setting .container .line { border-top:2px solid #333; border-bottom:2px solid #333 }
+.wrap.setting .container .line { border-top:2px solid #2e3040; border-bottom:2px solid #2e3040 }
 .wrap.setting .container .line tr { background:none !important }
 .wrap.setting .container .line td { height:8rem }
 .wrap.setting .container .line .btn_submit { }
