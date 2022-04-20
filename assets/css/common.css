@@ -1268,7 +1268,7 @@ button.ico_copy { margin-left:2rem; width:2.2rem; height:2.2rem; background:url(
 .wrap.setting .container .contents .info_wide { flex:1;  }
 .wrap.setting .container .contents .info_wide div { margin:1rem 0; display:flex; align-items:center; }
 
-.wrap.setting .container .contents .info_wide .bg_box { height:9rem; display:flex; align-items:center; background:#1b1d35; padding:1.5rem; border-radius:1.2rem; }
+.wrap.setting .container .contents .info_wide .bg_box { height:9rem; display:flex; align-items:center; background:#1b1d35; padding:1.5rem 4rem; border-radius:1.2rem; }
 .wrap.setting .container .contents .info_wide .bg_box a { color:#fff; text-decoration:underline }
 .wrap.setting .container .contents .info_wide .bg_box button { margin-left:auto; text-decoration:underline; color:#fff; }
 
