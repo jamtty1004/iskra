@@ -1214,8 +1214,8 @@ button.ico_copy { margin-left:2rem; width:2.2rem; height:2.2rem; background:url(
 .wrap.setting .container .title_area { margin:0 0 5rem }
 .wrap.setting .container h1 { font-size:5rem; color:#fff; font-family:"SofiaPro-Black"; }
 .wrap.setting .container span.payment { font-size:3rem; line-height:3rem; }
-.wrap.setting .container .contents h2 { font-size:3rem !important; color:#fff; font-weight:normal }
-.wrap.setting .container .contents h3 { font-size:2rem !important; color:#fff; font-weight:normal; margin:0 0 0.5rem }
+.wrap.setting .container .contents h2 { font-size:3rem !important; color:#fff; }
+.wrap.setting .container .contents h3 { font-size:2rem !important; color:#fff; margin:0 0 0.5rem }
 .wrap.setting .container .contents h3.line_bottom { padding:0 0 1rem; border-bottom:2px solid #2e3040 }
 .wrap.setting .container .contents p.Description { margin:0.5rem 0 0; color:#fff;  font-family: "SofiaPro-Light"; font-size:1.7rem; opacity:1; }
 .wrap.setting .container .btn_modify { margin-left:2rem; width:1.6rem; height:1.6rem; background:url('../images/iskra/ico_pencil_white.png') 50% 50% no-repeat; background-size:contain }
@@ -1291,6 +1291,7 @@ button.ico_copy { margin-left:2rem; width:2.2rem; height:2.2rem; background:url(
 .wrap.setting .container .contents .flex_col span { position:absolute; top:1rem; right:2rem; font-size:1.8rem; }
 .wrap.setting .container .contents .flex_col .position { position:relative }
 
+.wrap.setting .container .contents .tbl_basic td.dep { padding-left:0; padding-right:0 }
 .wrap.setting .container .contents .tbl_basic td.dep p { margin:1rem 0; font-family: "SofiaPro-Light"; font-size:1.7rem }
 .wrap.setting .container .contents .tbl_basic td.dep h3 { font-size:2rem; font-family: "SofiaPro-Medium"; }
 .wrap.setting .container .contents .tbl_basic td.dep .comming { font-size:1.7rem; font-family: "SofiaPro-Medium"; opacity:0.4 }
