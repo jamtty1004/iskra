@@ -450,8 +450,8 @@ table.tbl_basic.tbl_left td { text-align:left; }
 .margin20 { margin:2rem 0 0 !important }
 .margin30 { margin:3rem 0 0 !important }
 .margin100 { margin:10rem 0 0 !important }
-.margin-top50 { margin-top:5rem!important }
-.margin-top60 { margin-top:6rem!important }
+.margin-top50 { margin-top:5rem !important }
+.margin-top60 { margin-top:6rem !important }
 
 .margin-bottom10 { margin:0 0 1rem !important }
 .margin-bottom20 { margin:0 0 2rem !important }
@@ -1364,7 +1364,7 @@ button.ico_copy { margin-left:2rem; width:2.2rem; height:2.2rem; background:url(
 .wrap.open_nft .content .contents { padding:0 0 15rem; font-size:1.5rem; color:#fff; font-family: "SofiaPro-Light";  }
 .wrap.open_nft .content .contents h1 { font-size:5rem; font-family:"SofiaPro-Black"; color:#fff; margin:0 0 2rem }
 .wrap.open_nft .content .contents p.main_txt  { font-size:1.8rem; line-height:3rem; font-family: "SofiaPro-Light"; color:rgba(255,255,255,.8); letter-spacing:-0.02rem; }
-.wrap.open_nft .content .contents p.main_txt strong { display:block; margin:5rem 0 1.2rem; font-size:2.5rem; color:#fff }
+.wrap.open_nft .content .contents p.main_txt strong { display:block; margin:5rem 0 1.2rem; font-size:2.5rem; font-family: "SofiaPro-Black"; color:#fff }
 .wrap.open_nft .content .contents p.main_txt .chk { display:block; margin:5rem 0 0 !important; }
 .wrap.open_nft .content .contents .title_area p.Description { font-size:1.7rem; font-family: "SofiaPro-Light"; opacity:1; color:#fff }
 .wrap.open_nft .content .contents .flex_inline { display:flex; margin:8rem 0 0; }
@@ -1465,6 +1465,14 @@ button.ico_copy { margin-left:2rem; width:2.2rem; height:2.2rem; background:url(
 .wrap.open_nft .content .contents .flex_inline .txt_area .col .con ul.ntf_list li .list-box .list-txt_area div:nth-child(2) { margin-left:auto }
 
 
+/** 약관 관련 페이지 */
+.wrap.terms { position:relative; overflow-x:hidden; overflow-y:auto; top:0; left:0; background:#17192B; width:100%; height:100%; z-index:1; }
+.wrap.terms .content { margin:15rem 0 0;  }
+.wrap.terms .content .contents { padding:0 0 15rem; font-size:1.5rem; color:#fff; font-family: "SofiaPro-Light";  }
+.wrap.terms .content .contents h1 { font-size:5rem; font-family:"SofiaPro-Black"; color:#fff; margin:0 0 2rem }
+.wrap.terms .content .contents p  { font-size:1.8rem; line-height:3rem; font-family: "SofiaPro-Light"; color:rgba(255,255,255,.8); letter-spacing:-0.02rem; }
+.wrap.terms .content .contents p strong { display:block; margin:5rem 0 1.2rem; font-weight:normal; font-size:2.5rem; font-family:"SofiaPro-Black"; color:#fff }
+.wrap.terms .content .contents p span { display:block }
 
 
 /******************************************* 에러페이지 *******************************************/
