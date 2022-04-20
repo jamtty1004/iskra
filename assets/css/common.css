@@ -478,7 +478,7 @@ table.tbl_basic.tbl_left td { text-align:left; }
 
 .hover_area { position:relative;display:inline-block;}
 .ico_hover { margin-left:1rem; position:relative; top:-2px; cursor:pointer; }
-.ico_hover_pop { display:none; text-align:left !important; font-size:1.3rem; color:#222; padding:1rem; position:absolute; top:5rem; right:-36.5rem; width:40rem; padding:1.5rem; border-radius:1rem; background:#fff; z-index:9999999 }
+.ico_hover_pop { line-height:180% !important; display:none; text-align:left !important; font-size:1.3rem; color:#222; padding:1rem; position:absolute; top:5rem; right:-36.5rem; width:40rem; padding:1.5rem; border-radius:1rem; background:#fff; z-index:9999999 }
 
 .ico_hover_pop:before {
 	content: '';
@@ -497,7 +497,7 @@ table.tbl_basic.tbl_left td { text-align:left; }
 .wind-video { position:relative; z-index:1; width:100%; height:100% }
 .thumbnail { background:#000 }
 
-.info_wide div p { line-height:160% }
+.info_wide div p { }
 
 
 .red { color:#f23b4a }
