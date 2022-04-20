@@ -1402,8 +1402,8 @@ button.ico_copy { margin-left:2rem; width:2.2rem; height:2.2rem; background:url(
 .wrap.open_nft .content .contents .flex_inline .txt_area .chk_text .txt span:nth-child(3) { font-size:1.3rem; opacity:1; }
 
 .wrap.open_nft .content .contents .flex_inline .txt_area .s_tit { margin:4rem 0 0; font-size:2rem; font-weight:bold; }
-.wrap.open_nft .content .contents .flex_inline .txt_area .line { border-bottom:2px solid rgba(255,255,255,.2); padding:0 0 1rem;  }
-.wrap.open_nft .content .contents .flex_inline .txt_area .line-top { border-top:2px solid rgba(255,255,255,.2); padding:0 0 1rem;  }
+.wrap.open_nft .content .contents .flex_inline .txt_area .line { border-bottom:2px solid #2e3040; padding:0 0 1rem;  }
+.wrap.open_nft .content .contents .flex_inline .txt_area .line-top { border-top:2px solid #2e3040; padding:0 0 1rem;  }
 .wrap.open_nft .content .contents .flex_inline .txt_area .col { }
 .wrap.open_nft .content .contents .flex_inline .txt_area .col .status { display:flex; align-items:center; margin:0 0 1.5rem; padding:1.5rem 0 0 }
 .wrap.open_nft .content .contents .flex_inline .txt_area .col .status div { display:flex; align-items:center; height:1.5rem; padding-right:2rem; margin-right:2rem }
@@ -1449,7 +1449,7 @@ button.ico_copy { margin-left:2rem; width:2.2rem; height:2.2rem; background:url(
 .wrap.open_nft .content .contents .flex_inline .txt_area .col .con .flex_row div img.ico-coin { margin-top:-2px; margin-right:0.5rem }
 .wrap.open_nft .content .contents .flex_inline .txt_area .col .con .flex_row div strong { font-family: "SofiaPro-Medium"; font-size:2rem; margin:0; opacity:1; }
 .wrap.open_nft .content .contents .flex_inline .txt_area .col .con .flex_row div span {  font-size:1.3rem; font-family: "SofiaPro-Light"; opacity:1; }
-.wrap.open_nft .content .contents .flex_inline .txt_area .col .con .flex_row.line_top { border-top:1px solid #555; padding:2rem 0 0; margin:2rem 0 0;  }
+.wrap.open_nft .content .contents .flex_inline .txt_area .col .con .flex_row.line_top { border-top:2px solid #2e3040; padding:2rem 0 0; margin:2rem 0 0;  }
 .wrap.open_nft .content .contents .flex_inline .txt_area .col .con .flex_row:last-child div strong { opacity:1; }
 .wrap.open_nft .content .contents .flex_inline .txt_area .col .con .flex_row:last-child div span { opacity:1; }
 .wrap.open_nft .content .contents .flex_inline .txt_area .col .con .flex_row:last-child .highlight { font-size:2.5rem !important; opacity:1 !important;  }
