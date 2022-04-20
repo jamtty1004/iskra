@@ -57,12 +57,12 @@ select, textarea { border:1px solid #ccc; padding:0.5rem; }
 .sr-only{position:absolute;overflow:hidden;width:1px;height:1px;padding:0;margin:-1px;border:0;clip:rect(0, 0, 0, 0)}
 
 
-input::placeholder {font-size:1.7rem;font-family: "SofiaPro-Light";font-weight:normal;color:#aaa;}
-input::-webkit-input-placeholder {font-size:1.7rem;font-family: "SofiaPro-Light";font-weight:normal;color:#aaa;}
-input:-ms-input-placeholder {font-size:1.7rem;font-family: "SofiaPro-Light";font-weight:normal;color:#aaa;}
-textarea::placeholder {font-size:1.7rem;font-family: "SofiaPro-Light";font-weight:normal;color:#aaa;}
-textarea::-webkit-input-placeholder {font-size:1.7rem;font-family: "SofiaPro-Light";font-weight:normal;color:#aaa;}
-textarea:-ms-input-placeholder {font-size:1.7rem;font-family: "SofiaPro-Light";font-weight:normal;color:#aaa;}
+input::placeholder {font-size:1.5rem;font-family: "SofiaPro-Light";font-weight:normal;color:#aaa;}
+input::-webkit-input-placeholder {font-size:1.5rem;font-family: "SofiaPro-Light";font-weight:normal;color:#aaa;}
+input:-ms-input-placeholder {font-size:1.5rem;font-family: "SofiaPro-Light";font-weight:normal;color:#aaa;}
+textarea::placeholder {font-size:1.5rem;font-family: "SofiaPro-Light";font-weight:normal;color:#aaa;}
+textarea::-webkit-input-placeholder {font-size:1.5rem;font-family: "SofiaPro-Light";font-weight:normal;color:#aaa;}
+textarea:-ms-input-placeholder {font-size:1.5rem;font-family: "SofiaPro-Light";font-weight:normal;color:#aaa;}
 
 
 @media only screen and (max-width: 767px){
