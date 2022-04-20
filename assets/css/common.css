@@ -501,8 +501,8 @@ table.tbl_basic.tbl_left td { text-align:left; }
 .wind-video { position:relative; z-index:1; width:100%; height:100% }
 .thumbnail { background:#000 }
 
-.info_wide div p { line-height:120% !important }
-
+.info_wide { line-height:160% !important }
+.flex_row { line-height:160% !important }
 
 .red { color:#f23b4a }
 .blue { color:#00ccff }
@@ -1036,7 +1036,7 @@ button.ico_copy { margin-left:0.5rem; width:2.2rem; height:2.2rem; background:ur
 .wrap.Rewards .container h1 { font-size:5rem; color:#fff; font-family:"SofiaPro-Black"; }
 .wrap.Rewards .container span.payment { font-size:3rem; line-height:3rem; }
 .wrap.Rewards .container .contents h2 { font-size:3rem !important; color:#fff;  }
-.wrap.Rewards .container .contents h3 { font-size:2rem !important; color:#fff; margin:0 0 2rem; font-family: "SofiaPro-Medium"; }
+.wrap.Rewards .container .contents h3 { font-size:2rem !important; color:#fff; margin:0 0 2rem; font-family: "SofiaPro-Medium"; font-weight:normal }
 .wrap.Rewards .container .contents h3.line_bottom { padding:0 0 1rem; border-bottom:2px solid #2e3040 }
 .wrap.Rewards .container .contents p.Description { color:#fff;  font-family: "SofiaPro-Light"; font-size:1.7rem; opacity:1; }
 /*.wrap.Rewards .container .contents a.goback { margin-left:auto; width:3.5rem; height:3.5rem; background:url('../images/iskra/ico_back.png') 0 50% no-repeat; }*/
