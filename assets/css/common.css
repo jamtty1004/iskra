@@ -522,7 +522,7 @@ table.tbl_basic.tbl_left td { text-align:left; }
 .font30  { font-size:3rem !important; color:#fff !important; font-family: "SofiaPro-Medium" !important; }
 .font20  { font-size:2rem !important; color:#fff !important; font-family: "SofiaPro-Medium" !important; }
 
-button.ico_copy { margin-left:2rem; width:2.2rem; height:2.2rem; background:url('../images/iskra/ico_copy.png') 50% 50% no-repeat; }
+button.ico_copy { margin-left:0.5rem; width:2.2rem; height:2.2rem; background:url('../images/iskra/ico_copy.png') 50% 50% no-repeat; }
 
 
 /* 페이징 */
