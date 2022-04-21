@@ -975,7 +975,7 @@ button.ico_copy { margin-left:0.5rem; width:2.2rem; height:2.2rem; background:ur
 .wrap.Wallet .container .contents .info_box.line { border-top:2px solid #2e3040; margin:0 0 2.5rem; padding:0 0 0.5rem }
 .wrap.Wallet .container .contents .info_wide { flex:1;  }
 .wrap.Wallet .container .contents .info_wide .pay { font-size:2rem; font-family: "SofiaPro-Medium"; position:relative; top:-1.5rem  }
-.wrap.Wallet .container .contents .info_wide div { margin:1rem 0; display:flex; align-items:center; text-align:left; }
+.wrap.Wallet .container .contents .info_wide div { margin:2rem 0; display:flex; align-items:center; text-align:left; }
 .wrap.Wallet .container .contents .info_wide div p { font-size:1.3rem; font-family: "SofiaPro-Light";  color:#fff; opacity:1; position:relative;  }
 .wrap.Wallet .container .contents .info_wide div p:nth-child(1) { font-size:1.7rem; font-family: "SofiaPro-Light"; }
 .wrap.Wallet .container .contents .info_wide div p:nth-child(2) { margin-left:auto; text-align:right }
