@@ -73,6 +73,8 @@ textarea:-ms-input-placeholder {font-size:1.5rem;font-family: "SofiaPro-Light";f
 
 /******************************************* portal *******************************************/
 
+.wind-video { position:relative; z-index:1; width:100%; height:100% }
+
 .ic{display:inline-block;background-repeat:no-repeat;background-position:center;background-size:contain}
 .ic-twitter{width:3.2rem;height:2.8rem;background-image:url("../images/icon/ic-twitter.png")}
 .ic-discord{width:3rem;height:3.4rem;background-image:url("../images/icon/ic-discord.png")}
@@ -246,11 +248,10 @@ textarea:-ms-input-placeholder {font-size:1.5rem;font-family: "SofiaPro-Light";f
 .wrap.con_token .content ul.list2 li:last-child { margin:0 }
 .wrap.con_token .content ul.list2 li strong { display:block; margin:0 0 2rem }
 .wrap.con_token .content ul.list2 li .ico { background:#000; width:37rem; height:31rem; border:1.2rem solid #252740; border-radius:0 5rem 0 5rem; box-shadow:3px 3px 6px 3px rgba(0,0,0,.3); position:relative; overflow:hidden }
-.wrap.con_token .content ul.list2 li .ico img { width:100%; height:100% }
+.wrap.con_token .content ul.list2 li .ico img { width:100%;height:100%;-o-object-fit:cover;object-fit:cover; }
 .wrap.con_token .content ul.list2 li .txt { flex:1; line-height:130%; margin-left:5.5rem; font-size:2.5rem; color:#fff;  }
 .wrap.con_token .content ul.list2 li .txt p { font-family: "SofiaPro-Light"; opacity:1 }
 .wrap.con_token .content ul.list2 li .ico .bg { position:absolute; top:0; left:0; width:100%; height:100%;  }
-.wrap.con_token .content ul.list2 li .ico video { width:97%; height:97%; }
 
 
 @media all and (max-width: 1199px){
@@ -322,7 +323,6 @@ textarea:-ms-input-placeholder {font-size:1.5rem;font-family: "SofiaPro-Light";f
 	.wrap.con_token .content ul.list2 li:last-child { margin:0 }
 	.wrap.con_token .content ul.list2 li strong { display:block; margin:0 0 2rem }
 	.wrap.con_token .content ul.list2 li .ico { width:100%; height:auto; }
-	.wrap.con_token .content ul.list2 li .ico img { width:100%; height:100% }
 	.wrap.con_token .content ul.list2 li .txt { flex:1; line-height:130%; margin-left:0; font-size:1.6rem; color:#fff; font-family: "SofiaPro-Light"; margin:2rem 0 0 }
 }
 
@@ -498,7 +498,6 @@ table.tbl_basic.tbl_left td { text-align:left; }
 	margin-bottom: -8px;
 }
 
-.wind-video { position:relative; z-index:1; width:100%; height:100% }
 .thumbnail { background:#000 }
 
 .info_wide { line-height:160% !important }
