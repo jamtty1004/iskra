@@ -1509,7 +1509,7 @@ button.ico_copy { margin-left:0.5rem; width:2.2rem; height:2.2rem; background:ur
 /* 팝업 공통 스타일 */
 .basic_popup { position:fixed; top:0; left:0; width:100%; height:100%; z-index:99999999; background:rgba(0,0,0,.2); backdrop-filter: blur(10px); display:flex; align-items:center; justify-content:center; }
 .basic_popup .container { border:0 !important; position:relative; width:50rem; min-height:20rem; padding:3rem; background:#fff; border-radius:2rem; }
-.basic_popup .container button.popup_close { position:absolute; top:3rem; right:3rem; width:2rem; height:2rem; background:url('../images/iskra/ico_popup_close.png') 50% 50% no-repeat; }
+.basic_popup .container button.popup_close { z-index:99; position:absolute; top:3rem; right:3rem; width:2rem; height:2rem; background:url('../images/iskra/ico_popup_close.png') 50% 50% no-repeat; }
 .basic_popup .container button.btn02 { color:#333 }
 .basic_popup .container h3 { font-size:2.2rem;  }
 .basic_popup .container p { margin:2rem 0; font-size:1.6rem; }
