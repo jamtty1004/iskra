@@ -144,7 +144,7 @@ textarea:-ms-input-placeholder {font-size:1.5rem;font-family: "SofiaPro-Light";f
 
 
 /* 본문 */
-.responsive { width:120rem; margin:0 auto; position:relative; padding:0 2rem }
+.responsive { width:120rem; margin:0 auto; position:relative; }
 
 .wrap {position:relative;display:flex; height:100%; flex-direction: column;}
 .wrap .img-box { position:relative }
@@ -254,6 +254,58 @@ textarea:-ms-input-placeholder {font-size:1.5rem;font-family: "SofiaPro-Light";f
 .wrap.con_token .content ul.list2 li .ico .bg { position:absolute; top:0; left:0; width:100%; height:100%;  }
 
 
+/* games */
+.wrap.con_games .pc_br { display:block; }
+.wrap.con_games .visual { }
+.wrap.con_games .visual .txt-item { padding:22rem 0 0; }
+.wrap.con_games .visual .txt-item .slogan { }
+.wrap.con_games .visual .txt-item .slogan .tit-lg { font-family: "Qualy"; font-weight:normal; text-transform:uppercase; line-height:130%; display:block; font-size:5rem; color:#fff }
+.wrap.con_games .visual .txt-item .slogan2 { margin:3rem 0 0; font-size:2.5rem; letter-spacing:-0.2px; color:#fff; font-family: "SofiaPro-Light"; opacity:1 }
+
+.wrap.con_games .content { padding:0 0 20rem; }
+.wrap.con_games .content .row { position:relative; }
+.wrap.con_games .content .row.margin { margin-top:10rem; }
+
+.wrap.con_games .content ul.list2 { margin:9rem 0 0;  }
+.wrap.con_games .content ul.list2 li .c-wrap { display:flex; align-items:center; margin:0 0 8rem }
+.wrap.con_games .content ul.list2 li .tit { margin:0 0 3rem; font-family: "SofiaPro-Medium"; font-size:3rem; color:#fff }
+.wrap.con_games .content ul.list2 li .tit span { font-size:2rem; color:#ACE8F9; margin-left:1.5rem; display:inline-block }
+.wrap.con_games .content ul.list2 li:last-child { margin:0 }
+.wrap.con_games .content ul.list2 li .ico { background:#000; width:42rem; height:36rem; border:1.2rem solid #252740; border-radius:0 5rem 0 5rem; box-shadow:3px 3px 6px 3px rgba(0,0,0,.3); position:relative; overflow:hidden }
+.wrap.con_games .content ul.list2 li .ico img { width:100%;height:100%;-o-object-fit:cover;object-fit:cover; }
+.wrap.con_games .content ul.list2 li .txt { flex:1; line-height:130%; margin-left:5rem; color:#fff;  }
+.wrap.con_games .content ul.list2 li .txt div { display:flex;  }
+.wrap.con_games .content ul.list2 li .txt div strong { width:19rem; font-size:2.5rem; font-family: "SofiaPro-Medium"; margin:0 0 3.5rem }
+.wrap.con_games .content ul.list2 li .txt p { flex:1; font-size:2rem; letter-spacing:-0.1px; font-family: "SofiaPro-Light"; opacity:1; line-height:160% }
+
+
+/* partners */
+.wrap.con_partners .pc_br { display:block; }
+.wrap.con_partners h3.s-tit { font-size:3rem; font-family: "SofiaPro-Medium"; font-weight:normal; color:#fff }
+.wrap.con_partners .visual { }
+.wrap.con_partners .visual .txt-item { padding:22rem 0 0; margin:0 0 8rem }
+.wrap.con_partners .visual .txt-item .slogan { }
+.wrap.con_partners .visual .txt-item .slogan .tit-lg { font-family: "Qualy"; font-weight:normal; text-transform:uppercase; line-height:130%; display:block; font-size:5rem; color:#fff }
+.wrap.con_partners .visual ul.list { margin:3rem 0 8rem; display:flex; justify-content:space-between; }
+.wrap.con_partners .visual ul.list li { position:relative; width:27rem; height:27rem; border:1.2rem solid rgba(36,42,91,.3); border-radius:0 3rem 0 3rem; overflow:hidden }
+.wrap.con_partners .visual ul.list li img { width:100%;height:100%;-o-object-fit:cover;object-fit:cover; }
+
+.wrap.con_partners .content { padding:0 0 20rem }
+.wrap.con_partners .content .row { position:relative; }
+.wrap.con_partners .content .row.margin { margin-top:12rem; }
+.wrap.con_partners .content .txt-item h2 { font-family: "Qualy"; font-weight:normal; text-transform:uppercase; font-size:5rem; color:#fff; line-height:130%; }
+.wrap.con_partners .content .txt-item p {  font-size:2.4rem; margin:2rem 0 0; color:#fff; font-family: "SofiaPro-Light"; opacity:1  }
+
+.wrap.con_partners .content ul.list2 { margin:3rem 0 0;  }
+.wrap.con_partners .content ul.list2 li { display:flex; align-items:center; margin:0 0 8rem }
+.wrap.con_partners .content ul.list2 li:last-child { margin:0 }
+.wrap.con_partners .content ul.list2 li strong { display:block; margin:0 0 2rem }
+.wrap.con_partners .content ul.list2 li .ico { background:#000; width:30rem; height:30rem; border:1.2rem solid #252740; border-radius:0 5rem 0 5rem; box-shadow:3px 3px 6px 3px rgba(0,0,0,.3); position:relative; overflow:hidden }
+.wrap.con_partners .content ul.list2 li .ico img { width:100%;height:100%;-o-object-fit:cover;object-fit:cover; }
+.wrap.con_partners .content ul.list2 li .txt { flex:1; line-height:130%; margin-left:5.5rem; font-size:2.5rem; font-family: "SofiaPro-Medium"; color:#fff;  }
+.wrap.con_partners .content ul.list2 li .txt p { font-size:2rem; font-family: "SofiaPro-Light"; opacity:1 }
+
+
 @media all and (max-width: 1199px){
 	.responsive { width:100%; padding:0 2rem }
 	.visual { height:auto !important }
@@ -311,19 +363,64 @@ textarea:-ms-input-placeholder {font-size:1.5rem;font-family: "SofiaPro-Light";f
 	.wrap.con_token .visual ul.list li:nth-child(2) .ico { margin:0 auto; width:6.9rem; height:8.4rem; background:url('../images/token/n_ico2.png') 50% 50% no-repeat; background-size:contain }
 	.wrap.con_token .visual ul.list li:nth-child(3) .ico { margin:0 auto; width:8.5rem; height:6.8rem; background:url('../images/token/n_ico3.png') 50% 50% no-repeat; background-size:contain }
 	.wrap.con_token .visual ul.list li .coming { position:relative; margin:5rem 0 0; left:0; bottom:auto; width:100%; text-align:center; font-size:1.6rem; color:#ACE8F9 }
-
 	.wrap.con_token .content { padding:0 0 10rem }
 	.wrap.con_token .content .row { position:relative; }
 	.wrap.con_token .content .row.margin { margin-top:5rem; }
 	.wrap.con_token .content .txt-item h2 { letter-spacing:-0.5px; text-transform:uppercase; font-size:3rem; color:#fff; line-height:130%; }
 	.wrap.con_token .content .txt-item p {  font-size:1.6rem; margin:2rem 0 0; color:#fff;  }
-
 	.wrap.con_token .content ul.list2 { margin:2rem 0 0;  }
 	.wrap.con_token .content ul.list2 li { display:block; align-items:center; margin:0 0 5rem }
 	.wrap.con_token .content ul.list2 li:last-child { margin:0 }
 	.wrap.con_token .content ul.list2 li strong { display:block; margin:0 0 2rem }
 	.wrap.con_token .content ul.list2 li .ico { width:100%; height:auto; }
 	.wrap.con_token .content ul.list2 li .txt { flex:1; line-height:130%; margin-left:0; font-size:1.6rem; color:#fff; font-family: "SofiaPro-Light"; margin:2rem 0 0 }
+
+	/* games */
+	.wrap.con_games .pc_br { display:none; }
+	.wrap.con_games .visual { }
+	.wrap.con_games .visual .txt-item { padding:10rem 0 0; }
+	.wrap.con_games .visual .txt-item .slogan { }
+	.wrap.con_games .visual .txt-item .slogan .tit-lg { font-family: "Qualy"; font-weight:normal; text-transform:uppercase; line-height:130%; display:block; font-size:3rem; color:#fff }
+	.wrap.con_games .visual .txt-item .slogan2 { margin:3rem 0 0; font-size:1.6rem; letter-spacing:-0.2px; color:#fff; font-family: "SofiaPro-Light"; opacity:1 }
+	.wrap.con_games .content { padding:0 0 10rem; }
+	.wrap.con_games .content .row { position:relative; }
+	.wrap.con_games .content .row.margin { margin-top:3rem; }
+	.wrap.con_games .content ul.list2 { margin:2rem 0 0;  }
+	.wrap.con_games .content ul.list2 li .c-wrap { display:block; margin:0 }
+	.wrap.con_games .content ul.list2 li .tit { margin:0 0 2rem; font-family: "SofiaPro-Medium"; font-size:2rem; color:#fff }
+	.wrap.con_games .content ul.list2 li .tit span { font-size:1.6rem; color:#ACE8F9; margin-left:1.5rem; display:inline-block }
+	.wrap.con_games .content ul.list2 li:last-child { margin:0 !important }
+	.wrap.con_games .content ul.list2 li:last-child .c-wrap { margin:0 !important }
+	.wrap.con_games .content ul.list2 li .ico { width:100%; height:auto; }
+	.wrap.con_games .content ul.list2 li .ico img { width:100%;height:100%;-o-object-fit:cover;object-fit:cover; }
+	.wrap.con_games .content ul.list2 li .txt {  line-height:130%; margin-left:0; padding:2rem 0; color:#fff;  }
+	.wrap.con_games .content ul.list2 li .txt div { display:block; margin:0 0 2rem; }
+	.wrap.con_games .content ul.list2 li .txt div strong { display:block; width:auto; font-size:2.2rem; font-family: "SofiaPro-Medium"; margin:0 0 1rem }
+	.wrap.con_games .content ul.list2 li .txt p { flex:1; font-size:1.6rem; letter-spacing:-0.1px; font-family: "SofiaPro-Light"; opacity:1; line-height:160% }
+
+	/* partners */
+	.wrap.con_partners .pc_br { display:block; }
+	.wrap.con_partners h3.s-tit { font-size:2rem; font-family: "SofiaPro-Medium"; font-weight:normal; color:#fff }
+	.wrap.con_partners .visual { }
+	.wrap.con_partners .visual .txt-item { padding:10rem 0 0; margin:0 0 3rem }
+	.wrap.con_partners .visual .txt-item .slogan { }
+	.wrap.con_partners .visual .txt-item .slogan .tit-lg { font-family: "Qualy"; font-weight:normal; text-transform:uppercase; line-height:130%; display:block; font-size:3rem; color:#fff }
+	.wrap.con_partners .visual ul.list { margin:2rem 0; display:flex; flex-wrap:wrap; justify-content:space-between; }
+	.wrap.con_partners .visual ul.list li { position:relative; width:48%; margin:0 0 1.5rem; height:auto; border:1.2rem solid rgba(36,42,91,.3); border-radius:0 3rem 0 3rem; overflow:hidden }
+	.wrap.con_partners .visual ul.list li img { width:100%;height:100%;-o-object-fit:cover;object-fit:cover; }
+	.wrap.con_partners .content { padding:0 0 10rem }
+	.wrap.con_partners .content .row { position:relative; }
+	.wrap.con_partners .content .row.margin { margin-top:3rem; }
+	.wrap.con_partners .content .txt-item h2 { font-family: "Qualy"; font-weight:normal; text-transform:uppercase; font-size:5rem; color:#fff; line-height:130%; }
+	.wrap.con_partners .content .txt-item p {  font-size:2.4rem; margin:2rem 0 0; color:#fff; font-family: "SofiaPro-Light"; opacity:1  }
+	.wrap.con_partners .content ul.list2 { margin:2rem 0 0;  }
+	.wrap.con_partners .content ul.list2 li { display:block; align-items:center; margin:0 0 5rem }
+	.wrap.con_partners .content ul.list2 li:last-child { margin:0 }
+	.wrap.con_partners .content ul.list2 li strong { font-size:2rem; display:block; margin:0 0 2rem }
+	.wrap.con_partners .content ul.list2 li .ico { width:100%; height:auto; }
+	.wrap.con_partners .content ul.list2 li .txt { flex:1; line-height:130%; margin-left:0; color:#fff; font-family: "SofiaPro-Light"; margin:2rem 0 0 }	
+	.wrap.con_partners .content ul.list2 li .txt p { font-size:1.6rem; line-height:160%; }
+
 }
 
 /* 푸터 */
@@ -421,7 +518,7 @@ form input.letter { }
 
 .msg { background:url('../images/iskra/ico_msg.png') 0 0.2rem no-repeat; text-align:left; padding-left:2.5rem; display:block; margin:1.5rem 0; font-size:1.4rem; color:#F23B4A }
 .msg2 { background:url('../images/iskra/ico_msg.png') 0 0.2rem no-repeat; text-align:left;  padding-left:2.5rem; display:block; margin:1.5rem 0; font-family: "SofiaPro-Light"; font-size:1.7rem; color:#fff; font-weight:bold }
-.msg_sky { background:url('../images/iskra/ico_msg_sky.png') 0 50% no-repeat; text-align:left;  padding-left:2.5rem; display:block; margin:1.5rem 0; font-family: "SofiaPro-Light"; font-size:1.7rem; color:#00ccff; font-weight:bold }
+.msg_sky { background:url('../images/iskra/ico_msg_sky.png') 0 0.5rem no-repeat; text-align:left;  padding-left:2.5rem; display:block; margin:3rem 0; font-family: "SofiaPro-Light"; font-size:1.7rem; color:#00ccff; font-weight:bold }
 
 .inline-chk { padding:5rem 0 0; display:flex; align-items:center; margin:0 0 1rem;  }
 .inline-chk .msg-middle { margin-right:1.5rem; width:1.6rem; height:1.6rem; background:url('../images/iskra/ico_msg.png') 0 50% no-repeat; text-align:left; }
@@ -521,7 +618,24 @@ table.tbl_basic.tbl_left td { text-align:left; }
 .font30  { font-size:3rem !important; color:#fff !important; font-family: "SofiaPro-Medium" !important; }
 .font20  { font-size:2rem !important; color:#fff !important; font-family: "SofiaPro-Medium" !important; }
 
-button.ico_copy { margin-left:0.5rem; width:2.2rem; height:2.2rem; background:url('../images/iskra/ico_copy.png') 50% 50% no-repeat; }
+button.ico_copy { position:relative; margin-left:0.5rem; width:2.2rem; height:2.2rem; background:url('../images/iskra/ico_copy.png') 50% 45% no-repeat; }
+button.ico_copy_txt { position:relative; }
+
+.ico_copy_pop { display:none; font-weight:bold; text-align:center !important; font-size:1.3rem; color:#222; position:absolute; top:4rem; left:50%; width:7rem; margin-left:-3.5rem;  border-radius:0.5rem; background:#edf9f9; z-index:9999999 }
+
+.ico_copy_pop:before {
+	content: '';
+	position: absolute;
+	top: -8px;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 8px solid transparent;
+	border-bottom-color: #edf9f9;
+	border-top: 0;
+	margin-left: -8px;
+	margin-bottom: -8px;
+}
 
 
 /* 페이징 */
@@ -1217,11 +1331,11 @@ button.ico_copy { margin-left:0.5rem; width:2.2rem; height:2.2rem; background:ur
 
 .wrap.setting { }
 .wrap.setting .container { position:relative; top:-1rem; width:85rem;  }
-.wrap.setting .container .title_area { margin:0 0 5rem }
+.wrap.setting .container .title_area { margin:0 0 3rem }
 .wrap.setting .container h1 { font-size:5rem; color:#fff; font-family:"SofiaPro-Black"; }
 .wrap.setting .container span.payment { font-size:3rem; line-height:3rem; }
-.wrap.setting .container .contents h2 { font-size:3rem !important; color:#fff; }
-.wrap.setting .container .contents h3 { font-size:2rem !important; color:#fff; margin:0 0 0.5rem }
+.wrap.setting .container .contents h2 { font-size:3rem !important; color:#fff; font-family: "SofiaPro-Medium"; font-weight:normal }
+.wrap.setting .container .contents h3 { font-size:2rem !important; color:#fff; font-family: "SofiaPro-Medium"; font-weight:normal;  margin:0 0 0.5rem }
 .wrap.setting .container .contents h3.line_bottom { padding:0 0 1rem; border-bottom:2px solid #2e3040 }
 .wrap.setting .container .contents p.Description { margin:0.5rem 0 0; color:#fff;  font-family: "SofiaPro-Light"; font-size:1.7rem; opacity:1; }
 .wrap.setting .container .btn_modify { margin-left:2rem; width:1.6rem; height:1.6rem; background:url('../images/iskra/ico_pencil_white.png') 50% 50% no-repeat; background-size:contain }
@@ -1242,12 +1356,14 @@ button.ico_copy { margin-left:0.5rem; width:2.2rem; height:2.2rem; background:ur
 .wrap.setting .container .contents .link_none span { color:#fff; text-decoration:underline }
 
 .wrap.setting .container .contents .box.code { padding:2.2rem !important; background:#232536 !important; }
+.wrap.setting .container .contents .box.height90 { display:flex; align-items:center; height:9rem; padding:0 4rem; font-family: "SofiaPro-Light"; color:#fff; font-size:1.7rem; background:#232536 !important; }
+.wrap.setting .container .contents .box.height90 label { position:relative; top:2px }
 .wrap.setting .container .contents .Certification { width:35rem; margin:0 auto; position:relative; display:flex; justify-content:center; }
 .wrap.setting .container .contents .Certification input { width:5rem; text-align:center; margin:0 1rem; padding:1rem 0; color:#fff; background-color:transparent; border:0; border-bottom:2px solid #5c5d6b; font-size:3rem; border-radius:0; }
 .wrap.setting .container .contents .Certification input:focus { border:0; background-color:transparent; border-bottom:2px solid #fff; }
 .wrap.setting .container .contents .timer { position:absolute; top:1.5rem; right:-10rem; font-size:1.7rem; color:#fff; }
 
-.wrap.setting .container .contents .box { margin:4rem 0 0; }
+.wrap.setting .container .contents .box { margin:3rem 0 0; }
 .wrap.setting .container .contents .box .img { border-bottom:1px solid #ddd; }
 .wrap.setting .container .contents .box .txt {  padding:3rem; }
 .wrap.setting .container .contents .box.section { position:relative; width:100%; height:30rem; padding:4rem 2.5rem; background:rgba(0,0,0,0.2); border-radius:0.3rem }
@@ -1520,6 +1636,32 @@ button.ico_copy { margin-left:0.5rem; width:2.2rem; height:2.2rem; background:ur
 .basic_popup .container .btn_area { margin:40px 0 0; }
 .basic_popup .container .btn02 { width:10rem; height:3.5rem; line-height:3.5rem; font-size:1.4rem !important; border-radius:0.3rem; }
 .basic_popup .container .btn01 { width:10rem; height:3.5rem; line-height:3.5rem; font-size:1.4rem !important; border-radius:0.3rem; background:#2269cf }
+
+/* 약관 팝업 */
+.basic_popup_agree { position:fixed; top:0; left:0; width:100%; height:100%; z-index:99999999; background:rgba(0,0,0,.2); backdrop-filter: blur(10px); display:flex; align-items:center; justify-content:center; }
+.basic_popup_agree .container { border:0 !important; position:relative; width:100rem; margin:5% 0; height:90%; padding:5rem; background:#fff; display:flex; flex-direction: column; border-radius:2rem; }
+.basic_popup_agree .container button.popup_close { z-index:99; position:absolute; top:3rem; right:3rem; width:2rem; height:2rem; background:url('../images/iskra/ico_popup_close.png') 50% 50% no-repeat; }
+.basic_popup_agree .container button.btn02 { color:#333 }
+.basic_popup_agree .container h3 { font-size:3rem; font-family: "SofiaPro-Black"; font-weight:bold; margin:0 0 5rem; }
+.basic_popup_agree .container strong { display:block; margin:3rem 0 1rem; font-size:1.7rem; font-family: "SofiaPro-Black" !important; font-weight:bold !important }
+.basic_popup_agree .container p { font-family: "SofiaPro-Light"; font-size:1.7rem;  }
+.basic_popup_agree .container p strong:nth-child(1) { margin-top:0 }
+.basic_popup_agree .container p.scroll { flex:1; overflow-y:auto }
+.basic_popup_agree .container ul.flex_inline { width:25rem }
+.basic_popup_agree .container ul.flex_inline li { display:flex; algin-items:center }
+.basic_popup_agree .container ul.flex_inline li span { font-size:1.5rem; margin:0 0 0.2rem }
+.basic_popup_agree .container a.ico_link { color:#235093; text-decoration:underline; margin-left:auto; padding-right:2rem; background:url('../images/iskra/ico_link_black.png') 100% 50% no-repeat; }
+.basic_popup_agree .container .btn_area { margin:40px 0 0; }
+.basic_popup_agree .container .btn02 { width:10rem; height:3.5rem; line-height:3.5rem; font-size:1.4rem !important; border-radius:0.3rem; }
+.basic_popup_agree .container .btn01 { width:10rem; height:3.5rem; line-height:3.5rem; font-size:1.4rem !important; border-radius:0.3rem; background:#2269cf }
+
+.basic_popup_agree .container p.scroll { scrollbar-color:#2864a3 #01182e;scrollbar-width:thin }
+.basic_popup_agree .container p.scroll::-webkit-scrollbar{width:1rem}
+.basic_popup_agree .container p.scroll::-webkit-scrollbar-track{background:#eee}
+.basic_popup_agree .container p.scroll::-webkit-scrollbar-thumb{background:#2864a3;border-radius:100px}
+.basic_popup_agree .container p.scroll::-webkit-scrollbar-thumb:hover{background:#3f96d9; -webkit-text-size-adjust:none;}
+
+
 
 /* 서명 팝업 */
 .scroll-hidden { overflow-y:hidden }

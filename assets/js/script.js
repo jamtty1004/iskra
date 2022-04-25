@@ -2,6 +2,20 @@ $(function(){
 	iskInit();
 	iskGnb();
 
+	// 약관 팝업
+	$('.pop-open-Conditions').on("click" , function(){
+		$('#alert_popup_Conditions').show();
+	});
+
+	$('.pop-open-Policy').on("click" , function(){
+		$('#alert_popup_Policy').show();
+	});
+
+	// 주소복사 버튼
+	$('.bt-copy').on("click" , function(){
+		$(this).children('span').show();
+	});
+	
 	// 송금 셀렉트 부분
 	$('#coin').on("click" , function(){
 		$(this).next().toggle();

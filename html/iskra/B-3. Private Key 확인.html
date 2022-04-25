@@ -29,7 +29,7 @@
 <body>
 
 	<!-- wrap(s) -->
-	<div class="wrap Wallet nohd">
+	<div class="wrap setting">
 		<!-- header(s) -->
 		<header id="header">
 			<div class="inner">
@@ -85,60 +85,24 @@
 			</div>
 			<div class="container">
 				<div class="title_area">
-					<h1>{Display Name}’s Wallet</h1>
+					<h1>Wallet Setting</h1>
 				</div>
 				<div class="contents">
-					<h2 class="font20">My Address</h2>
-					<div class="info_box">
-						<div class="info_wide_addr">
-							<div class="addr">
-								0xa2545b67Bc6291033DEf7e3b173046Dd40dACf5C
-								<button type="button" class="bt-copy ico_copy">
-									<span class="ico_copy_pop">Copied!</span>
-								</button><!-- 클립보드 복사 -->
-							</div>
-							<div>
-								<button type="button" onclick="location.href='./B-2. Receive.html'" class="btn02 active" style="border:0">Receive</button>
-								<button type="button" onclick="location.href='#'" class="btn01 active">Send</button>
-							</div>
-						</div>
-					</div>
-					<h2 class="font20">Assets</h2>
-					<div class="info_box" style="margin:0">
-						<div class="info_wide flex">
-							<div class="row">
-								<p>Total Balance</p>
-							</div>
-							<div class="pay">0 USD</div>
-						</div>
-					</div>
-					<div class="info_list">
-						<!-- col -->
-						<div>
-							<img src="../../assets/images/iskra/ico_klay.png" width="27" height="27" />
-							<span>KLAY</span><br />
-							<label>
-								<strong>0 KLAY</strong><br />
-								≈ {KLAY USD 환산가} USD
-							</label>
-						</div>
-						<!-- col -->
-						<div>
-							<img src="../../assets/images/iskra/ico_isk.png" width="27" height="27" />
-							<span>ISK</span><br />
-							<label>
-								<strong>0 ISK</strong><br />
-								≈ {KLAY USD 환산가} USD
-							</label>
-						</div>
-						<!-- col -->
-						<div>
-							<img src="../../assets/images/iskra/ico_isk.png" width="27" height="27" />
-							<span>BORA</span><br />
-							<label>
-								<strong>0 BORA</strong><br />
-								≈ {KLAY USD 환산가} USD
-							</label>
+					<h2>Export Wallet Private Key</h2>
+					<p class="Description">
+						Export your private key which is connected to your Iskra wallet address.<br />
+						Be very careful with this key as it can grant the holder total control over your wallet address.<br />
+						<span class="msg_sky">
+							Warning: Never disclose this key.<br />
+							Anyone with your private keys can steal any assets held in your account.
+						</span>
+					</p>
+					<div class="box height90">
+						<div class="addr">
+							<label>0xa2545b67Bc6291033DEf7e3b173046Dd40dACf5C</label>
+							<button type="button" class="bt-copy ico_copy">
+								<span class="ico_copy_pop">Copied!</span>
+							</button><!-- 클립보드 복사 -->
 						</div>
 					</div>
 				</div>
@@ -178,6 +142,19 @@
 	</div>
 	<!-- wrap(e) -->
 
+<!-- Wallet Password 변경 완료 팝업
+<div id="alert_popup_wall_passchange">
+	<div class="basic_popup">
+		<div class="container">
+			<button type="button" class="popup_close"></button>
+			<h3>Wallet Password changed</h3>
+			<p>Your wallet password has been changed.</p>
+			<div class="btn_area flex_right">
+				<a href="#" class="btn01 active">OK</a>
+			</div>
+		</div>
+	</div>
+</div>-->
 
 <script src="../../assets/js/particle.js"></script>
 
