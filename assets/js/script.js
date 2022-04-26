@@ -2,6 +2,14 @@ $(function(){
 	iskInit();
 	iskGnb();
 
+	//모바일 미지원 팝업
+	$('.msg_sign').on("click" , function(){
+		$('#alert_popup_mobile').show();
+	});
+	$('#alert_popup_mobile button.close').on("click" , function(){
+		$('#alert_popup_mobile').hide();
+	});
+	
 	// 약관 팝업
 	$('.pop-open-Conditions').on("click" , function(){
 		$('#alert_popup_Conditions').show();
@@ -46,7 +54,7 @@ $(function(){
 	
 	// 최종 팝업
 	$('.popup_close').on("click" , function(){
-		$(this).parent().parent().hide();
+		$(this).parent().parent().parent().hide();
 	});
 
 	// LNB 토글

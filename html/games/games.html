@@ -42,6 +42,8 @@
 						<li class="pc_block"><a href="../token/token.html"><span>WALLET </span></a></li>
 						<li class="pc_block"><a href="../token/token.html"><span>SETTING</span></a></li>
 						<!--<li class="pc_block"><a href="../about/about.html#contact"><span>CONTACT</span></a></li>-->
+						<li class="mobile_block line-t"><a href="javascript:void(0);" class="msg_sign"><span>SIGN IN</span></a></li>
+						<li class="mobile_block"><a href="javascript:void(0);" class="msg_sign"><span>Sign Up</span></a></li>
 					</ul>
 				</nav>
 				<!-- 로그인 전 -->
@@ -208,7 +210,20 @@
 	</div>
 	<!-- wrap(e) -->
 
-<script src="../../assets/js/particle.js"></script>
+
+<!-- 모바일 미지원 알림 팝업 -->
+<div id="alert_popup_mobile" style="display:none">
+	<div class="basic_popup">
+		<div class="container">
+			<button type="button" class="popup_close"></button>
+			<br />
+			<p>This feature is unavailable on mobile.<br />Please access via PC</p>
+			<div class="btn_area flex_right">
+				<button type="button" class="btn01 active close">Ok</button>
+			</div>
+		</div>
+	</div>
+</div>
 
 </body>
 </html>
