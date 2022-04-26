@@ -287,8 +287,9 @@ textarea:-ms-input-placeholder {font-size:1.5rem;font-family: "SofiaPro-Light";f
 .wrap.con_partners .visual .txt-item .slogan { }
 .wrap.con_partners .visual .txt-item .slogan .tit-lg { font-family: "Qualy"; font-weight:normal; text-transform:uppercase; line-height:130%; display:block; font-size:5rem; color:#fff }
 .wrap.con_partners .visual ul.list { margin:3rem 0 8rem; display:flex; justify-content:space-between; }
-.wrap.con_partners .visual ul.list li { position:relative; width:27rem; height:27rem; border:1.2rem solid rgba(36,42,91,.3); border-radius:0 3rem 0 3rem; overflow:hidden }
-.wrap.con_partners .visual ul.list li img { width:100%;height:100%;-o-object-fit:cover;object-fit:cover; }
+.wrap.con_partners .visual ul.list li { position:relative; }
+.wrap.con_partners .visual ul.list li .ico { background:#000; width:27rem; height:15rem; border:1.2rem solid #252740; border-radius:0 3rem 0 3rem; overflow:hidden  }
+.wrap.con_partners .visual ul.list li .ico img { width:100%;height:100%;-o-object-fit:cover;object-fit:cover; }
 
 .wrap.con_partners .content { padding:0 0 20rem }
 .wrap.con_partners .content .row { position:relative; }
@@ -299,8 +300,8 @@ textarea:-ms-input-placeholder {font-size:1.5rem;font-family: "SofiaPro-Light";f
 .wrap.con_partners .content ul.list2 { margin:3rem 0 0;  }
 .wrap.con_partners .content ul.list2 li { display:flex; align-items:center; margin:0 0 8rem }
 .wrap.con_partners .content ul.list2 li:last-child { margin:0 }
-.wrap.con_partners .content ul.list2 li strong { display:block; margin:0 0 2rem }
-.wrap.con_partners .content ul.list2 li .ico { background:#000; width:30rem; height:30rem; border:1.2rem solid #252740; border-radius:0 5rem 0 5rem; box-shadow:3px 3px 6px 3px rgba(0,0,0,.3); position:relative; overflow:hidden }
+.wrap.con_partners .content ul.list2 li strong { display:block; margin:0 0 1.5rem }
+.wrap.con_partners .content ul.list2 li .ico { background:#000; width:30rem; height:17rem; border:1.2rem solid #252740; border-radius:0 5rem 0 5rem; box-shadow:3px 3px 6px 3px rgba(0,0,0,.3); position:relative; overflow:hidden }
 .wrap.con_partners .content ul.list2 li .ico img { width:100%;height:100%;-o-object-fit:cover;object-fit:cover; }
 .wrap.con_partners .content ul.list2 li .txt { flex:1; line-height:130%; margin-left:5.5rem; font-size:2.5rem; font-family: "SofiaPro-Medium"; color:#fff;  }
 .wrap.con_partners .content ul.list2 li .txt p { font-size:2rem; font-family: "SofiaPro-Light"; opacity:1 }
@@ -406,8 +407,9 @@ textarea:-ms-input-placeholder {font-size:1.5rem;font-family: "SofiaPro-Light";f
 	.wrap.con_partners .visual .txt-item .slogan { }
 	.wrap.con_partners .visual .txt-item .slogan .tit-lg { font-family: "Qualy"; font-weight:normal; text-transform:uppercase; line-height:130%; display:block; font-size:3rem; color:#fff }
 	.wrap.con_partners .visual ul.list { margin:2rem 0; display:flex; flex-wrap:wrap; justify-content:space-between; }
-	.wrap.con_partners .visual ul.list li { position:relative; width:48%; margin:0 0 1.5rem; height:auto; border:1.2rem solid rgba(36,42,91,.3); border-radius:0 3rem 0 3rem; overflow:hidden }
-	.wrap.con_partners .visual ul.list li img { width:100%;height:100%;-o-object-fit:cover;object-fit:cover; }
+	.wrap.con_partners .visual ul.list li { position:relative; width:48%; margin:0 0 1.5rem }
+	.wrap.con_partners .visual ul.list li .ico { width:100%; }
+	.wrap.con_partners .visual ul.list li .ico img { width:100%;height:100%;-o-object-fit:cover;object-fit:cover; }
 	.wrap.con_partners .content { padding:0 0 10rem }
 	.wrap.con_partners .content .row { position:relative; }
 	.wrap.con_partners .content .row.margin { margin-top:3rem; }
