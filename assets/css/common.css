@@ -121,7 +121,7 @@ textarea:-ms-input-placeholder {font-size:1.5rem;font-family: "SofiaPro-Light";f
 #header .member .member_layer li { font-size:1.5rem; color:#fff; padding:0.7rem 0.5rem 0.7rem 3.5rem; }
 #header .member .member_layer li a { color:#fff }
 #header .member .member_layer li:nth-child(1) { border-bottom:1px solid #34364b; background:url("../images/iskra/ico_gnb_cp.png") 1rem 50% no-repeat; }
-#header .member .member_layer li:nth-child(2) { background:url("../images/iskra/ico_gnb_account.png") 1rem 50% no-repeat; }
+#header .member .member_layer li:nth-child(2) { background:url("../images/iskra/ico_gnb_setting.png") 1rem 50% no-repeat; }
 #header .member .member_layer li:nth-child(3) { background:url("../images/iskra/ico_gnb_signout.png") 1rem 50% no-repeat; }
 
 
