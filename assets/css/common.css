@@ -183,7 +183,7 @@ textarea:-ms-input-placeholder {font-size:1.5rem;font-family: "SofiaPro-Light";f
 .wrap.con_about .btn_wr { margin:3rem 0 0; display:flex; align-items:center; }
 .wrap.con_about .btn_wr a.bt { width:20rem; text-align:Center; height:6rem; line-height:6rem; background:#2269CF; font-size:2rem; color:#fff; border-radius:0.5rem; margin-right:2rem;  }
 .wrap.con_about .btn_wr a { margin-right:1rem }
-
+.wrap.con_about .btn_wr a img { width:4rem; height:4rem; }
 
 /* nft */
 .wrap.con_nft .pc_br { display:block; }
@@ -335,6 +335,7 @@ textarea:-ms-input-placeholder {font-size:1.5rem;font-family: "SofiaPro-Light";f
 	.wrap.con_about .content .row.inline2 { height:auto; display:block; align-items:center; }
 	.wrap.con_about .content .row.inline2 .txt-item { position:relative; z-index:2;  }
 	.wrap.con_about .content .row.inline2 .img-item { position:relative; z-index:1; top:0; right:0; padding:2rem; margin:2rem 0 }
+	.wrap.con_about .btn_wr a img { width:3.2rem; height:3.2rem; }
 
 	/* nft */
 	.wrap.con_nft .pc_br { display:none; }
@@ -443,11 +444,13 @@ textarea:-ms-input-placeholder {font-size:1.5rem;font-family: "SofiaPro-Light";f
 #footer .position { position:absolute; bottom:0; right:1.5rem; }
 #footer .foot-sns { text-align:right; margin:0 0 2rem }
 #footer .foot-sns a { margin-left:1rem }
+#footer .foot-sns a img { width:4rem; height:4rem }
 #footer .copyright{ text-align:right;font-size:1.5rem;color:#A7A7A7}
 
 
 @media all and (max-width: 1199px){
 	#footer .responsive { width:100%; padding:0 1.5rem }
+	#footer .foot-sns a img { width:3.2rem; height:3.2rem }
 }
 @media only screen and (max-width: 768px){
 	#footer { height:auto; background:#232323}
@@ -1683,7 +1686,6 @@ button.ico_copy_txt { position:relative; }
 #signature_popup .container .txt .inline {  display:flex; align-items:Center; font-family: "SofiaPro-Light"; font-size:1.5rem; }
 #signature_popup .container .txt .inline strong { font-weight:normal; margin-right:auto; padding:0.5rem 0 }
 #signature_popup .container .txt .inline span { flex:1; margin-left:auto; padding:0.5rem 0; text-align:right; }
-
 #signature_popup .container .txt .inline.width strong { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 
 #signature_popup { scrollbar-color:#2864a3 #01182e;scrollbar-width:thin }
@@ -1691,7 +1693,6 @@ button.ico_copy_txt { position:relative; }
 #signature_popup::-webkit-scrollbar-track{background:#01182e}
 #signature_popup::-webkit-scrollbar-thumb{background:#2864a3;border-radius:100px}
 #signature_popup::-webkit-scrollbar-thumb:hover{background:#3f96d9; -webkit-text-size-adjust:none;}
-
 
 #signature_popup .container .txt label { font-size:1.5rem; font-family: "SofiaPro-Light"; }
 #signature_popup .container .txt .sign_toggle { font-size:1.9rem; font-family: "SofiaPro-Medium"; font-weight:bold; text-align:left; width:100%; padding:1rem 0; margin:1rem 0; border-bottom:1px solid #ddd; background:url('../images/iskra/ico_toggle_off.png') 100% 50% no-repeat; }
@@ -1704,6 +1705,9 @@ button.ico_copy_txt { position:relative; }
 #signature_popup .container .txt .sign_area::-webkit-scrollbar-track{background:#01182e}
 #signature_popup .container .txt .sign_area::-webkit-scrollbar-thumb{background:#2864a3;border-radius:100px}
 #signature_popup .container .txt .sign_area::-webkit-scrollbar-thumb:hover{background:#3f96d9; -webkit-text-size-adjust:none;}
+
+#signature_popup .container .btn_area .btn01 { background:#999 }
+#signature_popup .container .btn_area .btn01.active { background:#02339b;  }
 
 
 /* 로딩 팝업 */
