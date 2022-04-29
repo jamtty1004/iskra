@@ -183,7 +183,7 @@ textarea:-ms-input-placeholder {font-size:1.5rem;font-family: "SofiaPro-Light";f
 .wrap.con_about .btn_wr { margin:3rem 0 0; display:flex; align-items:center; }
 .wrap.con_about .btn_wr a.bt { width:20rem; text-align:Center; height:6rem; line-height:6rem; background:#2269CF; font-size:2rem; color:#fff; border-radius:0.5rem; margin-right:2rem;  }
 .wrap.con_about .btn_wr a { margin-right:1rem }
-.wrap.con_about .btn_wr a img { width:4rem; height:4rem; }
+.wrap.con_about .btn_wr a img { width:4rem; height:auto; }
 
 /* nft */
 .wrap.con_nft .pc_br { display:block; }
@@ -335,7 +335,7 @@ textarea:-ms-input-placeholder {font-size:1.5rem;font-family: "SofiaPro-Light";f
 	.wrap.con_about .content .row.inline2 { height:auto; display:block; align-items:center; }
 	.wrap.con_about .content .row.inline2 .txt-item { position:relative; z-index:2;  }
 	.wrap.con_about .content .row.inline2 .img-item { position:relative; z-index:1; top:0; right:0; padding:2rem; margin:2rem 0 }
-	.wrap.con_about .btn_wr a img { width:3.2rem; height:3.2rem; }
+	.wrap.con_about .btn_wr a img { width:3.2rem; height:auto; }
 
 	/* nft */
 	.wrap.con_nft .pc_br { display:none; }
@@ -444,13 +444,13 @@ textarea:-ms-input-placeholder {font-size:1.5rem;font-family: "SofiaPro-Light";f
 #footer .position { position:absolute; bottom:0; right:1.5rem; }
 #footer .foot-sns { text-align:right; margin:0 0 2rem }
 #footer .foot-sns a { margin-left:1rem }
-#footer .foot-sns a img { width:4rem; height:4rem }
+#footer .foot-sns a img { width:4rem; height:auto }
 #footer .copyright{ text-align:right;font-size:1.5rem;color:#A7A7A7}
 
 
 @media all and (max-width: 1199px){
 	#footer .responsive { width:100%; padding:0 1.5rem }
-	#footer .foot-sns a img { width:3.2rem; height:3.2rem }
+	#footer .foot-sns a img { width:3.2rem; height:auto }
 }
 @media only screen and (max-width: 768px){
 	#footer { height:auto; background:#232323}
